@@ -1,0 +1,10 @@
+User-Agent: Googlebot
+Allow: /
+
+User-Agent: Googlebot-Image
+Allow: /
+
+User-Agent: *
+Disallow: /
+
+Sitemap: http://localhost:4567/__middleman/sitemap/
