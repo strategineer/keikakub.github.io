@@ -1,0 +1,124 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Bill C. Tyros - Writerator Part III - Lessons Learned II</title>
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/blueimp-gallery/2.27.1/css/blueimp-gallery.min.css" rel="stylesheet" >
+
+        <link href="/stylesheets/site.css" rel="stylesheet" />
+            <link href="/stylesheets/sidebar.css" rel="stylesheet" />
+        
+    </head>
+    <body class="journal journal_ journal__2013 journal__2013_02 journal__2013_02_01 journal__2013_02_01_writerator-3-2">
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <a class="navbar-brand" href="/index.html">Bill Christian Tyros</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+                <li class="nav-item ">
+                    <a class="nav-link" href="/index.html">Home</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="/projects.html">Projects</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="/reviews.html">Reviews</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="/blog.html">Blog</a>
+                </li>
+        </ul>
+    </div>
+</nav>
+
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-3 col-md-2 sidebar">
+                                <a href="/blog.html">All Blog Posts</a>
+<h4>Tags</h4>
+<ol>
+        <li><a href="/journal/tags/gaming.html">gaming (5)</a></li>
+        <li><a href="/journal/tags/projects.html">projects (4)</a></li>
+</ol>
+
+<h4>By Year</h4>
+<ol>
+        <li><a href="/journal/2013.html">2013 (16)</a></li>
+        <li><a href="/journal/2012.html">2012 (2)</a></li>
+</ol>
+
+
+                    </div>
+                    <div class="col-12 col-md-10 col-md-offset-2 main">
+                            <div class="container">
+        <div class="row justify-content-center">
+        <div class="col-12 col-sm-10 col-sm-offset-2 col-md-9 col-md-offset-3 col-lg-8 col-lg-offset-4">
+            <div class="row justify-content-center">
+                <h1>
+                    Writerator Part III - Lessons Learned II
+                </h1>
+            </div>
+            <div class="row">
+                <p>Here's the second part of my lessons learned while working on my Writerator project. These are those that I could think of off the top of my head. Next time I work on a project, I'll make sure to keep a small journal where I'll keep track of everything I learn.</p>
+
+<p>Why? Well, keeping track of what goes wrong and what goes right will allow me to become a better programmer. I want to become the best programmer that I can be and the only of doing that is by taking notes and learning from my mistakes and my successes.</p>
+
+<ul>
+  <li>(Refactor, Refactor, Refactor until the code speaks for itself) &amp;&amp; (Document each function well but use comments in other places sparingly)</li>
+</ul>
+
+<p>Everyone agrees that documentation in programming is essential. Well-documented code is easy to read, easy to use and easy to change. But, code is always changing and therefore keeping code well-documented is hard.</p>
+
+<p>How can we solve this problem? Well, one way is to use well-named functions (getPotato, blow_up_new_car, findRandomColor) which each include one single concise comment describing what it does. By doing so, a function's documentation only needs to change when its "functionality" (what it does) changes.</p>
+
+<p>You might ask, "Ok, but can someone understand what's going on within a function?" My answer to that is simple: make functions within functions which each have a descriptive name and one single comment describing what it does.</p>
+
+<p>This ends up being a very nice way to build a program because it forces you to encapsulate your code using functions, it encourages you to write orthogonal code (functions with no side-effects) and, finally, the documentation of your program becomes much easier to keep up-to-date.</p>
+
+<ul>
+  <li>(Use a source control system such as Git) &amp;&amp; (Don't be afraid to delete code)</li>
+</ul>
+
+<p>I was introduced to Git in November. I used it in two smaller Perl projects to get comfortable with it. And, by the time I got to Writerator I began to realize how useful source control systems are so important.</p>
+
+<p>Before I used Git, I was forced to code in a passive manner (afraid to delete code) which prevented me from working efficiently.</p>
+
+<p>Why? Because, when you delete lines code in order to clean up your program, sometimes you delete an essential part of your program by mistake. Without any sort of source control, you have no way to go back to a working version of your code. This punishes you for deleting code and therefore conditions you to not delete code often.</p>
+
+<p>But, removing bloat (useless/[badly written] lines) from your code is an essential part of maintaining your code. By using source control, you free yourself from this artificial restraint and you're able to delete code at will without the fear of breaking your program and not being able to fix it.</p>
+
+<p>Think of source control as a programmer's Control-Z. It will make you a better programmer. I recommend Git because it's what I know how to use and because it has a reputation of being easy for beginners. Here's a good place to get started with Git: http://git-scm.com/book</p>
+
+            </div>
+        </div>
+        </div>
+    </div>
+
+                    </div>
+                </div>
+            </div>
+        <script src="/javascripts/site.js"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.5/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/blueimp-gallery/2.27.1/js/blueimp-gallery.min.js"></script>
+        <script>
+        blueimp.Gallery(
+            document.getElementById('gallery-links').getElementsByTagName('a'),
+            {
+                container: '#blueimp-gallery-carousel',
+                carousel: true
+            }
+        );
+        </script>
+
+    </body>
+</html>
