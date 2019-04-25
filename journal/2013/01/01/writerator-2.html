@@ -1,0 +1,129 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Bill C. Tyros - Writerator Part II - Overview</title>
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/blueimp-gallery/2.27.1/css/blueimp-gallery.min.css" rel="stylesheet" >
+
+        <link href="/stylesheets/site.css" rel="stylesheet" />
+            <link href="/stylesheets/sidebar.css" rel="stylesheet" />
+        
+    </head>
+    <body class="journal journal_ journal__2013 journal__2013_01 journal__2013_01_01 journal__2013_01_01_writerator-2">
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <a class="navbar-brand" href="/index.html">Bill Christian Tyros</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+                <li class="nav-item ">
+                    <a class="nav-link" href="/index.html">Home</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="/projects.html">Projects</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="/reviews.html">Reviews</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="/blog.html">Blog</a>
+                </li>
+        </ul>
+    </div>
+</nav>
+
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-3 col-md-2 sidebar">
+                                <a href="/blog.html">All Blog Posts</a>
+<h4>Tags</h4>
+<ol>
+        <li><a href="/journal/tags/gaming.html">gaming (5)</a></li>
+        <li><a href="/journal/tags/projects.html">projects (4)</a></li>
+</ol>
+
+<h4>By Year</h4>
+<ol>
+        <li><a href="/journal/2019.html">2019 (1)</a></li>
+        <li><a href="/journal/2013.html">2013 (16)</a></li>
+        <li><a href="/journal/2012.html">2012 (2)</a></li>
+</ol>
+
+
+                    </div>
+                    <div class="col-12 col-md-10 col-md-offset-2 main">
+                            <div class="container">
+        <div class="row justify-content-center">
+        <div class="col-12 col-sm-10 col-sm-offset-2 col-md-9 col-md-offset-3 col-lg-8 col-lg-offset-4">
+            <div class="row justify-content-center">
+                <h1>
+                    Writerator Part II - Overview
+                </h1>
+            </div>
+            <div class="row">
+                <p>Writerator is a command-line tool written in Python for analyzing English language texts and generating randomized (non-rhyming for now) poetry.</p>
+
+<p>Writerator's commands can be performed on either words, letters or phrases. For example, Writerator can rank the words in a text by how many times a specific patterns (the letter "e" or the pattern "eeb") appears in them. Writerator can count how many times a specific word appears in a text. It can also, rank the words in a text by most to least amount of occurrences.</p>
+
+<p>Writerator is also capable of generating randomized non-rhyming poetry with specific syllable patterns using the words contained within a user-given input text.</p>
+
+<h1 id="how-to-use">How to use?</h1>
+
+<p>Working with Writerator is as easy as installing Python, navigating to the folder containing the source code files using the command prompt (or terminal for Linux users) and running "python writerator.py" as a command (use the -h option for help).</p>
+
+<h1 id="implementation">Implementation</h1>
+
+<p>Writerator is coded in Python. It makes use of the versatile argparse module in Python's standard library for parsing command line arguments. The argparse module allows Writerator to have a very user-friendly (well, as user-friendly as a command line tool can be anyway) interface. I highly recommend using it if you're making a command line program in Python.</p>
+
+<h1 id="technical">Technical</h1>
+
+<p>The writerator module contains the program's main function including its advanced command line argument parsing code.</p>
+
+<p>The texttools module contains the classes (Text, Word, …) and functions which do the actual work pertaining to each command available in Writerator.</p>
+
+<p>The datastore module contains the DataStore class which allows the user of the class to compute and persistently store data pertaining to an input file. It only re-computes the data if the input file has changed since the last time the data was computed.</p>
+
+<h1 id="how-long">How long?</h1>
+
+<p>Work started on December 3rd and ended on the 11th, so, about a week. During that week, I was spending most of my time studying for my university finals and programming. In terms of hours, I'd say I worked around 40h to 50h on Writerator, give or take a couple of hours.</p>
+
+<h1 id="future-development">Future Development</h1>
+
+<p>There are a lot of features and changes I'd like to add whenever when I start working on Writerator again. Namely, I'd like to give the user the option to display counts as percentages of the total (the word "I" represents 5% of the total word count).</p>
+
+<p>I'd also like to enable the user to generate rhyming poetry. I expect that checking if two words rhyme is quite a challenging thing to do right. Just checking if two words end with the same letters would be a simple first step though.</p>
+
+<p>A program is never finished. At some point though, you've got to take a breath, stop, relax and tell yourself that the work is "done". Whether you're writing a book, drawing a picture or building an app, you've got to have the guts to say enough is enough. Or else, you could end up working on the same thing forever.</p>
+
+            </div>
+        </div>
+        </div>
+    </div>
+
+                    </div>
+                </div>
+            </div>
+        <script src="/javascripts/site.js"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.5/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/blueimp-gallery/2.27.1/js/blueimp-gallery.min.js"></script>
+        <script>
+        blueimp.Gallery(
+            document.getElementById('gallery-links').getElementsByTagName('a'),
+            {
+                container: '#blueimp-gallery-carousel',
+                carousel: true
+            }
+        );
+        </script>
+
+    </body>
+</html>
