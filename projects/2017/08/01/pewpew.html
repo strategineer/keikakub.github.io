@@ -8,8 +8,6 @@
         <title>Bill C. Tyros - Pew Pew</title>
         <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/blueimp-gallery/2.27.1/css/blueimp-gallery.min.css" rel="stylesheet" >
-
         <link href="/stylesheets/site.css" rel="stylesheet" />
         
     </head>
@@ -91,20 +89,54 @@
 
       <div class="row justify-content-center">
           <div class="col-12 col-lg-9">
-            <div id="blueimp-gallery-carousel" class="blueimp-gallery blueimp-gallery-carousel">
-              <div class="slides"></div>
-              <h3 class="title"></h3>
-              <a class="prev">‹</a>
-              <a class="next">›</a>
-              <a class="play-pause"></a>
-              <ol class="indicator"></ol>
-            </div>
+              <div id="carouselScreenshots" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselScreenshots" data-slide-to="0" class=" active"></li>
+                    <li data-target="#carouselScreenshots" data-slide-to="1" class=""></li>
+                    <li data-target="#carouselScreenshots" data-slide-to="2" class=""></li>
+                    <li data-target="#carouselScreenshots" data-slide-to="3" class=""></li>
+                    <li data-target="#carouselScreenshots" data-slide-to="4" class=""></li>
+                    <li data-target="#carouselScreenshots" data-slide-to="5" class=""></li>
+                    <li data-target="#carouselScreenshots" data-slide-to="6" class=""></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img class="d-block w-100" src="/images/projects/2017-08-01-PewPew/screenshots/1.png" alt="1"/>
+                    </div>
+                    <div class="carousel-item">
+                      <img class="d-block w-100" src="/images/projects/2017-08-01-PewPew/screenshots/2.png" alt="2"/>
+                    </div>
+                    <div class="carousel-item">
+                      <img class="d-block w-100" src="/images/projects/2017-08-01-PewPew/screenshots/3.png" alt="3"/>
+                    </div>
+                    <div class="carousel-item">
+                      <img class="d-block w-100" src="/images/projects/2017-08-01-PewPew/screenshots/4.png" alt="4"/>
+                    </div>
+                    <div class="carousel-item">
+                      <img class="d-block w-100" src="/images/projects/2017-08-01-PewPew/screenshots/5.png" alt="5"/>
+                    </div>
+                    <div class="carousel-item">
+                      <img class="d-block w-100" src="/images/projects/2017-08-01-PewPew/screenshots/6.png" alt="6"/>
+                    </div>
+                    <div class="carousel-item">
+                      <img class="d-block w-100" src="/images/projects/2017-08-01-PewPew/screenshots/7.png" alt="7"/>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselScreenshots" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselScreenshots" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
           </div>
       </div>
     <div class="row justify-content-center">
-      <blockquote class="blockquote" >
+      <div class="project-blurb readable text-center" >
         Local competitive multiplayer game inspired by Asteroids.
-      </blockquote>
+      </div>
     </div>
     <div class="row justify-content-center readable">
       <p>Pew Pew was developed using pico8 (which is a fantasy console with substantial constraints tied to memory, graphics, sounds, etc.) while I working at Borealys Games. I was inspired to work on this project by <a href="https://www.linkedin.com/in/dominique-morin-71331621">Dominique Morin</a> who was truly a pleasure to work with and impressed me greatly with his portfolio of games.</p>
@@ -119,17 +151,5 @@
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.5/umd/popper.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
-        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/blueimp-gallery/2.27.1/js/blueimp-gallery.min.js"></script>
-        <script>
-        blueimp.Gallery(
-            document.getElementById('gallery-links').getElementsByTagName('a'),
-            {
-                container: '#blueimp-gallery-carousel',
-                carousel: true
-            }
-        );
-        </script>
-
     </body>
 </html>
