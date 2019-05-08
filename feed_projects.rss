@@ -1,6 +1,6 @@
 <rss>
   <channel>
-    <lastBuildDate>Wed, 08 May 2019 00:12:03 -0000</lastBuildDate>
+    <lastBuildDate>Wed, 08 May 2019 00:16:12 -0000</lastBuildDate>
 
     <item>
       <title>Project - Lynchman</title>
@@ -45,7 +45,7 @@ As I played the game, I entered data into the Google Sheets document using custo
       <title>Project - Pew Pew</title>
       <link>https://btyros.com/projects/2017/08/01/pewpew.html</link>
       <guid>https://btyros.com/projects/2017/08/01/pewpew.html</guid>
-      <description>Pew Pew was developed using pico8 (which is a fantasy console with substantial constraints tied to memory, graphics, sounds, etc.) while I was working at Borealys Games. I was inspired to work on this project by <a href="https://www.linkedin.com/in/dominique-morin-71331621">Dominique Morin</a> who was truly a pleasure&gt;&gt;</description>
+      <description>Pew Pew was developed using pico8 (which is a fantasy console with substantial constraints tied to memory, graphics, sounds, etc.) while I was working at Borealys Games. I was inspired to work on this project by a href="https://www.linkedin.com/in/dominique-morin-71331621">Dominique Morina> who was truly a pleasure&gt;&gt;</description>
       <pubDate>Tue, 01 Aug 2017 00:00:00 -0000</pubDate>
       <category>pico8</category>
     </item>
@@ -67,7 +67,7 @@ We were two/three programmers working on Mages of Mystralia&gt;&gt;</description
       <guid>https://btyros.com/projects/2016/05/10/get-out.html</guid>
       <description>Get Out was developed using Unreal Engine 4 for my team's final project in the DDJV program at the University of Sherbrooke (Campus Longueuil).
 
-We were a team of six programmers including <a href="https://www.linkedin.com/in/thomasdobra/">Thomas Dobranowski</a> (AI), <a href="https://www.linkedin.com/in/christian-nior%C3%A9-250a8094">Christian Nioré</a>, <a href="https://www.linkedin.com/in/alexis-plet-05437a105">Alexis Plet</a> (Gameplay&gt;&gt;</description>
+We were a team of six programmers including a href="https://www.linkedin.com/in/thomasdobra/">Thomas Dobranowskia> (AI), a href="https://www.linkedin.com/in/christian-nior%C3%A9-250a8094">Christian Nioréa>, a href="https://www.linkedin.com/in/alexis-plet-05437a105">Alexis Pleta> (Gameplay&gt;&gt;</description>
       <pubDate>Tue, 10 May 2016 00:00:00 -0000</pubDate>
       <category>cpp</category>
       <category>Unreal Engine</category>
@@ -76,7 +76,7 @@ We were a team of six programmers including <a href="https://www.linkedin.com/in
       <title>Project - Great Turtle Adventure IV</title>
       <link>https://btyros.com/projects/2015/12/16/great-turtle-adventure-iv.html</link>
       <guid>https://btyros.com/projects/2015/12/16/great-turtle-adventure-iv.html</guid>
-      <description>Great Turtle Adventure IV was developed using a custom game engine I designed and built (with DirectX 10 and PhysX) inspired by the <a href="https://github.com/DDJV-INF740/GameEngine-src">game engine</a> built by <a href="https://www.linkedin.com/in/gaspardpetit/">Gaspard Petit</a> and the DirectX 10 knowledge provided by François Jean during my first semester in&gt;&gt;</description>
+      <description>Great Turtle Adventure IV was developed using a custom game engine I designed and built (with DirectX 10 and PhysX) inspired by the a href="https://github.com/DDJV-INF740/GameEngine-src">game enginea> built by a href="https://www.linkedin.com/in/gaspardpetit/">Gaspard Petita> and the DirectX 10 knowledge provided by François Jean during my first semester in&gt;&gt;</description>
       <pubDate>Wed, 16 Dec 2015 00:00:00 -0000</pubDate>
       <category>cpp</category>
     </item>
@@ -86,9 +86,9 @@ We were a team of six programmers including <a href="https://www.linkedin.com/in
       <guid>https://btyros.com/projects/2014/08/25/black-box-bandit.html</guid>
       <description>Black Box Bandit was developed using Unity in 48h during Ludum Dare 30 (theme: Connected Worlds).
 
-<blockquote class="blockquote">
-You are the Black Box Bandit. You travel through the Interwebs and destroy the black boxes of the Utech corporation's computer systems. <br>
-You do so, because&gt;&gt;</blockquote></description>
+blockquote class="blockquote">
+You are the Black Box Bandit. You travel through the Interwebs and destroy the black boxes of the Utech corporation's computer systems. br>
+You do so, because&gt;&gt;blockquote></description>
       <pubDate>Mon, 25 Aug 2014 00:00:00 -0000</pubDate>
       <category>C#</category>
       <category>Unity</category>
@@ -99,11 +99,11 @@ You do so, because&gt;&gt;</blockquote></description>
       <guid>https://btyros.com/projects/2014/04/28/billguk.html</guid>
       <description>Billguk the Invasion Logistics Professional was developed using Unity in 48h during Ludum Dare 29 (theme: Beneath the Surface).
 
-<blockquote class="blockquote">
-Dear Billguk,<br>
+blockquote class="blockquote">
+Dear Billguk,br>
 
 
-Today, our Guk leaders have decided to lead their fellow Guks into battle against the hated Surfacers.&gt;&gt;</blockquote></description>
+Today, our Guk leaders have decided to lead their fellow Guks into battle against the hated Surfacers.&gt;&gt;blockquote></description>
       <pubDate>Mon, 28 Apr 2014 00:00:00 -0000</pubDate>
       <category>C#</category>
       <category>Unity</category>
@@ -112,7 +112,7 @@ Today, our Guk leaders have decided to lead their fellow Guks into battle agains
       <title>Project - Battleships</title>
       <link>https://btyros.com/projects/2014/04/10/battleships.html</link>
       <guid>https://btyros.com/projects/2014/04/10/battleships.html</guid>
-      <description>Battleships was developed using C++ and SDL in a team of three programmers composed of <a href="https://github.com/ben-zen">Benjamin Lewis</a>, <a href="https://github.com/franzpgarcia">Franz-Philippe Garcia</a> and myself in my second year at McGill University within the context of the Software Engineering course led by <a href="https://www.cs.mcgill.ca/~joerg/Home/Jorgs_Home.html">Jörg Kienzle</a></description>
+      <description>Battleships was developed using C++ and SDL in a team of three programmers composed of a href="https://github.com/ben-zen">Benjamin Lewisa>, a href="https://github.com/franzpgarcia">Franz-Philippe Garciaa> and myself in my second year at McGill University within the context of the Software Engineering course led by a href="https://www.cs.mcgill.ca/~joerg/Home/Jorgs_Home.html">Jörg Kienzlea></description>
       <pubDate>Thu, 10 Apr 2014 00:00:00 -0000</pubDate>
       <category>cpp</category>
       <category>SDL2</category>
