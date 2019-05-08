@@ -1,6 +1,6 @@
 <rss>
   <channel>
-    <lastBuildDate>Wed, 08 May 2019 19:34:55 -0000</lastBuildDate>
+    <lastBuildDate>Wed, 08 May 2019 20:12:54 -0000</lastBuildDate>
 
     <item>
       <title>Blog Post - Influencing the odds inside and outside of Blood Bowl 2</title>
@@ -97,7 +97,10 @@ ATOM&gt;&gt;</description>
       <title>Project - Framestore VR</title>
       <link>https://btyros.com/projects/2019/02/03/framestore-vr.html</link>
       <guid>https://btyros.com/projects/2019/02/03/framestore-vr.html</guid>
-      <description>I worked at Framestore VR from December 2017 to February 2019 as a generalist programmer focusing on tools. At the time, the division of the company was focusing primarily on providing high-end VR experiences tied to some of the biggest intellectual&gt;&gt;</description>
+      <description>ul>
+  li>Developed an Unreal Engine 4 Plugin (C++) for importing and iterating on art assets from Shotgun and Perforce into Unreal Engine projects with one click.li>
+  li>Developed a data-driven system for automating the generation of new projects in Perforce and&gt;&gt;li>
+ul></description>
       <pubDate>Sun, 03 Feb 2019 00:00:00 -0000</pubDate>
       <category>cpp</category>
       <category>python</category>
@@ -585,9 +588,12 @@ Furi is a boss-rush character action game with a tough but fair difficulty curve
       <title>Project - Mages of Mystralia</title>
       <link>https://btyros.com/projects/2017/05/18/mages-of-mystralia.html</link>
       <guid>https://btyros.com/projects/2017/05/18/mages-of-mystralia.html</guid>
-      <description>I worked at Borealys Games, an independent video game studio, from May 2016 until November 2018. I mostly worked on Mages of Mystralia but I also worked on other unannounced/cancelled projects.
-
-We were two/three programmers working on Mages of Mystralia&gt;&gt;</description>
+      <description>ul>
+  li>Gameplay programming.li>
+  li>Multiplatform development including generic port infrastructure/support and optimization for the PS4 and Xbox One ports.li>
+  li>UI (3D, effects, support for controller and keyboard and mouse, etc.).li>
+  li>Tools (cheats, real-time debugging&gt;&gt;li>
+ul></description>
       <pubDate>Thu, 18 May 2017 00:00:00 -0000</pubDate>
       <category>C#</category>
       <category>python</category>
