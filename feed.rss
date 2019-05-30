@@ -1,6 +1,6 @@
 <rss>
   <channel>
-    <lastBuildDate>Thu, 30 May 2019 20:59:27 -0000</lastBuildDate>
+    <lastBuildDate>Thu, 30 May 2019 21:33:07 -0000</lastBuildDate>
 
     <item>
       <title>Blog Post - Influencing the odds inside and outside of Blood Bowl 2</title>
@@ -106,6 +106,9 @@ ul></description>
       <category>cpp</category>
       <category>python</category>
       <category>Jenkins</category>
+      <category>Perforce</category>
+      <category>Shotgun</category>
+      <category>Unreal Engine</category>
     </item>
     <item>
       <title>Review - Cry of Fear</title>
@@ -598,6 +601,7 @@ ul></description>
       <pubDate>Thu, 18 May 2017 00:00:00 -0000</pubDate>
       <category>C#</category>
       <category>python</category>
+      <category>TeamCity</category>
       <category>Unity</category>
     </item>
     <item>
