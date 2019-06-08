@@ -32,6 +32,7 @@
     <meta name="theme-color" content="#ffffff">
 
     <link href="/stylesheets/site.css" rel="stylesheet" />
+    <link href="/stylesheets/highlighting.css" rel="stylesheet" />
     
   </head>
   <body class="journals journals_2019 journals_2019_06 journals_2019_06_08 journals_2019_06_08_how-to-build-your-website-for-17-bucks-or-less">
@@ -87,8 +88,27 @@
 
 <p>We'll be creating a static website meaning that all our web pages will be created (or generated) ahead of time and when a user requests a specific page, the server will serve the page to the user and wait for further requests.</p>
 
-<p>We'll start by creating our <em>index.html</em> file which is the page that the server will provide by default when a user navigates to our web site, it'll serve as our homepage. Open your favorite text editor, enter the text "Hello World!" and save the file as <em>index.html</em>.</p>
+<p>We'll start by creating our <em>index.html</em> file which is the page that the server will provide by default when a user navigates to our web site, it'll serve as our homepage.</p>
 
+<div class="highlight"><pre class="highlight html"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+</pre></td><td class="rouge-code"><pre><span class="cp">&lt;!DOCTYPE html&gt;</span>
+<span class="nt">&lt;html&gt;</span>
+  <span class="nt">&lt;head&gt;</span>
+    <span class="nt">&lt;meta</span> <span class="na">charset=</span><span class="s">"utf-8"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;/head&gt;</span>
+  <span class="nt">&lt;body&gt;</span>
+  Hello World!
+  <span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</pre></td></tr></tbody></table></code></pre></div>
 <p>Now that we have our homepage, which is admittedly bare bones, we'd like to host it somewhere.</p>
 
 <h2 id="hosting-your-website-with-github-pages">Hosting your website with GitHub Pages</h2>
