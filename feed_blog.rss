@@ -1,13 +1,13 @@
 <rss>
   <channel>
-    <lastBuildDate>Wed, 12 Jun 2019 14:22:41 -0000</lastBuildDate>
+    <lastBuildDate>Wed, 12 Jun 2019 14:24:04 -0000</lastBuildDate>
 
     <item>
       <title>Blog - Reviewing code from a project I coded almost 8 years ago</title>
-      <link>https://btyros.com/journals/2019/06/09/writerator-code-review.html</link>
-      <guid>https://btyros.com/journals/2019/06/09/writerator-code-review.html</guid>
+      <link>https://btyros.com/journals/2019/06/12/writerator-code-review.html</link>
+      <guid>https://btyros.com/journals/2019/06/12/writerator-code-review.html</guid>
       <description>One of the first projects I worked on after learning how to program, around 8 years ago, is called a href="https://github.com/KeikakuB/writerator/tree/legacy">writeratora>. It is a Python command line interface (or CLI for short) for analyzing English language text and generating randomized poetry such as haikus&gt;&gt;</description>
-      <pubDate>Sun, 09 Jun 2019 00:00:00 -0000</pubDate>
+      <pubDate>Wed, 12 Jun 2019 00:00:00 -0000</pubDate>
       <category>tech</category>
     </item>
     <item>
