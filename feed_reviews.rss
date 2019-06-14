@@ -1,6 +1,6 @@
 <rss>
   <channel>
-    <lastBuildDate>Wed, 12 Jun 2019 15:03:57 -0000</lastBuildDate>
+    <lastBuildDate>Fri, 14 Jun 2019 14:36:24 -0000</lastBuildDate>
 
     <item>
       <title>Review - Trials Rising</title>
@@ -11,15 +11,6 @@
       <category>PC</category>
       <category>thumbs_up</category>
       <category>video</category>
-    </item>
-    <item>
-      <title>Review - Spintires</title>
-      <link>https://btyros.com/reviews/video-game/2019/02/26/spintires.html</link>
-      <guid>https://btyros.com/reviews/video-game/2019/02/26/spintires.html</guid>
-      <description>WARNING: I've given a negative review of Spintires even though I find the game to be truly unique and interesting based on the fact that the publisher of the game is not paying the developer for his work and because the sequel to the game Spintires&gt;&gt;</description>
-      <pubDate>Tue, 26 Feb 2019 00:00:00 -0000</pubDate>
-      <category>PC</category>
-      <category>thumbs_down</category>
     </item>
     <item>
       <title>Review - ATOM RPG</title>
@@ -33,19 +24,28 @@ ATOM&gt;&gt;</description>
       <category>thumbs_down</category>
     </item>
     <item>
-      <title>Review - Resident Evil Revelations 2</title>
-      <link>https://btyros.com/reviews/video-game/2019/02/16/resident-evil-revelations-2.html</link>
-      <guid>https://btyros.com/reviews/video-game/2019/02/16/resident-evil-revelations-2.html</guid>
-      <description>In Resident Evil Revelations 2, you (and ideally another player) initially play as either Claire Redfield, Chris Redfield's sister, or Moira Burton, Barry Burton's daughter, who have been kidnapped at a TerraSave gathering (because "Terr" doesn't have&gt;&gt;</description>
-      <pubDate>Sat, 16 Feb 2019 00:00:00 -0000</pubDate>
+      <title>Review - Spintires</title>
+      <link>https://btyros.com/reviews/video-game/2019/02/26/spintires.html</link>
+      <guid>https://btyros.com/reviews/video-game/2019/02/26/spintires.html</guid>
+      <description>WARNING: I've given a negative review of Spintires even though I find the game to be truly unique and interesting based on the fact that the publisher of the game is not paying the developer for his work and because the sequel to the game Spintires&gt;&gt;</description>
+      <pubDate>Tue, 26 Feb 2019 00:00:00 -0000</pubDate>
       <category>PC</category>
-      <category>thumbs_up</category>
+      <category>thumbs_down</category>
     </item>
     <item>
       <title>Review - Resident Evil 2 (2019)</title>
       <link>https://btyros.com/reviews/video-game/2019/02/16/resident-evil-2-2019.html</link>
       <guid>https://btyros.com/reviews/video-game/2019/02/16/resident-evil-2-2019.html</guid>
       <description>In Resident Evil 2 (2019) you play as Leon Kennedy, a rookie cop on his first day on the job, or as Claire Redfield, Chris Redfield's sister searching for him, finding yourself trapped within the Raccoon City Police Station infested and surrounded by&gt;&gt;</description>
+      <pubDate>Sat, 16 Feb 2019 00:00:00 -0000</pubDate>
+      <category>PC</category>
+      <category>thumbs_up</category>
+    </item>
+    <item>
+      <title>Review - Resident Evil Revelations 2</title>
+      <link>https://btyros.com/reviews/video-game/2019/02/16/resident-evil-revelations-2.html</link>
+      <guid>https://btyros.com/reviews/video-game/2019/02/16/resident-evil-revelations-2.html</guid>
+      <description>In Resident Evil Revelations 2, you (and ideally another player) initially play as either Claire Redfield, Chris Redfield's sister, or Moira Burton, Barry Burton's daughter, who have been kidnapped at a TerraSave gathering (because "Terr" doesn't have&gt;&gt;</description>
       <pubDate>Sat, 16 Feb 2019 00:00:00 -0000</pubDate>
       <category>PC</category>
       <category>thumbs_up</category>
@@ -178,16 +178,6 @@ Monster Hunter World is the most recent entry in the long running Monster&gt;&gt
       <category>thumbs_down</category>
     </item>
     <item>
-      <title>Review - Killer Instinct</title>
-      <link>https://btyros.com/reviews/video-game/2018/03/24/killer-instinct.html</link>
-      <guid>https://btyros.com/reviews/video-game/2018/03/24/killer-instinct.html</guid>
-      <description>Killer Instinct is a fighting game that is easy to learn, flashy and comes packed with a ton of content. It originally released on Xbox One in 2013, the Steam version contains years worth of patches.
-</description>
-      <pubDate>Sat, 24 Mar 2018 00:00:00 -0000</pubDate>
-      <category>PC</category>
-      <category>thumbs_up</category>
-    </item>
-    <item>
       <title>Review - Bayonetta</title>
       <link>https://btyros.com/reviews/video-game/2018/03/24/bayonetta.html</link>
       <guid>https://btyros.com/reviews/video-game/2018/03/24/bayonetta.html</guid>
@@ -198,20 +188,30 @@ Monster Hunter World is the most recent entry in the long running Monster&gt;&gt
       <category>thumbs_up</category>
     </item>
     <item>
-      <title>Review - Warhammer Vermintide 2</title>
-      <link>https://btyros.com/reviews/video-game/2018/03/21/warhammer-vermintide-2.html</link>
-      <guid>https://btyros.com/reviews/video-game/2018/03/21/warhammer-vermintide-2.html</guid>
-      <description>Warhammer: Vermintide 2 is a masterful evolution of the L4D legacy set within the Warhammer universe.
+      <title>Review - Killer Instinct</title>
+      <link>https://btyros.com/reviews/video-game/2018/03/24/killer-instinct.html</link>
+      <guid>https://btyros.com/reviews/video-game/2018/03/24/killer-instinct.html</guid>
+      <description>Killer Instinct is a fighting game that is easy to learn, flashy and comes packed with a ton of content. It originally released on Xbox One in 2013, the Steam version contains years worth of patches.
+</description>
+      <pubDate>Sat, 24 Mar 2018 00:00:00 -0000</pubDate>
+      <category>PC</category>
+      <category>thumbs_up</category>
+    </item>
+    <item>
+      <title>Review - Into the Breach</title>
+      <link>https://btyros.com/reviews/video-game/2018/03/21/into-the-breach.html</link>
+      <guid>https://btyros.com/reviews/video-game/2018/03/21/into-the-breach.html</guid>
+      <description>Into The Breach is a turn-based strategy/puzzle roguelike by the same devs behind FTL.
 </description>
       <pubDate>Wed, 21 Mar 2018 00:00:00 -0000</pubDate>
       <category>PC</category>
       <category>thumbs_up</category>
     </item>
     <item>
-      <title>Review - Shadow Tactics Blades of the Shotgun</title>
-      <link>https://btyros.com/reviews/video-game/2018/03/21/shadow-tactics-blades-of-the-shotgun.html</link>
-      <guid>https://btyros.com/reviews/video-game/2018/03/21/shadow-tactics-blades-of-the-shotgun.html</guid>
-      <description>Shadow Tactics: Blades of the Shogun is a stealth-action tactical strategy game set in feudal Japan with tight gameplay reminiscent of Jagged Alliance 2, Commandos and Silent Storm.
+      <title>Review - Warhammer Vermintide 2</title>
+      <link>https://btyros.com/reviews/video-game/2018/03/21/warhammer-vermintide-2.html</link>
+      <guid>https://btyros.com/reviews/video-game/2018/03/21/warhammer-vermintide-2.html</guid>
+      <description>Warhammer: Vermintide 2 is a masterful evolution of the L4D legacy set within the Warhammer universe.
 </description>
       <pubDate>Wed, 21 Mar 2018 00:00:00 -0000</pubDate>
       <category>PC</category>
@@ -228,10 +228,10 @@ Monster Hunter World is the most recent entry in the long running Monster&gt;&gt
       <category>thumbs_up</category>
     </item>
     <item>
-      <title>Review - Into the Breach</title>
-      <link>https://btyros.com/reviews/video-game/2018/03/21/into-the-breach.html</link>
-      <guid>https://btyros.com/reviews/video-game/2018/03/21/into-the-breach.html</guid>
-      <description>Into The Breach is a turn-based strategy/puzzle roguelike by the same devs behind FTL.
+      <title>Review - Shadow Tactics Blades of the Shotgun</title>
+      <link>https://btyros.com/reviews/video-game/2018/03/21/shadow-tactics-blades-of-the-shotgun.html</link>
+      <guid>https://btyros.com/reviews/video-game/2018/03/21/shadow-tactics-blades-of-the-shotgun.html</guid>
+      <description>Shadow Tactics: Blades of the Shogun is a stealth-action tactical strategy game set in feudal Japan with tight gameplay reminiscent of Jagged Alliance 2, Commandos and Silent Storm.
 </description>
       <pubDate>Wed, 21 Mar 2018 00:00:00 -0000</pubDate>
       <category>PC</category>
@@ -268,17 +268,6 @@ Dominions 5 is a turn-based 4X game where&gt;&gt;</description>
       <category>thumbs_up</category>
     </item>
     <item>
-      <title>Review - Doki Doki Literature Club</title>
-      <link>https://btyros.com/reviews/video-game/2018/01/06/doki-doki-literature-club.html</link>
-      <guid>https://btyros.com/reviews/video-game/2018/01/06/doki-doki-literature-club.html</guid>
-      <description>11/10
-
-I will never [spoiler]I WAS JUST BATHING IN THE FEELING OF YOUR BODY[/spoiler] forget my experience with Doki Doki Literature Club, [spoiler]GET OUT GET OUT GET OUT GET OUT[/spoiler] it might be the only game I've played [spoiler]EAGLES CAN FLY&gt;&gt;</description>
-      <pubDate>Sat, 06 Jan 2018 00:00:00 -0000</pubDate>
-      <category>PC</category>
-      <category>thumbs_up</category>
-    </item>
-    <item>
       <title>Review - Dead Synchronicity Tomorrow Comes Today</title>
       <link>https://btyros.com/reviews/video-game/2018/01/06/dead-synchronicity-tomorrow-comes-to.html</link>
       <guid>https://btyros.com/reviews/video-game/2018/01/06/dead-synchronicity-tomorrow-comes-to.html</guid>
@@ -289,6 +278,17 @@ Dead Synchronicity Tomorrow Comes Today is a graphic adventure game, it's pretty
       <pubDate>Sat, 06 Jan 2018 00:00:00 -0000</pubDate>
       <category>PC</category>
       <category>thumbs_down</category>
+    </item>
+    <item>
+      <title>Review - Doki Doki Literature Club</title>
+      <link>https://btyros.com/reviews/video-game/2018/01/06/doki-doki-literature-club.html</link>
+      <guid>https://btyros.com/reviews/video-game/2018/01/06/doki-doki-literature-club.html</guid>
+      <description>11/10
+
+I will never [spoiler]I WAS JUST BATHING IN THE FEELING OF YOUR BODY[/spoiler] forget my experience with Doki Doki Literature Club, [spoiler]GET OUT GET OUT GET OUT GET OUT[/spoiler] it might be the only game I've played [spoiler]EAGLES CAN FLY&gt;&gt;</description>
+      <pubDate>Sat, 06 Jan 2018 00:00:00 -0000</pubDate>
+      <category>PC</category>
+      <category>thumbs_up</category>
     </item>
     <item>
       <title>Review - Just Cause 3</title>
@@ -333,20 +333,20 @@ The Long Dark is a survival&gt;&gt;</description>
       <category>thumbs_up</category>
     </item>
     <item>
-      <title>Review - Golf It</title>
-      <link>https://btyros.com/reviews/video-game/2017/11/27/golf-it.html</link>
-      <guid>https://btyros.com/reviews/video-game/2017/11/27/golf-it.html</guid>
-      <description>Golf It is a multiplayer mini putt game that's a lot of fun to play with friends.
-</description>
+      <title>Review - Danganronpa Trigger Happy Havoc</title>
+      <link>https://btyros.com/reviews/video-game/2017/11/27/danganronpa-trigger-happy-havoc.html</link>
+      <guid>https://btyros.com/reviews/video-game/2017/11/27/danganronpa-trigger-happy-havoc.html</guid>
+      <description>In Danganronpa Trigger Happy Havoc, you play as Makoto Naegi, a normal high school student who's just transferred to Hope's Peak Academy with several remarkably talented students. On his first day, he faints and wakes up to find that someone has trapped&gt;&gt;</description>
       <pubDate>Mon, 27 Nov 2017 00:00:00 -0000</pubDate>
       <category>PC</category>
       <category>thumbs_up</category>
     </item>
     <item>
-      <title>Review - Danganronpa Trigger Happy Havoc</title>
-      <link>https://btyros.com/reviews/video-game/2017/11/27/danganronpa-trigger-happy-havoc.html</link>
-      <guid>https://btyros.com/reviews/video-game/2017/11/27/danganronpa-trigger-happy-havoc.html</guid>
-      <description>In Danganronpa Trigger Happy Havoc, you play as Makoto Naegi, a normal high school student who's just transferred to Hope's Peak Academy with several remarkably talented students. On his first day, he faints and wakes up to find that someone has trapped&gt;&gt;</description>
+      <title>Review - Golf It</title>
+      <link>https://btyros.com/reviews/video-game/2017/11/27/golf-it.html</link>
+      <guid>https://btyros.com/reviews/video-game/2017/11/27/golf-it.html</guid>
+      <description>Golf It is a multiplayer mini putt game that's a lot of fun to play with friends.
+</description>
       <pubDate>Mon, 27 Nov 2017 00:00:00 -0000</pubDate>
       <category>PC</category>
       <category>thumbs_up</category>
@@ -412,24 +412,24 @@ Transistor&gt;&gt;</description>
       <category>thumbs_up</category>
     </item>
     <item>
-      <title>Review - Tadpole Treble</title>
-      <link>https://btyros.com/reviews/video-game/2017/06/30/tadpole-treble.html</link>
-      <guid>https://btyros.com/reviews/video-game/2017/06/30/tadpole-treble.html</guid>
-      <description>Have you ever found yourself at home without any LSD but wanting to go on a magical journey that will no doubt redefine the way you perceive the world around you?
-
-Tadpole Treble might be what you're looking for.
-</description>
-      <pubDate>Fri, 30 Jun 2017 00:00:00 -0000</pubDate>
-      <category>PC</category>
-      <category>thumbs_up</category>
-    </item>
-    <item>
       <title>Review - Snake Pass</title>
       <link>https://btyros.com/reviews/video-game/2017/06/30/snake-pass.html</link>
       <guid>https://btyros.com/reviews/video-game/2017/06/30/snake-pass.html</guid>
       <description>In Snake Pass, you play the role of Noodle, a lazy snake basking in the sun when suddenly he must go on an adventure to save the world.
 
 Snake Pass is an old school collect-a-thon platformer where you control a snake.
+</description>
+      <pubDate>Fri, 30 Jun 2017 00:00:00 -0000</pubDate>
+      <category>PC</category>
+      <category>thumbs_up</category>
+    </item>
+    <item>
+      <title>Review - Tadpole Treble</title>
+      <link>https://btyros.com/reviews/video-game/2017/06/30/tadpole-treble.html</link>
+      <guid>https://btyros.com/reviews/video-game/2017/06/30/tadpole-treble.html</guid>
+      <description>Have you ever found yourself at home without any LSD but wanting to go on a magical journey that will no doubt redefine the way you perceive the world around you?
+
+Tadpole Treble might be what you're looking for.
 </description>
       <pubDate>Fri, 30 Jun 2017 00:00:00 -0000</pubDate>
       <category>PC</category>
@@ -446,23 +446,23 @@ Snake Pass is an old school collect-a-thon platformer where you control a snake.
       <category>thumbs_up</category>
     </item>
     <item>
-      <title>Review - Octodad Daliest Catch</title>
-      <link>https://btyros.com/reviews/video-game/2017/06/25/octodad-dadliest-catch.html</link>
-      <guid>https://btyros.com/reviews/video-game/2017/06/25/octodad-dadliest-catch.html</guid>
-      <description>In Octodad: Dadliest Catch, you play the role of Octodad who must go through his day to day life with his wife and kids and avoid being found out for what he truly is, an octopus.
-
-Octodad: Dadliest Catch is a unique game that can be loosely described&gt;&gt;</description>
-      <pubDate>Sun, 25 Jun 2017 00:00:00 -0000</pubDate>
-      <category>PC</category>
-      <category>thumbs_up</category>
-    </item>
-    <item>
       <title>Review - Furi</title>
       <link>https://btyros.com/reviews/video-game/2017/06/25/furi.html</link>
       <guid>https://btyros.com/reviews/video-game/2017/06/25/furi.html</guid>
       <description>In Furi, you play the role of a mysterious katana wielding prisoner named the Stranger who breaks out of his cell and ventures forth to fight his jailers, one by one.
 
 Furi is a boss-rush character action game with a tough but fair difficulty curve&gt;&gt;</description>
+      <pubDate>Sun, 25 Jun 2017 00:00:00 -0000</pubDate>
+      <category>PC</category>
+      <category>thumbs_up</category>
+    </item>
+    <item>
+      <title>Review - Octodad Daliest Catch</title>
+      <link>https://btyros.com/reviews/video-game/2017/06/25/octodad-dadliest-catch.html</link>
+      <guid>https://btyros.com/reviews/video-game/2017/06/25/octodad-dadliest-catch.html</guid>
+      <description>In Octodad: Dadliest Catch, you play the role of Octodad who must go through his day to day life with his wife and kids and avoid being found out for what he truly is, an octopus.
+
+Octodad: Dadliest Catch is a unique game that can be loosely described&gt;&gt;</description>
       <pubDate>Sun, 25 Jun 2017 00:00:00 -0000</pubDate>
       <category>PC</category>
       <category>thumbs_up</category>
@@ -518,19 +518,19 @@ Furi is a boss-rush character action game with a tough but fair difficulty curve
       <category>thumbs_up</category>
     </item>
     <item>
-      <title>Review - Rainbow Six Siege</title>
-      <link>https://btyros.com/reviews/video-game/2017/02/05/rainbow-six-siege.html</link>
-      <guid>https://btyros.com/reviews/video-game/2017/02/05/rainbow-six-siege.html</guid>
-      <description>Rainbow Six Siege is a 5v5 tactical FPS with environmental destruction which directly impacts the gameplay in interesting ways. In Siege, you play the role of an "operator", a person with a gun as well a gadget or ability that makes them unique and&gt;&gt;</description>
+      <title>Review - Armello</title>
+      <link>https://btyros.com/reviews/video-game/2017/02/05/armello.html</link>
+      <guid>https://btyros.com/reviews/video-game/2017/02/05/armello.html</guid>
+      <description>In Armello, you play as a hero representing of one of four clans (Rat, Rabbit, Wolf and Bear) vying for the throne of Armello. At the start of the game, the King of Armello is infected by the Rot and starts dying slowly. You and three other players&gt;&gt;</description>
       <pubDate>Sun, 05 Feb 2017 00:00:00 -0000</pubDate>
       <category>PC</category>
       <category>thumbs_up</category>
     </item>
     <item>
-      <title>Review - Armello</title>
-      <link>https://btyros.com/reviews/video-game/2017/02/05/armello.html</link>
-      <guid>https://btyros.com/reviews/video-game/2017/02/05/armello.html</guid>
-      <description>In Armello, you play as a hero representing of one of four clans (Rat, Rabbit, Wolf and Bear) vying for the throne of Armello. At the start of the game, the King of Armello is infected by the Rot and starts dying slowly. You and three other players&gt;&gt;</description>
+      <title>Review - Rainbow Six Siege</title>
+      <link>https://btyros.com/reviews/video-game/2017/02/05/rainbow-six-siege.html</link>
+      <guid>https://btyros.com/reviews/video-game/2017/02/05/rainbow-six-siege.html</guid>
+      <description>Rainbow Six Siege is a 5v5 tactical FPS with environmental destruction which directly impacts the gameplay in interesting ways. In Siege, you play the role of an "operator", a person with a gun as well a gadget or ability that makes them unique and&gt;&gt;</description>
       <pubDate>Sun, 05 Feb 2017 00:00:00 -0000</pubDate>
       <category>PC</category>
       <category>thumbs_up</category>
