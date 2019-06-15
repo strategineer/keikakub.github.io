@@ -1,9 +1,9 @@
 <rss>
   <channel>
-    <lastBuildDate>Sat, 15 Jun 2019 03:03:08 -0000</lastBuildDate>
+    <lastBuildDate>Sat, 15 Jun 2019 15:48:09 -0000</lastBuildDate>
 
     <item>
-      <title>Blog - Reviewing code from a project I designed/coded 8 years ago</title>
+      <title>Blog - Code review on an 8 year old project</title>
       <link>https://btyros.com/journals/2019/06/12/writerator-code-review.html</link>
       <guid>https://btyros.com/journals/2019/06/12/writerator-code-review.html</guid>
       <description>One of the first projects I worked on after learning how to program, around 8 years ago, is called a href="https://github.com/KeikakuB/writerator/tree/legacy">writeratora>. It is a Python command line interface (or CLI for short) for analyzing English language text and generating randomized poetry such as haikus&gt;&gt;</description>
@@ -11,7 +11,7 @@
       <category>tech</category>
     </item>
     <item>
-      <title>Blog - How to build your own website for 17$ or less</title>
+      <title>Blog - Building a website for 17$ or less</title>
       <link>https://btyros.com/journals/2019/06/08/how-to-build-your-website-for-17-bucks-or-less.html</link>
       <guid>https://btyros.com/journals/2019/06/08/how-to-build-your-website-for-17-bucks-or-less.html</guid>
       <description>The website you're reading this on was built by myself and it cost me a total of 17$ CDN (yearly). Without a custom domain it would have cost me nothing, zilch, nada.
