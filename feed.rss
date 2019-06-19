@@ -1,6 +1,6 @@
 <rss>
   <channel>
-    <lastBuildDate>Wed, 19 Jun 2019 13:43:42 -0000</lastBuildDate>
+    <lastBuildDate>Wed, 19 Jun 2019 14:49:00 -0000</lastBuildDate>
 
     <item>
       <title>Blog Post - Code review on an 8 year old project</title>
@@ -610,12 +610,9 @@ Octodad: Dadliest Catch is a unique game that can be loosely described&gt;&gt;</
       <title>Project - Mages of Mystralia</title>
       <link>https://btyros.com/projects/2017/05/18/mages-of-mystralia.html</link>
       <guid>https://btyros.com/projects/2017/05/18/mages-of-mystralia.html</guid>
-      <description>ul>
-  li>Gameplay programming.li>
-  li>Multiplatform development including generic port infrastructure/support and optimization for the PS4 and Xbox One ports.li>
-  li>UI (3D, effects, support for controller and keyboard and mouse, etc.).li>
-  li>Tools (cheats, real-time debugging&gt;&gt;li>
-ul></description>
+      <description>I worked at Borealys Games, an independent video game studio, from May 2016 until November 2017. I mostly worked on Mages of Mystralia but I also worked on other unannounced/cancelled projects.
+
+We were two/three programmers working on Mages of Mystralia&gt;&gt;</description>
       <pubDate>Thu, 18 May 2017 00:00:00 -0000</pubDate>
       <category>C#</category>
       <category>python</category>
