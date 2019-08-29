@@ -1,7 +1,17 @@
 <rss>
   <channel>
-    <lastBuildDate>Sat, 06 Jul 2019 03:09:03 -0000</lastBuildDate>
+    <lastBuildDate>Thu, 29 Aug 2019 01:39:30 -0000</lastBuildDate>
 
+    <item>
+      <title>Blog - Warhammer 40k - a Blast from the Past</title>
+      <link>https://btyros.com/journals/2019/08/28/warhammer.html</link>
+      <guid>https://btyros.com/journals/2019/08/28/warhammer.html</guid>
+      <description>I recently dove head first into the world of Warhammer 40k. A dark and edgy tabletop game born in the 80s played with many miniature models of science fiction soldiers, aliens, etc.
+
+If you've heard of space orks (generic fantasy orcs thrust forty thousand&gt;&gt;</description>
+      <pubDate>Wed, 28 Aug 2019 00:00:00 -0000</pubDate>
+      <category>gaming</category>
+    </item>
     <item>
       <title>Blog - Code review on an 8 year old project</title>
       <link>https://btyros.com/journals/2019/06/12/writerator-code-review.html</link>
