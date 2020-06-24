@@ -1,19 +1,19 @@
 <rss>
   <channel>
-    <lastBuildDate>Wed, 24 Jun 2020 17:30:18 -0000</lastBuildDate>
+    <lastBuildDate>Wed, 24 Jun 2020 18:21:44 -0000</lastBuildDate>
 
     <item>
       <title>Project - Lynchman</title>
-      <link>https://btyros.com/projects/2019/04/15/lynchman.html</link>
-      <guid>https://btyros.com/projects/2019/04/15/lynchman.html</guid>
+      <link>https://strategineer.com/projects/2019/04/15/lynchman.html</link>
+      <guid>https://strategineer.com/projects/2019/04/15/lynchman.html</guid>
       <description>Lynchman was developed with python. It can be used to compute data based on Beat Saber (a Virtual Reality rhythm game where you're tasked with using your arms to slice fast moving blocks in time with music) maps and using that data to generate maps&gt;&gt;</description>
       <pubDate>Mon, 15 Apr 2019 00:00:00 -0000</pubDate>
       <category>python</category>
     </item>
     <item>
       <title>Project - Framestore VR</title>
-      <link>https://btyros.com/projects/2019/02/03/framestore-vr.html</link>
-      <guid>https://btyros.com/projects/2019/02/03/framestore-vr.html</guid>
+      <link>https://strategineer.com/projects/2019/02/03/framestore-vr.html</link>
+      <guid>https://strategineer.com/projects/2019/02/03/framestore-vr.html</guid>
       <description>ul>
   li>Developed an Unreal Engine 4 Plugin (C++) for importing and iterating on art assets from Shotgun and Perforce into Unreal Engine projects with one click.li>
   li>Developed a data-driven system for automating the generation of new projects in Perforce and&gt;&gt;li>
@@ -28,8 +28,8 @@ ul></description>
     </item>
     <item>
       <title>Project - Artifact Stat Tracker</title>
-      <link>https://btyros.com/projects/2018/12/01/artifact-stat-tracker.html</link>
-      <guid>https://btyros.com/projects/2018/12/01/artifact-stat-tracker.html</guid>
+      <link>https://strategineer.com/projects/2018/12/01/artifact-stat-tracker.html</link>
+      <guid>https://strategineer.com/projects/2018/12/01/artifact-stat-tracker.html</guid>
       <description>Artifact Stat Tracker was developed using python and Google Sheets.
 
 As I played the game, I entered data into the Google Sheets document using custom built UIs, the python script would then read the data within the Google Sheets document, manipulate&gt;&gt;</description>
@@ -40,8 +40,8 @@ As I played the game, I entered data into the Google Sheets document using custo
     </item>
     <item>
       <title>Project - Machine Head</title>
-      <link>https://btyros.com/projects/2018/06/05/machine-head.html</link>
-      <guid>https://btyros.com/projects/2018/06/05/machine-head.html</guid>
+      <link>https://strategineer.com/projects/2018/06/05/machine-head.html</link>
+      <guid>https://strategineer.com/projects/2018/06/05/machine-head.html</guid>
       <description>Machine Head was developed using python and an instance of it is constantly running on a Raspberry Pi at my house. It was built for automating various manual processes tied to managing my Discord server that I was tired of doing over and over again&gt;&gt;</description>
       <pubDate>Tue, 05 Jun 2018 00:00:00 -0000</pubDate>
       <category>python</category>
@@ -49,16 +49,16 @@ As I played the game, I entered data into the Google Sheets document using custo
     </item>
     <item>
       <title>Project - Pew Pew</title>
-      <link>https://btyros.com/projects/2017/08/01/pewpew.html</link>
-      <guid>https://btyros.com/projects/2017/08/01/pewpew.html</guid>
+      <link>https://strategineer.com/projects/2017/08/01/pewpew.html</link>
+      <guid>https://strategineer.com/projects/2017/08/01/pewpew.html</guid>
       <description>Pew Pew was developed using pico8 (which is a fantasy console with substantial constraints tied to memory, graphics, sounds, etc.) while I was working at Borealys Games. I was inspired to work on this project by a href="https://www.linkedin.com/in/dominique-morin-71331621">Dominique Morina> who was truly a pleasure&gt;&gt;</description>
       <pubDate>Tue, 01 Aug 2017 00:00:00 -0000</pubDate>
       <category>pico8</category>
     </item>
     <item>
       <title>Project - Mages of Mystralia</title>
-      <link>https://btyros.com/projects/2017/05/18/mages-of-mystralia.html</link>
-      <guid>https://btyros.com/projects/2017/05/18/mages-of-mystralia.html</guid>
+      <link>https://strategineer.com/projects/2017/05/18/mages-of-mystralia.html</link>
+      <guid>https://strategineer.com/projects/2017/05/18/mages-of-mystralia.html</guid>
       <description>I worked at Borealys Games, an independent video game studio, from May 2016 until November 2017. I mostly worked on Mages of Mystralia but I also worked on other unannounced/cancelled projects.
 
 We were two/three programmers working on Mages of Mystralia&gt;&gt;</description>
@@ -70,8 +70,8 @@ We were two/three programmers working on Mages of Mystralia&gt;&gt;</description
     </item>
     <item>
       <title>Project - Get Out</title>
-      <link>https://btyros.com/projects/2016/05/10/get-out.html</link>
-      <guid>https://btyros.com/projects/2016/05/10/get-out.html</guid>
+      <link>https://strategineer.com/projects/2016/05/10/get-out.html</link>
+      <guid>https://strategineer.com/projects/2016/05/10/get-out.html</guid>
       <description>Get Out was developed using Unreal Engine 4 for my team's final project in the DDJV program at the University of Sherbrooke (Campus Longueuil).
 
 We were a team of six programmers including a href="https://www.linkedin.com/in/thomasdobra/">Thomas Dobranowskia> (AI), a href="https://www.linkedin.com/in/christian-nior%C3%A9-250a8094">Christian Nioréa>, a href="https://www.linkedin.com/in/alexis-plet-05437a105">Alexis Pleta> (Gameplay&gt;&gt;</description>
@@ -81,16 +81,16 @@ We were a team of six programmers including a href="https://www.linkedin.com/in/
     </item>
     <item>
       <title>Project - Great Turtle Adventure IV</title>
-      <link>https://btyros.com/projects/2015/12/16/great-turtle-adventure-iv.html</link>
-      <guid>https://btyros.com/projects/2015/12/16/great-turtle-adventure-iv.html</guid>
+      <link>https://strategineer.com/projects/2015/12/16/great-turtle-adventure-iv.html</link>
+      <guid>https://strategineer.com/projects/2015/12/16/great-turtle-adventure-iv.html</guid>
       <description>Great Turtle Adventure IV was developed using a custom game engine I designed and built (with DirectX 10 and PhysX) inspired by the a href="https://github.com/DDJV-INF740/GameEngine-src">game enginea> built by a href="https://www.linkedin.com/in/gaspardpetit/">Gaspard Petita> and the DirectX 10 knowledge provided by François Jean during my first semester in&gt;&gt;</description>
       <pubDate>Wed, 16 Dec 2015 00:00:00 -0000</pubDate>
       <category>cpp</category>
     </item>
     <item>
       <title>Project - Black Box Bandit</title>
-      <link>https://btyros.com/projects/2014/08/25/black-box-bandit.html</link>
-      <guid>https://btyros.com/projects/2014/08/25/black-box-bandit.html</guid>
+      <link>https://strategineer.com/projects/2014/08/25/black-box-bandit.html</link>
+      <guid>https://strategineer.com/projects/2014/08/25/black-box-bandit.html</guid>
       <description>Black Box Bandit was developed using Unity in 48h during Ludum Dare 30 (theme: Connected Worlds).
 
 blockquote class="blockquote">
@@ -102,8 +102,8 @@ You do so, because&gt;&gt;blockquote></description>
     </item>
     <item>
       <title>Project - Invasion Logistics Pro</title>
-      <link>https://btyros.com/projects/2014/04/28/billguk.html</link>
-      <guid>https://btyros.com/projects/2014/04/28/billguk.html</guid>
+      <link>https://strategineer.com/projects/2014/04/28/billguk.html</link>
+      <guid>https://strategineer.com/projects/2014/04/28/billguk.html</guid>
       <description>Billguk the Invasion Logistics Professional was developed using Unity in 48h during Ludum Dare 29 (theme: Beneath the Surface).
 
 blockquote class="blockquote">
@@ -117,8 +117,8 @@ Today, our Guk leaders have decided to lead their fellow Guks into battle agains
     </item>
     <item>
       <title>Project - Battleships</title>
-      <link>https://btyros.com/projects/2014/04/10/battleships.html</link>
-      <guid>https://btyros.com/projects/2014/04/10/battleships.html</guid>
+      <link>https://strategineer.com/projects/2014/04/10/battleships.html</link>
+      <guid>https://strategineer.com/projects/2014/04/10/battleships.html</guid>
       <description>Battleships was developed using C++ and SDL in a team of three programmers composed of a href="https://github.com/ben-zen">Benjamin Lewisa>, a href="https://github.com/franzpgarcia">Franz-Philippe Garciaa> and myself in my second year at McGill University within the context of the Software Engineering course led by a href="https://www.cs.mcgill.ca/~joerg/Home/Jorgs_Home.html">Jörg Kienzlea></description>
       <pubDate>Thu, 10 Apr 2014 00:00:00 -0000</pubDate>
       <category>cpp</category>
@@ -126,8 +126,8 @@ Today, our Guk leaders have decided to lead their fellow Guks into battle agains
     </item>
     <item>
       <title>Project - Graveyard Rush</title>
-      <link>https://btyros.com/projects/2014/04/02/graveyard-rush.html</link>
-      <guid>https://btyros.com/projects/2014/04/02/graveyard-rush.html</guid>
+      <link>https://strategineer.com/projects/2014/04/02/graveyard-rush.html</link>
+      <guid>https://strategineer.com/projects/2014/04/02/graveyard-rush.html</guid>
       <description>I developed Graveyard Rush DURING my last exams of my fourth semester at McGill University right before my second internship at CAE.
 </description>
       <pubDate>Wed, 02 Apr 2014 00:00:00 -0000</pubDate>
@@ -135,8 +135,8 @@ Today, our Guk leaders have decided to lead their fellow Guks into battle agains
     </item>
     <item>
       <title>Project - Mega Super Epic Tankz</title>
-      <link>https://btyros.com/projects/2013/04/24/mega-super-epic-tankz.html</link>
-      <guid>https://btyros.com/projects/2013/04/24/mega-super-epic-tankz.html</guid>
+      <link>https://strategineer.com/projects/2013/04/24/mega-super-epic-tankz.html</link>
+      <guid>https://strategineer.com/projects/2013/04/24/mega-super-epic-tankz.html</guid>
       <description>I developed Mega Super Epic Tankz after my last exams of my second semester at McGill University right before my first internship at CAE.
 </description>
       <pubDate>Wed, 24 Apr 2013 00:00:00 -0000</pubDate>
@@ -144,8 +144,8 @@ Today, our Guk leaders have decided to lead their fellow Guks into battle agains
     </item>
     <item>
       <title>Project - Writerator</title>
-      <link>https://btyros.com/projects/2013/02/01/writerator.html</link>
-      <guid>https://btyros.com/projects/2013/02/01/writerator.html</guid>
+      <link>https://strategineer.com/projects/2013/02/01/writerator.html</link>
+      <guid>https://strategineer.com/projects/2013/02/01/writerator.html</guid>
       <description>A wise computer once told me, "Peremptory personal, Perpendiculars, Forestry spreadsheets zaniest."
 
 If you enjoy writing and/or programming then you should give Writerator a shot!
@@ -158,8 +158,8 @@ Well, Writerator gives the curious user&gt;&gt;</description>
     </item>
     <item>
       <title>Project - InfiniCube</title>
-      <link>https://btyros.com/projects/2012/12/20/infinicube.html</link>
-      <guid>https://btyros.com/projects/2012/12/20/infinicube.html</guid>
+      <link>https://strategineer.com/projects/2012/12/20/infinicube.html</link>
+      <guid>https://strategineer.com/projects/2012/12/20/infinicube.html</guid>
       <description>InfiniCube is the first "real" video game that I developed. I made it during the winter break of my first semester of the Honours Software Engineering program at McGill University.
 
 It features two campaigns with themed levels based on bad puns and&gt;&gt;</description>
@@ -169,8 +169,8 @@ It features two campaigns with themed levels based on bad puns and&gt;&gt;</desc
     </item>
     <item>
       <title>Project - DnD Sidekick</title>
-      <link>https://btyros.com/projects/2011/12/01/dnd-sidekick.html</link>
-      <guid>https://btyros.com/projects/2011/12/01/dnd-sidekick.html</guid>
+      <link>https://strategineer.com/projects/2011/12/01/dnd-sidekick.html</link>
+      <guid>https://strategineer.com/projects/2011/12/01/dnd-sidekick.html</guid>
       <description>I developed DnD Sidekick the end of 2012.
 
 It was a personal milestone because it was the first fleshed out application that I built from the ground up, it was used extensively by other people and I was paid for my work.
@@ -184,8 +184,8 @@ DnD Sidekick …
     </item>
     <item>
       <title>Project - DNA Toolkit</title>
-      <link>https://btyros.com/projects/2011/12/01/dna-toolkit.html</link>
-      <guid>https://btyros.com/projects/2011/12/01/dna-toolkit.html</guid>
+      <link>https://strategineer.com/projects/2011/12/01/dna-toolkit.html</link>
+      <guid>https://strategineer.com/projects/2011/12/01/dna-toolkit.html</guid>
       <description>I developed DNA Toolkit at the end of 2011.
 
 See my DnD Sidekick page for more information.
