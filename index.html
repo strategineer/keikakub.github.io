@@ -67,14 +67,17 @@
           <div class="jumbotron">
   <div class="container">
     <h1 class="text-center">Nice to meet you!</h1>
-    <p class="text-center">My name's Bill, I'm a programmer and I love tackling tough challenges. You can take a look at <a href="/projects.html">the work I've done</a> and <a href="https://github.com/keikakub">my open source code</a>.</p>
-    <p class="text-center">I've written a lot of <a href="/reviews.html">succinct video games reviews</a> over the past couple of years. Recently, I've been writing longer form articles <a href="/blog.html">on tech, life and video games</a>.</p>
-    <p class="text-center">You can get in touch with me at <a href="mailto:me@btyros.com">me@btyros.com</a></p>
+    <p class="text-center">My name's Bill, I'm many things including: a software engineer, a video game afficionado and an avid reader/writer.</p>
+    <p class="text-center">I livestream challenging games at <a href="https://twitch.tv/strategineer">twitch.tv/strategineer</a>.</p>
+      <p class="text-center"> You can take a look at <a href="/projects.html">the work I've done</a> and <a href="https://github.com/keikakub">my open source code</a>.
+    I've written a lot of <a href="/reviews.html">succinct video games reviews</a>. I also write longer form articles <a href="/blog.html">on tech, life and video games</a>.</p>
+    <p class="text-center">I would love to hear from you. You can email me at <a href="mailto:me@strategineer.com">me@strategineer.com</a>, chat with me on <a href="https://discord.gg/7vatsrJ">my Discord server</a> and watch me stream at <a href="https://twitch.tv/strategineer">twitch.tv/strategineer</a>.</p>
   </div>
 </div>
 
         </div>
           <div class="col-xl-3 readable-footer">
+            <div id="twitch-embed"></div>
             <nav class="footer">
   <div class="row justify-content-center">
     <div class="col-12">
@@ -110,5 +113,24 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://embed.twitch.tv/embed/v1.js"></script>
+    <script type="text/javascript">
+      var v = document.getElementById("twitch-embed");
+      var twitch_embed = new Twitch.Embed("twitch-embed", {
+        width: "400",
+        height: "300",
+        channel: "strategineer",
+        autoplay: false,
+        parent: ["192.168.0.181", "strategineer.com"]
+      });
+      twitch_embed.addEventListener(Twitch.Embed.VIDEO_READY, () => {
+        var player = twitch_embed.getPlayer();
+        player.addEventListener(Twitch.Embed.READY, () => {
+          player.addEventListener(Twitch.Embed.ONLINE, () => {
+            player.play();
+          });
+        });
+      });
+    </script>
   </body>
 </html>
