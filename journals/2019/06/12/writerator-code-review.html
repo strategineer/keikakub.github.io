@@ -299,11 +299,11 @@
 
 <dl>
   <dt>Problem:</dt>
-  <dd>Fail-safe alternate algorithm used in case of missing dependency. If the PyHyphen module is not found on the system instead of exiting gracefully (like it probably shoud) the code runs an alternate, and much worse, algorithm for counting the syllables in a word. A fail-safe like this could be an essential feature to have but in this case I don't think we need it given that the PyHyphen module should work and be accessible on any machine which can run python and can run our code.</dd>
+  <dd>Fail-safe alternate algorithm used in case of missing dependency. If the PyHyphen module is not found on the system instead of exiting gracefully (like it probably should) the code runs an alternate, and much worse, algorithm for counting the syllables in a word. A fail-safe like this could be an essential feature to have but in this case I don't think we need it given that the PyHyphen module should work and be accessible on any machine which can run python and can run our code.</dd>
   <dt>Fix:</dt>
   <dd>Remove the fail-safe code to simplify the code and ensure a more consistent quality to the poems we generate no matter the environment we run it in.</dd>
   <dt>Problem:</dt>
-  <dd>Functions returning booleans values using if statements badly. Functions written like this are a classic beginner's mistake. Code written like betrays a misunderstanding of how boolean conditions work.</dd>
+  <dd>Functions returning Boolean values using if statements badly. Functions written like this are a classic beginner's mistake. Code written like betrays a misunderstanding of how Boolean conditions work.</dd>
 </dl>
 
 <div class="highlight"><pre class="highlight python"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
@@ -331,7 +331,7 @@
     <span class="s">"""Determines whether word is an adverb."""</span>
     <span class="k">return</span> <span class="n">re</span><span class="o">.</span><span class="n">match</span><span class="p">(</span><span class="s">r"\w+ly"</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">text</span><span class="p">):</span>
 </pre></td></tr></tbody></table></code></pre></div>
-<p>The understanding here is that an <em>if</em> condition evaluates to a boolean value so returning <em>True</em> when it evaluates to true (and vice-versa) is pointless. I've heard some people claim that the code above somehow improves the readability of the code compared to what I'm proposing below; I disagree.</p>
+<p>The understanding here is that an <em>if</em> condition evaluates to a Boolean value so returning <em>True</em> when it evaluates to true (and vice-versa) is pointless. I've heard some people claim that the code above somehow improves the readability of the code compared to what I'm proposing below; I disagree.</p>
 
 <dl>
   <dt>Problem:</dt>
