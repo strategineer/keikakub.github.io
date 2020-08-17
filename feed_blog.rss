@@ -1,19 +1,27 @@
 <rss>
   <channel>
-    <lastBuildDate>Fri, 26 Jun 2020 15:18:43 -0000</lastBuildDate>
+    <lastBuildDate>Mon, 17 Aug 2020 04:42:13 -0000</lastBuildDate>
 
     <item>
+      <title>Blog - You can always reload, until you can't</title>
+      <link>https://strategineer.com/blog/2020-08-16.html</link>
+      <guid>https://strategineer.com/blog/2020-08-16.html</guid>
+      <description>Most games don't matter. The actions you play out within most games don't have any long term impact on you as a player. Some narrative games imply that the choices you make have an impact on the world but given that the world is imaginary, does it really&gt;&gt;</description>
+      <pubDate>Sun, 16 Aug 2020 00:00:00 -0000</pubDate>
+      <category>gaming</category>
+    </item>
+    <item>
       <title>Blog - Interviews - The Good, the Bad and the Ugly</title>
-      <link>https://strategineer.com/journals/2020/06/26/interviews.html</link>
-      <guid>https://strategineer.com/journals/2020/06/26/interviews.html</guid>
+      <link>https://strategineer.com/blog/2020-06-26.html</link>
+      <guid>https://strategineer.com/blog/2020-06-26.html</guid>
       <description>Looking for a job sucks. A couple of months ago, I was going through interview after interview like a wrecking ball blasting through concrete. No buildings were destroyed in the process but I may have burned some bridges along the way. We laughed, we&gt;&gt;</description>
       <pubDate>Fri, 26 Jun 2020 00:00:00 -0000</pubDate>
       <category>tech</category>
     </item>
     <item>
       <title>Blog - My Game of the Year List for 2019</title>
-      <link>https://strategineer.com/journals/2020/01/17/goty-2019.html</link>
-      <guid>https://strategineer.com/journals/2020/01/17/goty-2019.html</guid>
+      <link>https://strategineer.com/blog/2020-01-17.html</link>
+      <guid>https://strategineer.com/blog/2020-01-17.html</guid>
       <description>I love video games. I've loved them almost my entire life. I loved them enough to make making them my job. I'm not working in video game development anymore but I still enjoy playing games and pondering over them.
 
 Here's a list of the video games I&gt;&gt;</description>
@@ -22,8 +30,8 @@ Here's a list of the video games I&gt;&gt;</description>
     </item>
     <item>
       <title>Blog - Warhammer 40k - a Blast from the Past</title>
-      <link>https://strategineer.com/journals/2019/08/28/warhammer.html</link>
-      <guid>https://strategineer.com/journals/2019/08/28/warhammer.html</guid>
+      <link>https://strategineer.com/blog/2019-08-28.html</link>
+      <guid>https://strategineer.com/blog/2019-08-28.html</guid>
       <description>I recently dove head first into the world of Warhammer 40k. A dark and edgy tabletop game born in the 80s played with many miniature models of science fiction soldiers, aliens, etc.
 
 If you've heard of space orks (generic fantasy orcs thrust forty thousand&gt;&gt;</description>
@@ -32,16 +40,16 @@ If you've heard of space orks (generic fantasy orcs thrust forty thousand&gt;&gt
     </item>
     <item>
       <title>Blog - Code review on an 8 year old project</title>
-      <link>https://strategineer.com/journals/2019/06/12/writerator-code-review.html</link>
-      <guid>https://strategineer.com/journals/2019/06/12/writerator-code-review.html</guid>
+      <link>https://strategineer.com/blog/2019-06-12.html</link>
+      <guid>https://strategineer.com/blog/2019-06-12.html</guid>
       <description>One of the first projects I worked on after learning how to program, around 8 years ago, is called a href="https://github.com/KeikakuB/writerator/tree/legacy">writeratora>. It is a Python command line interface (or CLI for short) for analyzing English language text and generating randomized poetry such as haikus&gt;&gt;</description>
       <pubDate>Wed, 12 Jun 2019 00:00:00 -0000</pubDate>
       <category>tech</category>
     </item>
     <item>
       <title>Blog - Building a website for 17$ or less</title>
-      <link>https://strategineer.com/journals/2019/06/08/how-to-build-your-website-for-17-bucks-or-less.html</link>
-      <guid>https://strategineer.com/journals/2019/06/08/how-to-build-your-website-for-17-bucks-or-less.html</guid>
+      <link>https://strategineer.com/blog/2019-06-08.html</link>
+      <guid>https://strategineer.com/blog/2019-06-08.html</guid>
       <description>The website you're reading this on was built by myself and it cost me a total of 17$ CDN (yearly). Without a custom domain it would have cost me nothing, zilch, nada.
 
 My goal for this website was to create my own space on the internet to allow me to&gt;&gt;</description>
@@ -50,8 +58,8 @@ My goal for this website was to create my own space on the internet to allow me 
     </item>
     <item>
       <title>Blog - Influencing the odds inside and outside of Blood Bowl 2</title>
-      <link>https://strategineer.com/journals/2019/05/07/blood-bowl-2-dice-and-rsi.html</link>
-      <guid>https://strategineer.com/journals/2019/05/07/blood-bowl-2-dice-and-rsi.html</guid>
+      <link>https://strategineer.com/blog/2019-05-07.html</link>
+      <guid>https://strategineer.com/blog/2019-05-07.html</guid>
       <description>"Blood Bowl 2 smashes Warhammer and American football together, in an explosive cocktail of turn-based strategy, humour and brutality, adapted from Games Workshop's famous board game."
 
 I'd be hard pressed to come up with a better brief description&gt;&gt;</description>
@@ -60,8 +68,8 @@ I'd be hard pressed to come up with a better brief description&gt;&gt;</descript
     </item>
     <item>
       <title>Blog - The website, Mortal Kombat 11 and microtransactions</title>
-      <link>https://strategineer.com/journals/2019/04/24/mortal-kombat-11.html</link>
-      <guid>https://strategineer.com/journals/2019/04/24/mortal-kombat-11.html</guid>
+      <link>https://strategineer.com/blog/2019-04-24.html</link>
+      <guid>https://strategineer.com/blog/2019-04-24.html</guid>
       <description>I'm currently working on my website (the one you're currently on, I should probably put a "work-in-progress" sign up…). Work has been going well so far. I had done most of the 'setting everything up' for the site a year and a half ago before I was employed&gt;&gt;</description>
       <pubDate>Wed, 24 Apr 2019 00:00:00 -0000</pubDate>
       <category>gaming</category>
