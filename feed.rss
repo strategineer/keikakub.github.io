@@ -1,7 +1,18 @@
 <rss>
   <channel>
-    <lastBuildDate>Sat, 22 Aug 2020 15:34:40 -0000</lastBuildDate>
+    <lastBuildDate>Sat, 22 Aug 2020 15:35:32 -0000</lastBuildDate>
 
+    <item>
+      <title>Blog Post - A Gamer's Guide to: Online Multiplayer</title>
+      <link>https://strategineer.com/blog/2020-08-22.html</link>
+      <guid>https://strategineer.com/blog/2020-08-22.html</guid>
+      <description>Welcome to my first "A Gamer's Guide to…". This series of articles will cover a wide range of topics of interest to gamers from the perspective of a video game programmer.
+
+I know a little about what goes into making a video game. I gained a wide breadth&gt;&gt;</description>
+      <pubDate>Sat, 22 Aug 2020 00:00:00 -0000</pubDate>
+      <category>gaming</category>
+      <category>tech</category>
+    </item>
     <item>
       <title>Blog Post - You can always reload, until you can't</title>
       <link>https://strategineer.com/blog/2020-08-16.html</link>
