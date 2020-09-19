@@ -1,0 +1,426 @@
+<!doctype html>
+<html>
+  <head>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-139862229-1');
+    </script>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>The Second Coming of Rust - Strategineer</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="alternate" href="//strategineer.com/feed.rss" type="application/rss+xml" title="Strategineer" />
+    <link rel="alternate" href="//strategineer.com/feed_blog.rss" type="application/rss+xml" title="Strategineer - Blog" />
+    <link rel="alternate" href="//strategineer.com/feed_reviews.rss" type="application/rss+xml" title="Strategineer - Reviews" />
+    <link rel="alternate" href="//strategineer.com/feed_projects.rss" type="application/rss+xml" title="Strategineer - Projects" />
+
+    <!-- favicon stuff -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <link href="/stylesheets/site.css" rel="stylesheet" />
+    <link href="/stylesheets/highlighting.css" rel="stylesheet" />
+    
+  </head>
+  <body class="blog blog_2020-09-19 blog_2020-09-19_index">
+    <div class="container">
+      <div class="row justify-content-end">
+        <div class="col-xl-8 main">
+            <div class="blog-content container">
+    
+<div class="row justify-content-center text-center page-title">
+<h1>The Second Coming of Rust</h3>
+</div>
+    
+    
+    
+    
+    
+<div class="row justify-content-center text-center page-reading-time">
+9 min read
+</div>
+    
+    <div class="row justify-content-center readable">
+          <p>In these UNCERTAIN TIMES, I've found myself with a little more free time because I don't have to commute to an office every day. I've tried to funnel that energy into creative and constructive hobbies. ¯\<em>(ツ)</em>/¯</p>
+
+<p>In the past week, I've spent some time learning the Rust programming language. I've heard a lot of good things about it and I finally took the plunge. Here's a couple of notable features that I've managed to grok from my brief time with it.</p>
+
+<h2 id="everything-is-immutable">Everything is immutable!</h2>
+
+<p>Immutability makes code easier to reason about. Rust has the strongest implementation of immutability I've seen in a programming language.</p>
+
+<p>Any variable you define is immutable by default.</p>
+
+<div class="highlight"><pre class="highlight rust"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+</pre></td><td class="rouge-code"><pre><span class="k">let</span> <span class="n">x</span> <span class="o">=</span> <span class="mi">5</span><span class="p">;</span>
+<span class="c">// The next line will explode</span>
+<span class="c">//   gracefully at compile time</span>
+<span class="c">//   if uncommented.</span>
+<span class="c">// x = x + 1;</span>
+</pre></td></tr></tbody></table></code></pre></div>
+<p>Revolutionary!</p>
+
+<p>If you want to define a mutable variable, you have to explicitly write it out like this.</p>
+
+<div class="highlight"><pre class="highlight rust"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+</pre></td><td class="rouge-code"><pre><span class="k">let</span> <span class="k">mut</span> <span class="n">x</span> <span class="o">=</span> <span class="mi">5</span><span class="p">;</span>
+<span class="c">// The next line works as expected</span>
+<span class="n">x</span> <span class="o">=</span> <span class="n">x</span> <span class="o">+</span> <span class="mi">1</span><span class="p">;</span>
+</pre></td></tr></tbody></table></code></pre></div>
+<p>This is good.</p>
+
+<p>Same thing goes for function parameters, etc.</p>
+
+<div class="highlight"><pre class="highlight rust"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+</pre></td><td class="rouge-code"><pre><span class="k">struct</span> <span class="n">Counter</span> <span class="p">{</span>
+    <span class="n">n</span><span class="p">:</span> <span class="nb">i32</span><span class="p">,</span>
+<span class="p">}</span>
+<span class="k">impl</span> <span class="n">Counter</span> <span class="p">{</span>
+    <span class="c">// This CAN modify the Counter instance.</span>
+    <span class="k">pub</span> <span class="k">fn</span> <span class="nf">increment</span><span class="p">(</span><span class="o">&amp;</span><span class="k">mut</span> <span class="k">self</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">self</span><span class="py">.n</span> <span class="o">=</span> <span class="k">self</span><span class="py">.n</span> <span class="o">+</span> <span class="mi">1</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="c">// This CANNOT modify the Counter instance.</span>
+    <span class="k">pub</span> <span class="k">fn</span> <span class="nf">value</span><span class="p">(</span><span class="o">&amp;</span><span class="k">self</span><span class="p">)</span> <span class="k">-&gt;</span> <span class="nb">i32</span> <span class="p">{</span>
+        <span class="k">self</span><span class="py">.n</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</pre></td></tr></tbody></table></code></pre></div>
+<p>Without using the <code>mut</code> keyword, you cannot modify the defined variable in any way; making it truly immutable. This is similar to how C++ handles its <code>const</code> keyword. Although, in Rust, having everything be immutable by default is even better.</p>
+
+<h2 id="null-values-no-more">Null values, no more!</h2>
+
+<p>Handling <code>null</code> values is the bane of my existence when working with my favorite programming language, Python. Don't hold your breath Python, Rust is coming for your top spot!</p>
+
+<p>The concept of a "null value" was a mistake, it leads to problems upon problems. Don't get me started on the whole <code>undefined</code> vs <code>null</code> JavaScript debacle. What a mess…</p>
+
+<p>If we can avoid it we should.</p>
+
+<p>Most, if not all, functional programming languages use the concept of an option type which is a much better way of handling missing values. Although Rust isn't a purely functional programming language, it borrows some features from that paradigm like the option type.</p>
+
+<p>In Rust, unlike other procedural programming languages, especially object-oriented ones, the option type is not just ONE of many ways to handle missing values, it is the ONLY way. This combined with pattern matching, as shown below, forces you to handle any potentially missing values otherwise the compiler will complain (which is good).</p>
+
+<div class="highlight"><pre class="highlight rust"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+</pre></td><td class="rouge-code"><pre><span class="k">let</span> <span class="n">o</span> <span class="o">=</span> <span class="k">if</span> <span class="n">i</span> <span class="o">%</span> <span class="mi">2</span> <span class="o">==</span> <span class="mi">0</span> <span class="p">{</span>
+    <span class="nb">None</span>
+<span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+    <span class="nf">Some</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+<span class="p">};</span>
+<span class="k">let</span> <span class="n">val</span> <span class="o">=</span> <span class="k">match</span> <span class="n">o</span> <span class="p">{</span>
+  <span class="nf">Some</span><span class="p">(</span><span class="n">n</span><span class="p">)</span> <span class="k">=&gt;</span> <span class="n">n</span> <span class="o">+</span> <span class="mi">1</span><span class="p">,</span>
+  <span class="c">// If the following line was missing,</span>
+  <span class="c">//   then the compiler would complain.</span>
+  <span class="nb">None</span> <span class="k">=&gt;</span> <span class="mi">1</span><span class="p">,</span>
+<span class="p">};</span>
+<span class="nd">println!</span><span class="p">(</span><span class="s">"{}"</span><span class="p">,</span> <span class="n">val</span><span class="p">);</span>
+</pre></td></tr></tbody></table></code></pre></div>
+<p>Having the compiler detect, and nag us about, every possible case where we might run into a missing value helps us write safe and functional code.</p>
+
+<h2 id="cargo---an-environment-and-package-manager-for-the-common-folk">Cargo - an environment and package manager for the common folk!</h2>
+
+<p>Cargo is the package manager of the Rust language and it does exactly what you would expect it to do. Compared to the profoundly awful mess that is the equivalent Python solution. I don't want to get into the mess that is Python virtual environments, the differences between Python 2 and Python 3, pip vs. pip3, and more. Even after a decade of working with Python I still don't fully understand all the intricacies of how it handles, or doesn't handle really, dependencies.</p>
+
+<p>Comparatively, Cargo is God's gift to the world. It is easy to understand and make use of.</p>
+
+<p>A single official package and environment manager that works like it should isn't a sexy feature, I'll give you that. But a programming language that gets the boring stuff like this right allows you to focus on solving interesting problems.</p>
+
+<p>How does it work? Any dependencies are specified in a <code>Cargo.toml</code> file like so.</p>
+
+<div class="highlight"><pre class="highlight toml"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+</pre></td><td class="rouge-code"><pre><span class="nn">[package]</span>
+<span class="py">name</span> <span class="p">=</span> <span class="s">"tmer"</span>
+<span class="py">version</span> <span class="p">=</span> <span class="s">"0.1.0"</span>
+<span class="py">authors</span> <span class="p">=</span> <span class="p">[</span><span class="s">"strategineer &lt;me@strategineer.com&gt;"</span><span class="p">]</span>
+<span class="py">edition</span> <span class="p">=</span> <span class="s">"2018"</span>
+
+<span class="nn">[dependencies]</span>
+<span class="py">clap</span> <span class="p">=</span> <span class="s">"2.33.3"</span>
+<span class="py">rand</span> <span class="p">=</span> <span class="s">"0.7.3"</span>
+<span class="py">log</span> <span class="p">=</span> <span class="s">"0.4.11"</span>
+</pre></td></tr></tbody></table></code></pre></div>
+<p>Running the following commands in your shell from anywhere in your project directory; they'll do what you expect using the dependencies you've set up.</p>
+
+<div class="highlight"><pre class="highlight shell"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+</pre></td><td class="rouge-code"><pre><span class="nb">echo</span> <span class="s2">"Update your dependencies."</span>
+cargo update
+
+<span class="nb">echo</span> <span class="s2">"Run your code."</span>
+<span class="nb">echo</span> <span class="s2">"This will update your dependencies if needed."</span>
+cargo run
+
+<span class="nb">echo</span> <span class="s2">"Test your code."</span>
+cargo <span class="nb">test</span>
+</pre></td></tr></tbody></table></code></pre></div>
+<p>Cargo just works. Unlike other systems like it, I don't need to be a brain surgeon, with a minor in extrasensory perception, to fully grasp how to specify dependencies and execute my code.</p>
+
+<h2 id="plug-and-play---traits">Plug and Play - Traits!</h2>
+
+<p>Basically, traits are interfaces that specify functionality possibly providing default implementations for said functionality. They are somewhat reminiscent of mixins in object-oriented programming.</p>
+
+<p>You can take a struct and add traits to it to augment your struct with added functionality.</p>
+
+<div class="highlight"><pre class="highlight rust"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+</pre></td><td class="rouge-code"><pre><span class="err">#</span><span class="p">[</span><span class="nf">derive</span><span class="p">(</span><span class="n">Debug</span><span class="p">)]</span>
+<span class="k">struct</span> <span class="n">Counter</span> <span class="p">{</span>
+    <span class="n">name</span><span class="p">:</span> <span class="nb">String</span><span class="p">,</span>
+    <span class="n">n</span><span class="p">:</span> <span class="nb">i32</span><span class="p">,</span>
+<span class="p">}</span>
+</pre></td></tr></tbody></table></code></pre></div>
+<p>In this case, we've added the <code>Debug</code> trait to the <code>Counter</code> struct. Without having to write any additional code, this allows us to output any instance of the struct as text for debugging purposes as shown below.</p>
+
+<div class="highlight"><pre class="highlight rust"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+</pre></td><td class="rouge-code"><pre><span class="k">fn</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
+    <span class="k">let</span> <span class="n">c</span> <span class="o">=</span> <span class="n">Counter</span> <span class="p">{</span>
+        <span class="n">name</span><span class="p">:</span> <span class="s">"C1"</span><span class="nf">.to_string</span><span class="p">(),</span>
+        <span class="n">n</span><span class="p">:</span> <span class="mi">20</span><span class="p">,</span>
+    <span class="p">};</span>
+    <span class="nd">println!</span><span class="p">(</span><span class="s">"{:?}"</span><span class="p">,</span> <span class="n">c</span><span class="p">);</span>
+    <span class="c">// OUTPUT:</span>
+    <span class="c">// Counter { name: "C1", n: 20 }</span>
+<span class="p">}</span>
+</pre></td></tr></tbody></table></code></pre></div>
+<p>We can use the following syntax to specify a trait's behavior explicitly, overriding a trait's default implementation if it has one. For example, if we would like to allow a struct to be transformed into text a specific way (for non-debugging purposes) then we can implement the <code>fmt::Display</code> trait like so.</p>
+
+<div class="highlight"><pre class="highlight rust"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+</pre></td><td class="rouge-code"><pre><span class="k">use</span> <span class="nn">std</span><span class="p">::</span><span class="n">fmt</span><span class="p">;</span>
+<span class="k">impl</span> <span class="nn">fmt</span><span class="p">::</span><span class="n">Display</span> <span class="k">for</span> <span class="n">Counter</span> <span class="p">{</span>
+    <span class="k">fn</span> <span class="nf">fmt</span><span class="p">(</span><span class="o">&amp;</span><span class="k">self</span><span class="p">,</span>
+        <span class="n">f</span><span class="p">:</span> <span class="o">&amp;</span><span class="k">mut</span> <span class="nn">fmt</span><span class="p">::</span><span class="n">Formatter</span><span class="o">&lt;</span><span class="nv">'_</span><span class="o">&gt;</span><span class="p">)</span> <span class="k">-&gt;</span> <span class="nn">fmt</span><span class="p">::</span><span class="n">Result</span> <span class="p">{</span>
+        <span class="nd">write!</span><span class="p">(</span><span class="n">f</span><span class="p">,</span>
+            <span class="s">"Counter '{}' has the value: {}"</span><span class="p">,</span>
+            <span class="k">self</span><span class="py">.name</span><span class="p">,</span>
+            <span class="k">self</span><span class="py">.n</span><span class="p">)</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</pre></td></tr></tbody></table></code></pre></div>
+<p>Notice that this is done outside of the context of the struct's definition. So, we can even implement the functionality tied to a trait as shown above for structs defined outside of our own code.</p>
+
+<p>These are simple examples. Built-in traits like the <code>Eq</code> and <code>Ord</code> traits provide the interfaces and default implementations for equality checking and ordering, respectively. Add them to any struct and it just works as you would expect.</p>
+
+<h2 id="rusternoi-pepperoni">Rusternoi Pepperoni</h2>
+<p>And that's all folks.</p>
+
+<p>I've been enjoying playing around with Rust; I'm building a small command line application that randomly generates teams over multiple rounds for playing games online with friends called <a href="https://github.com/strategineer/tmer">tmer</a>. If you want to take a look at that or help out, feel free!</p>
+
+<p>Other than the truly awful word play, Rustaceans, used by the Rust community to refer to programmers who use Rust, I can't find anything, yet, to dislike about the language and its ecosystem. I'm excited to continue exploring it!</p>
+
+    </div>
+    <nav class="footer d-none d-xl-block">
+  <div class="row justify-content-center">
+    <div class="col-12">
+      <div class="row justify-content-center footer-paginator-previous">
+  <div class="previous-article-link col-12 mx-auto">
+      <a href="/blog/2020-09-13/">&#x2B05 Favorite games of the past, present and future</a>
+  </div>
+</div>
+
+      <div class="row justify-content-center footer-shortlist-title">
+  <h4>Recent blog posts:</h4>
+</div>
+<div class="footer-shortlist-parent">
+  <ul class="footer-shortlist-list">
+      <a href="/blog/2020-09-13/">
+        <li class="footer-shortlist-item"> Favorite games of the past, present and future</li>
+      </a>
+      <a href="/blog/2020-09-04/">
+        <li class="footer-shortlist-item"> Hunt, Showdown, Repeat</li>
+      </a>
+      <a href="/blog/2020-08-30/">
+        <li class="footer-shortlist-item"> A Gamer's Guide to: Cheating in Single-Player Games</li>
+      </a>
+      <a href="/blog/2020-08-22/">
+        <li class="footer-shortlist-item"> A Gamer's Guide to: Online Multiplayer</li>
+      </a>
+      <a href="/blog/2020-08-16/">
+        <li class="footer-shortlist-item"> You can always reload, until you can't</li>
+      </a>
+      <a href="/blog/2020-06-26/">
+        <li class="footer-shortlist-item"> Interviews - The Good, the Bad and the Ugly</li>
+      </a>
+      <a href="/blog/2020-01-17/">
+        <li class="footer-shortlist-item"> My Game of the Year List for 2019</li>
+      </a>
+      <a href="/blog/2019-08-28/">
+        <li class="footer-shortlist-item"> Warhammer 40k - a Blast from the Past</li>
+      </a>
+      <a href="/blog/2019-06-12/">
+        <li class="footer-shortlist-item"> Code review on an 8 year old project</li>
+      </a>
+      <a href="/blog/2019-06-08/">
+        <li class="footer-shortlist-item"> Building a website for 17$ or less</li>
+      </a>
+      <li class="footer-shortlist-archive"><a href="/">... with 2 more blog posts in the archive</a>.</li>
+  </ul>
+</div>
+
+    </div>
+  </div>
+</nav>
+
+  </div>
+
+        </div>
+          <div class="col-xl-4 readable-footer">
+            <nav class="footer">
+  <div class="row justify-content-center">
+    <div class="col-12">
+      <div class="row justify-content-center footer-paginator-previous">
+  <div class="previous-article-link col-12 mx-auto">
+      <a href="/blog/2020-09-13/">&#x2B05 Favorite games of the past, present and future</a>
+  </div>
+</div>
+
+      <div class="row justify-content-center footer-nav">
+  <div>
+    <a href="/index.html">Blog</a>
+  </div>
+  <div>
+    <a href="/portfolio">Photography</a>
+  </div>
+  <div>
+    <a href="mailto:me@strategineer.com">Contact</a>
+  </div>
+</div>
+<div class="row justify-content-center footer-image">
+  <img class="mx-auto avatar-static" src="/images/fe_portrait.png" alt="Bill's Avatar">
+  <img class="mx-auto avatar-active" src="/images/fe_portrait_idle.gif" alt="Bill's Avatar Animated">
+</div>
+<div class="row justify-content-center footer-image-artist">
+  <a href="https://twitter.com/pixelhenkie">Art by @PixelHenkie</a>
+</div>
+<div class="row justify-content-center footer-content">
+    <div class="col-12 text-center">Name's Bill; I'm a software engineer. I write about video games, tech and life.
+    </div>
+</div>
+
+      
+      <div class="row justify-content-center footer-shortlist-title">
+  <h4>Recent blog posts:</h4>
+</div>
+<div class="footer-shortlist-parent">
+  <ul class="footer-shortlist-list">
+      <a href="/blog/2020-09-13/">
+        <li class="footer-shortlist-item"> Favorite games of the past, present and future</li>
+      </a>
+      <a href="/blog/2020-09-04/">
+        <li class="footer-shortlist-item"> Hunt, Showdown, Repeat</li>
+      </a>
+      <a href="/blog/2020-08-30/">
+        <li class="footer-shortlist-item"> A Gamer's Guide to: Cheating in Single-Player Games</li>
+      </a>
+      <a href="/blog/2020-08-22/">
+        <li class="footer-shortlist-item"> A Gamer's Guide to: Online Multiplayer</li>
+      </a>
+      <a href="/blog/2020-08-16/">
+        <li class="footer-shortlist-item"> You can always reload, until you can't</li>
+      </a>
+      <a href="/blog/2020-06-26/">
+        <li class="footer-shortlist-item"> Interviews - The Good, the Bad and the Ugly</li>
+      </a>
+      <a href="/blog/2020-01-17/">
+        <li class="footer-shortlist-item"> My Game of the Year List for 2019</li>
+      </a>
+      <a href="/blog/2019-08-28/">
+        <li class="footer-shortlist-item"> Warhammer 40k - a Blast from the Past</li>
+      </a>
+      <a href="/blog/2019-06-12/">
+        <li class="footer-shortlist-item"> Code review on an 8 year old project</li>
+      </a>
+      <a href="/blog/2019-06-08/">
+        <li class="footer-shortlist-item"> Building a website for 17$ or less</li>
+      </a>
+      <li class="footer-shortlist-archive"><a href="/">... with 2 more blog posts in the archive</a>.</li>
+  </ul>
+</div>
+
+    </div>
+  </div>
+</nav>
+
+          </div>
+      </div>
+    </div>
+    <script src="/javascripts/site.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

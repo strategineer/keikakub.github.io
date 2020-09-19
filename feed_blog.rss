@@ -1,7 +1,17 @@
 <rss>
   <channel>
-    <lastBuildDate>Sat, 19 Sep 2020 15:37:11 -0000</lastBuildDate>
+    <lastBuildDate>Sat, 19 Sep 2020 18:35:41 -0000</lastBuildDate>
 
+    <item>
+      <title>Blog - The Second Coming of Rust</title>
+      <link>https://strategineer.com/blog/2020-09-19/index.html</link>
+      <guid>https://strategineer.com/blog/2020-09-19/index.html</guid>
+      <description>In these UNCERTAIN TIMES, I've found myself with a little more free time because I don't have to commute to an office every day. I've tried to funnel that energy into creative and constructive hobbies. ¯\em>(ツ)em>/¯
+
+In the past week, I've spent some time&gt;&gt;</description>
+      <pubDate>Sat, 19 Sep 2020 00:00:00 -0000</pubDate>
+      <category>tech</category>
+    </item>
     <item>
       <title>Blog - Favorite games of the past, present and future</title>
       <link>https://strategineer.com/blog/2020-09-13/index.html</link>
