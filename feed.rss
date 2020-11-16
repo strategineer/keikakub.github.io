@@ -1,7 +1,15 @@
 <rss>
   <channel>
-    <lastBuildDate>Sun, 08 Nov 2020 04:55:43 -0000</lastBuildDate>
+    <lastBuildDate>Mon, 16 Nov 2020 02:09:14 -0000</lastBuildDate>
 
+    <item>
+      <title>Blog Post - Valve, Steam and You</title>
+      <link>https://strategineer.com/blog/2020-11-15/index.html</link>
+      <guid>https://strategineer.com/blog/2020-11-15/index.html</guid>
+      <description>If you're a PC gamer in 2020 then chances are that you use Steam as one of your platforms of choice to purchase and play games in. Valve, the people behind Steam and many beloved game series such as Half Life, Portal, Left 4 Dead, Counter Strike, and&gt;&gt;</description>
+      <pubDate>Sun, 15 Nov 2020 00:00:00 -0000</pubDate>
+      <category>gaming</category>
+    </item>
     <item>
       <title>Blog Post - Ready, Set, VR?</title>
       <link>https://strategineer.com/blog/2020-11-07/index.html</link>
