@@ -1,35 +1,34 @@
 <rss>
   <channel>
-    <lastBuildDate>Tue, 17 Nov 2020 18:59:24 -0000</lastBuildDate>
+    <lastBuildDate>Wed, 18 Nov 2020 01:54:15 -0000</lastBuildDate>
 
+    <item>
+      <title>Mush de Vegan</title>
+      <link>https://strategineer.com/food/mush_de_vegan/index.html</link>
+      <guid>https://strategineer.com/food/mush_de_vegan/index.html</guid>
+      <description>
+</description>
+      <pubDate>Tue, 17 Nov 2020 00:00:00 -0000</pubDate>
+      <category>vegan</category>
+    </item>
     <item>
       <title>Struggle Pizza</title>
       <link>https://strategineer.com/food/struggle_pizza/index.html</link>
       <guid>https://strategineer.com/food/struggle_pizza/index.html</guid>
-      <description>Turn a frozen pizza that makes you reflect on your crippling depression caused by living in a dystopian present where megacorporations rule and people suffer into a em>decentem> frozen pizza.
+      <description>
 </description>
-      <pubDate>Tue, 17 Nov 2020 00:00:00 -0000</pubDate>
+      <pubDate>Mon, 16 Nov 2020 00:00:00 -0000</pubDate>
       <category>cheap</category>
     </item>
     <item>
       <title>Red Scare Shrimp</title>
       <link>https://strategineer.com/food/red_scare_shrimp/index.html</link>
       <guid>https://strategineer.com/food/red_scare_shrimp/index.html</guid>
-      <description>Comrades.
+      <description>
 </description>
-      <pubDate>Mon, 16 Nov 2020 00:00:00 -0000</pubDate>
+      <pubDate>Sun, 15 Nov 2020 00:00:00 -0000</pubDate>
       <category>communist</category>
       <category>hot</category>
-    </item>
-    <item>
-      <title>Sinnamonana</title>
-      <link>https://strategineer.com/food/sinnamonana/index.html</link>
-      <guid>https://strategineer.com/food/sinnamonana/index.html</guid>
-      <description>After watching a few travel/food shows in a row on a weekend spent working out and doing chores, I was craving a relatively healthy snack as a reward. I had just gotten a bunch of gigantic bananas at the local grocery store. I had an idea.
-
-One sliced&gt;&gt;</description>
-      <pubDate>Sun, 15 Nov 2020 00:00:00 -0000</pubDate>
-      <category>dessert</category>
     </item>
     <item>
       <title>Blog Post - Valve, Steam and You</title>
@@ -38,6 +37,15 @@ One sliced&gt;&gt;</description>
       <description>If you're a PC gamer in 2020 then chances are that you use Steam as one of your platforms of choice to purchase and play games in. You might not know that Valve, the people behind Steam and many beloved game series such as Half Life, Portal, Left 4&gt;&gt;</description>
       <pubDate>Sun, 15 Nov 2020 00:00:00 -0000</pubDate>
       <category>gaming</category>
+    </item>
+    <item>
+      <title>Sinnamonana</title>
+      <link>https://strategineer.com/food/sinnamonana/index.html</link>
+      <guid>https://strategineer.com/food/sinnamonana/index.html</guid>
+      <description>
+</description>
+      <pubDate>Sat, 14 Nov 2020 00:00:00 -0000</pubDate>
+      <category>dessert</category>
     </item>
     <item>
       <title>Blog Post - Ready, Set, VR?</title>
