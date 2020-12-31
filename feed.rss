@@ -1,14 +1,21 @@
 <rss>
   <channel>
-    <lastBuildDate>Sun, 27 Dec 2020 19:21:32 -0000</lastBuildDate>
+    <lastBuildDate>Thu, 31 Dec 2020 15:49:28 -0000</lastBuildDate>
 
+    <item>
+      <title>Blog Post - </title>
+      <link>https://strategineer.com/blog/2020-12-31/index.html</link>
+      <guid>https://strategineer.com/blog/2020-12-31/index.html</guid>
+      <description>Nowadays, I lower my expectations as low as they can possibly go before playing a new video game. Maybe I've been dissapointed one too many times or maybe I'm a pessimist to the core. Either way, because I set the bar so low, when an amazing game falls&gt;&gt;</description>
+      <pubDate>Thu, 31 Dec 2020 00:00:00 -0000</pubDate>
+    </item>
     <item>
       <title>Blog Post - My Favorite Games of 2020</title>
       <link>https://strategineer.com/blog/2020-12-27/index.html</link>
       <guid>https://strategineer.com/blog/2020-12-27/index.html</guid>
       <description>2020 was definitely a year, but 2021 is just around the corner. I haven't had the opportunity to do much else other than play games this year which is a silver lining that I don't want to take for granted. I've never before had the time to play as many&gt;&gt;</description>
       <pubDate>Sun, 27 Dec 2020 00:00:00 -0000</pubDate>
-      <category>gaming</category>
+        <category>gaming</category>
     </item>
     <item>
       <title>#blessed Cookies</title>
@@ -17,7 +24,7 @@
       <description>
 </description>
       <pubDate>Wed, 18 Nov 2020 00:00:00 -0000</pubDate>
-      <category>dessert</category>
+        <category>dessert</category>
     </item>
     <item>
       <title>Mush de Vegan</title>
@@ -26,7 +33,7 @@
       <description>
 </description>
       <pubDate>Tue, 17 Nov 2020 00:00:00 -0000</pubDate>
-      <category>vegan</category>
+        <category>vegan</category>
     </item>
     <item>
       <title>Struggle Pizza</title>
@@ -35,7 +42,7 @@
       <description>
 </description>
       <pubDate>Mon, 16 Nov 2020 00:00:00 -0000</pubDate>
-      <category>cheap</category>
+        <category>cheap</category>
     </item>
     <item>
       <title>Red Scare Shrimp</title>
@@ -44,8 +51,8 @@
       <description>
 </description>
       <pubDate>Sun, 15 Nov 2020 00:00:00 -0000</pubDate>
-      <category>communist</category>
-      <category>hot</category>
+        <category>communist</category>
+        <category>hot</category>
     </item>
     <item>
       <title>Blog Post - Valve, Steam and You</title>
@@ -53,7 +60,7 @@
       <guid>https://strategineer.com/blog/2020-11-15/index.html</guid>
       <description>If you're a PC gamer in 2020 then chances are that you use Steam as one of your platforms of choice to purchase and play games in. You might not know that Valve, the people behind Steam and many beloved game series such as Half Life, Portal, Left 4&gt;&gt;</description>
       <pubDate>Sun, 15 Nov 2020 00:00:00 -0000</pubDate>
-      <category>gaming</category>
+        <category>gaming</category>
     </item>
     <item>
       <title>Sinnamonana</title>
@@ -62,7 +69,7 @@
       <description>
 </description>
       <pubDate>Sat, 14 Nov 2020 00:00:00 -0000</pubDate>
-      <category>dessert</category>
+        <category>dessert</category>
     </item>
     <item>
       <title>Supreme Tzatziki</title>
@@ -71,7 +78,7 @@
       <description>
 </description>
       <pubDate>Tue, 10 Nov 2020 00:00:00 -0000</pubDate>
-      <category>dip</category>
+        <category>dip</category>
     </item>
     <item>
       <title>Elf's Blood Guac</title>
@@ -80,7 +87,7 @@
       <description>
 </description>
       <pubDate>Mon, 09 Nov 2020 00:00:00 -0000</pubDate>
-      <category>dip</category>
+        <category>dip</category>
     </item>
     <item>
       <title>Blog Post - Ready, Set, VR?</title>
@@ -88,7 +95,7 @@
       <guid>https://strategineer.com/blog/2020-11-07/index.html</guid>
       <description>Virtual reality. You have to try it to believe it. It's unlike anything I've ever experienced and I think that everyone should get a chance to put a headset on. Modern VR headsets have been out in the wild for a little more than half a decade and yet&gt;&gt;</description>
       <pubDate>Sat, 07 Nov 2020 00:00:00 -0000</pubDate>
-      <category>gaming</category>
+        <category>gaming</category>
     </item>
     <item>
       <title>Blog Post - Moving out, Growing In</title>
@@ -98,7 +105,7 @@
 
 I moved out of my family's place a little more than a year ago&gt;&gt;</description>
       <pubDate>Sat, 24 Oct 2020 00:00:00 -0000</pubDate>
-      <category>life</category>
+        <category>life</category>
     </item>
     <item>
       <title>Blog Post - Chronic Pain and HUGE Trackballs</title>
@@ -108,7 +115,7 @@ I moved out of my family's place a little more than a year ago&gt;&gt;</descript
   WARNING: If you've got pain in your body, listen to it. If you're a big Gamer, please take breaks and play responsibly. Video games are wonderful but they aren't worth destroying your mind and body over playing them, or making them. You'll thank&gt;&gt;
 blockquote></description>
       <pubDate>Sun, 11 Oct 2020 00:00:00 -0000</pubDate>
-      <category>life</category>
+        <category>life</category>
     </item>
     <item>
       <title>Blog Post - Baby's First 3D Models for Printing</title>
@@ -120,7 +127,7 @@ It's something I've always been interested in but until recently I haven't had t
 
 In preparation&gt;&gt;</description>
       <pubDate>Sun, 04 Oct 2020 00:00:00 -0000</pubDate>
-      <category>tech</category>
+        <category>tech</category>
     </item>
     <item>
       <title>Blog Post - Power Fantasies, Environments and Legend of Grimrock 2</title>
@@ -128,7 +135,7 @@ In preparation&gt;&gt;</description>
       <guid>https://strategineer.com/blog/2020-09-28/index.html</guid>
       <description>The world around us is mysterious, magnificent and beautiful. It’s a living breathing ecosystem with an internal logic of its own. Mother Nature, and Father Concrete, represent the interwoven complexity held within the environments that we live in and&gt;&gt;</description>
       <pubDate>Mon, 28 Sep 2020 00:00:00 -0000</pubDate>
-      <category>gaming</category>
+        <category>gaming</category>
     </item>
     <item>
       <title>Blog Post - The Second Coming of Rust</title>
@@ -138,7 +145,7 @@ In preparation&gt;&gt;</description>
 
 In the past week&gt;&gt;</description>
       <pubDate>Sat, 19 Sep 2020 00:00:00 -0000</pubDate>
-      <category>tech</category>
+        <category>tech</category>
     </item>
     <item>
       <title>Blog Post - Favorite games of the past, present and future</title>
@@ -148,7 +155,7 @@ In the past week&gt;&gt;</description>
 
 I've been quite busy this week, I've been focusing a lot of my free time on modding, making changes to an existing game, of a newly released game which I've been pouring a lot of time into given how good it is (I'll mention it later&gt;&gt;</description>
       <pubDate>Sun, 13 Sep 2020 00:00:00 -0000</pubDate>
-      <category>gaming</category>
+        <category>gaming</category>
     </item>
     <item>
       <title>Blog Post - Hunt, Showdown, Repeat</title>
@@ -156,7 +163,7 @@ I've been quite busy this week, I've been focusing a lot of my free time on modd
       <guid>https://strategineer.com/blog/2020-09-04/index.html</guid>
       <description>You are a bounty hunter dredging through demon-infested Louisiana swamps in an alternate timeline of our 1895 but with some anachronisms thrown in. You need to find, then kill a demonic monster and, finally, leave the swamp as quickly as you can. Problem&gt;&gt;</description>
       <pubDate>Fri, 04 Sep 2020 00:00:00 -0000</pubDate>
-      <category>gaming</category>
+        <category>gaming</category>
     </item>
     <item>
       <title>Blog Post - A Gamer's Guide to: Cheating in Single-Player Games</title>
@@ -164,8 +171,8 @@ I've been quite busy this week, I've been focusing a lot of my free time on modd
       <guid>https://strategineer.com/blog/2020-08-30/index.html</guid>
       <description>Welcome to my second "A Gamer's Guide to" blog post (check out my a href="../../../../blog/2020-08-22/">previous one on online multiplayer video gamesa>). I'll be explaining how you can cheat in single-player games on PC. If you're feeling like a rebel then take a seat and prepare to bask&gt;&gt;</description>
       <pubDate>Sun, 30 Aug 2020 00:00:00 -0000</pubDate>
-      <category>gaming</category>
-      <category>tech</category>
+        <category>gaming</category>
+        <category>tech</category>
     </item>
     <item>
       <title>Blog Post - A Gamer's Guide to: Online Multiplayer</title>
@@ -175,8 +182,8 @@ I've been quite busy this week, I've been focusing a lot of my free time on modd
 
 I know a little about what goes into making a video game. I gained a wide breadth&gt;&gt;</description>
       <pubDate>Sat, 22 Aug 2020 00:00:00 -0000</pubDate>
-      <category>gaming</category>
-      <category>tech</category>
+        <category>gaming</category>
+        <category>tech</category>
     </item>
     <item>
       <title>Blog Post - You can always reload, until you can't</title>
@@ -184,7 +191,7 @@ I know a little about what goes into making a video game. I gained a wide breadt
       <guid>https://strategineer.com/blog/2020-08-16/index.html</guid>
       <description>Most games don't matter. The actions you play out within most games don't have any long term impact on you as a player. Some narrative games imply that the choices you make have an impact on the world but given that the world is imaginary, does it really&gt;&gt;</description>
       <pubDate>Sun, 16 Aug 2020 00:00:00 -0000</pubDate>
-      <category>gaming</category>
+        <category>gaming</category>
     </item>
     <item>
       <title>Blog Post - Interviews - The Good, the Bad and the Ugly</title>
@@ -192,7 +199,7 @@ I know a little about what goes into making a video game. I gained a wide breadt
       <guid>https://strategineer.com/blog/2020-06-26/index.html</guid>
       <description>Looking for a job sucks. A couple of months ago, I was going through interview after interview like a wrecking ball blasting through concrete. No buildings were destroyed in the process but I may have burned some bridges along the way. We laughed, we&gt;&gt;</description>
       <pubDate>Fri, 26 Jun 2020 00:00:00 -0000</pubDate>
-      <category>tech</category>
+        <category>tech</category>
     </item>
     <item>
       <title>Blog Post - My Game of the Year List for 2019</title>
@@ -202,7 +209,7 @@ I know a little about what goes into making a video game. I gained a wide breadt
 
 Here's a list of the video games I&gt;&gt;</description>
       <pubDate>Fri, 17 Jan 2020 00:00:00 -0000</pubDate>
-      <category>gaming</category>
+        <category>gaming</category>
     </item>
     <item>
       <title>Blog Post - Warhammer 40k - a Blast from the Past</title>
@@ -212,7 +219,7 @@ Here's a list of the video games I&gt;&gt;</description>
 
 If you've heard of space orks (generic fantasy orcs thrust forty thousand&gt;&gt;</description>
       <pubDate>Wed, 28 Aug 2019 00:00:00 -0000</pubDate>
-      <category>gaming</category>
+        <category>gaming</category>
     </item>
     <item>
       <title>Blog Post - Code review on an 8 year old project</title>
@@ -220,7 +227,7 @@ If you've heard of space orks (generic fantasy orcs thrust forty thousand&gt;&gt
       <guid>https://strategineer.com/blog/2019-06-12/index.html</guid>
       <description>One of the first projects I worked on after learning how to program, around 8 years ago, is called a href="https://github.com/KeikakuB/writerator/tree/legacy">writeratora>. It is a Python command line interface (or CLI for short) for analyzing English language text and generating randomized poetry such as haikus&gt;&gt;</description>
       <pubDate>Wed, 12 Jun 2019 00:00:00 -0000</pubDate>
-      <category>tech</category>
+        <category>tech</category>
     </item>
     <item>
       <title>Blog Post - Building a website for 17$ or less</title>
@@ -230,7 +237,7 @@ If you've heard of space orks (generic fantasy orcs thrust forty thousand&gt;&gt
 
 My goal for this website was to create my own space on the internet to allow me to&gt;&gt;</description>
       <pubDate>Sat, 08 Jun 2019 00:00:00 -0000</pubDate>
-      <category>tech</category>
+        <category>tech</category>
     </item>
     <item>
       <title>Blog Post - Influencing the odds inside and outside of Blood Bowl 2</title>
@@ -240,7 +247,7 @@ My goal for this website was to create my own space on the internet to allow me 
 
 I'd be hard pressed to come up with a better brief description&gt;&gt;</description>
       <pubDate>Tue, 07 May 2019 00:00:00 -0000</pubDate>
-      <category>gaming</category>
+        <category>gaming</category>
     </item>
     <item>
       <title>Blog Post - The website, Mortal Kombat 11 and microtransactions</title>
@@ -248,7 +255,7 @@ I'd be hard pressed to come up with a better brief description&gt;&gt;</descript
       <guid>https://strategineer.com/blog/2019-04-24/index.html</guid>
       <description>I'm currently working on my website (the one you're currently on, I should probably put a "work-in-progress" sign up…). Work has been going well so far. I had done most of the 'setting everything up' for the site a year and a half ago before I was employed&gt;&gt;</description>
       <pubDate>Wed, 24 Apr 2019 00:00:00 -0000</pubDate>
-      <category>gaming</category>
+        <category>gaming</category>
     </item>
     <item>
       <title>Project - Lynchman</title>
@@ -256,7 +263,7 @@ I'd be hard pressed to come up with a better brief description&gt;&gt;</descript
       <guid>https://strategineer.com/projects/2019-04-15/index.html</guid>
       <description>Lynchman was developed with python. It can be used to compute data based on Beat Saber (a Virtual Reality rhythm game where you're tasked with using your arms to slice fast moving blocks in time with music) maps and using that data to generate maps&gt;&gt;</description>
       <pubDate>Mon, 15 Apr 2019 00:00:00 -0000</pubDate>
-      <category>python</category>
+        <category>python</category>
     </item>
     <item>
       <title>Review - Trials Rising</title>
@@ -264,9 +271,9 @@ I'd be hard pressed to come up with a better brief description&gt;&gt;</descript
       <guid>https://strategineer.com/reviews/video-game/2019-03-13/index.html</guid>
       <description>Trials Rising, and the Trials series as a whole, fully embraces the "Easy to Learn, Hard to Master" motto as a core game design pillar and provides an experience that is easier to get into for new players while providing the challenging gameplay that&gt;&gt;</description>
       <pubDate>Wed, 13 Mar 2019 00:00:00 -0000</pubDate>
-      <category>PC</category>
-      <category>thumbs_up</category>
-      <category>video</category>
+        <category>PC</category>
+        <category>thumbs_up</category>
+        <category>video</category>
     </item>
     <item>
       <title>Review - Spintires</title>
@@ -274,8 +281,8 @@ I'd be hard pressed to come up with a better brief description&gt;&gt;</descript
       <guid>https://strategineer.com/reviews/video-game/2019-02-27/index.html</guid>
       <description>WARNING: I've given a negative review of Spintires even though I find the game to be truly unique and interesting based on the fact that the publisher of the game is not paying the developer for his work and because the sequel to the game Spintires&gt;&gt;</description>
       <pubDate>Wed, 27 Feb 2019 00:00:00 -0000</pubDate>
-      <category>PC</category>
-      <category>thumbs_down</category>
+        <category>PC</category>
+        <category>thumbs_down</category>
     </item>
     <item>
       <title>Review - ATOM RPG</title>
@@ -285,8 +292,8 @@ I'd be hard pressed to come up with a better brief description&gt;&gt;</descript
 
 ATOM&gt;&gt;</description>
       <pubDate>Tue, 26 Feb 2019 00:00:00 -0000</pubDate>
-      <category>PC</category>
-      <category>thumbs_down</category>
+        <category>PC</category>
+        <category>thumbs_down</category>
     </item>
     <item>
       <title>Review - Resident Evil Revelations 2</title>
@@ -294,8 +301,8 @@ ATOM&gt;&gt;</description>
       <guid>https://strategineer.com/reviews/video-game/2019-02-17/index.html</guid>
       <description>In Resident Evil Revelations 2, you (and ideally another player) initially play as either Claire Redfield, Chris Redfield's sister, or Moira Burton, Barry Burton's daughter, who have been kidnapped at a TerraSave gathering (because "Terr" doesn't have&gt;&gt;</description>
       <pubDate>Sun, 17 Feb 2019 00:00:00 -0000</pubDate>
-      <category>PC</category>
-      <category>thumbs_up</category>
+        <category>PC</category>
+        <category>thumbs_up</category>
     </item>
     <item>
       <title>Review - Resident Evil 2 (2019)</title>
@@ -303,8 +310,8 @@ ATOM&gt;&gt;</description>
       <guid>https://strategineer.com/reviews/video-game/2019-02-16/index.html</guid>
       <description>In Resident Evil 2 (2019) you play as Leon Kennedy, a rookie cop on his first day on the job, or as Claire Redfield, Chris Redfield's sister searching for him, finding yourself trapped within the Raccoon City Police Station infested and surrounded by&gt;&gt;</description>
       <pubDate>Sat, 16 Feb 2019 00:00:00 -0000</pubDate>
-      <category>PC</category>
-      <category>thumbs_up</category>
+        <category>PC</category>
+        <category>thumbs_up</category>
     </item>
     <item>
       <title>Review - F3AR</title>
@@ -312,8 +319,8 @@ ATOM&gt;&gt;</description>
       <guid>https://strategineer.com/reviews/video-game/2019-02-06/index.html</guid>
       <description>F3AR is a horror themed FPS that I played as a cooperative experience with a friend. Its core gameplay of shooting bad dudes is quite dated, combining that with its hard to follow and impossible to care about storyline told through very video gamey&gt;&gt;</description>
       <pubDate>Wed, 06 Feb 2019 00:00:00 -0000</pubDate>
-      <category>PC</category>
-      <category>thumbs_down</category>
+        <category>PC</category>
+        <category>thumbs_down</category>
     </item>
     <item>
       <title>Review - Paratopic</title>
@@ -321,8 +328,8 @@ ATOM&gt;&gt;</description>
       <guid>https://strategineer.com/reviews/video-game/2019-02-05/index.html</guid>
       <description>Paratopic is a spooky PS1/lofi horror experience. Its use of lofi weird graphics, its soundtrack and the story all work in unison to make you feel extremely uncomfortable and unsettled whilst playing the game. I enjoy concise and short experiences however&gt;&gt;</description>
       <pubDate>Tue, 05 Feb 2019 00:00:00 -0000</pubDate>
-      <category>PC</category>
-      <category>thumbs_up</category>
+        <category>PC</category>
+        <category>thumbs_up</category>
     </item>
     <item>
       <title>Project - Framestore VR</title>
@@ -333,12 +340,12 @@ ATOM&gt;&gt;</description>
   li>Developed a data-driven system for automating the generation of new projects in Perforce and&gt;&gt;li>
 ul></description>
       <pubDate>Sun, 03 Feb 2019 00:00:00 -0000</pubDate>
-      <category>cpp</category>
-      <category>python</category>
-      <category>Jenkins</category>
-      <category>Perforce</category>
-      <category>Shotgun</category>
-      <category>Unreal Engine</category>
+        <category>cpp</category>
+        <category>python</category>
+        <category>Jenkins</category>
+        <category>Perforce</category>
+        <category>Shotgun</category>
+        <category>Unreal Engine</category>
     </item>
     <item>
       <title>Review - Return of the Obra Dinn</title>
@@ -346,8 +353,8 @@ ul></description>
       <guid>https://strategineer.com/reviews/video-game/2019-01-08/index.html</guid>
       <description>In the Return of the Obra Dinn, you play the role of a Chief Inspector in the East India Company in 1808 investigating the tragedy of the Obra Dinn, a ship that set sail with sixty people onboard and eventually came back to port devoid of any signs&gt;&gt;</description>
       <pubDate>Tue, 08 Jan 2019 00:00:00 -0000</pubDate>
-      <category>PC</category>
-      <category>thumbs_up</category>
+        <category>PC</category>
+        <category>thumbs_up</category>
     </item>
     <item>
       <title>Review - Cry of Fear</title>
@@ -356,8 +363,8 @@ ul></description>
       <description>Cry of Fear is a weird single player or co-op horror FPS built on the Half Life 2 engine. The following review is based on the coop experience.
 </description>
       <pubDate>Mon, 07 Jan 2019 00:00:00 -0000</pubDate>
-      <category>PC</category>
-      <category>thumbs_up</category>
+        <category>PC</category>
+        <category>thumbs_up</category>
     </item>
     <item>
       <title>Review - Artifact</title>
@@ -366,8 +373,8 @@ ul></description>
       <description>Artifact is a modernized and digital version of Magic the Gathering set in the DOTA universe developed by Valve and Richard Garfield, the original creator of Magic the Gathering.
 </description>
       <pubDate>Sun, 06 Jan 2019 00:00:00 -0000</pubDate>
-      <category>PC</category>
-      <category>thumbs_up</category>
+        <category>PC</category>
+        <category>thumbs_up</category>
     </item>
     <item>
       <title>Project - Artifact Stat Tracker</title>
@@ -377,9 +384,9 @@ ul></description>
 
 As I played the game, I entered data into the Google Sheets document using custom built UIs, the python script would then read the data within the Google Sheets document, manipulate&gt;&gt;</description>
       <pubDate>Sat, 01 Dec 2018 00:00:00 -0000</pubDate>
-      <category>python</category>
-      <category>google sheets</category>
-      <category>gscript</category>
+        <category>python</category>
+        <category>google sheets</category>
+        <category>gscript</category>
     </item>
     <item>
       <title>Review - Total War Warhammer 2</title>
@@ -387,8 +394,8 @@ As I played the game, I entered data into the Google Sheets document using custo
       <guid>https://strategineer.com/reviews/video-game/2018-09-07/index.html</guid>
       <description>In Total War Warhammer 2, you lead one faction among belonging to a race in the Warhammer universe (in this game, including Dark Elves, High Elves, Skaven, Lizardmen and possibly Tomb Kings) in a quest to seize control of the Great Vortex, a swirling&gt;&gt;</description>
       <pubDate>Fri, 07 Sep 2018 00:00:00 -0000</pubDate>
-      <category>PC</category>
-      <category>thumbs_up</category>
+        <category>PC</category>
+        <category>thumbs_up</category>
     </item>
     <item>
       <title>Review - Kingdom Come Deliverance</title>
@@ -398,8 +405,8 @@ As I played the game, I entered data into the Google Sheets document using custo
 
 Kingdom Come Deliverance is a historical open-world RPG taking place in the Holy Roman&gt;&gt;</description>
       <pubDate>Thu, 06 Sep 2018 00:00:00 -0000</pubDate>
-      <category>PC</category>
-      <category>thumbs_up</category>
+        <category>PC</category>
+        <category>thumbs_up</category>
     </item>
     <item>
       <title>Review - SpyParty</title>
@@ -409,8 +416,8 @@ Kingdom Come Deliverance is a historical open-world RPG taking place in the Holy
 
 SpyParty is an asymmetrical 1v1 competitive game in which one player plays the Spy at a party filled with NPCs partygoers, the Spy must perform spy-like&gt;&gt;</description>
       <pubDate>Mon, 27 Aug 2018 00:00:00 -0000</pubDate>
-      <category>PC</category>
-      <category>thumbs_up</category>
+        <category>PC</category>
+        <category>thumbs_up</category>
     </item>
     <item>
       <title>Review - Space Beast Terror Fright</title>
@@ -418,8 +425,8 @@ SpyParty is an asymmetrical 1v1 competitive game in which one player plays the S
       <guid>https://strategineer.com/reviews/video-game/2018-08-26/index.html</guid>
       <description>In Space Beast Terror Fright, you play as a Space Marine entering randomly generated derelict space ships by yourself or with up to three other soldiers in which you must survive a constant onslaught of aliens whilst you navigate through the ship in&gt;&gt;</description>
       <pubDate>Sun, 26 Aug 2018 00:00:00 -0000</pubDate>
-      <category>PC</category>
-      <category>thumbs_up</category>
+        <category>PC</category>
+        <category>thumbs_up</category>
     </item>
     <item>
       <title>Review - Monster Hunter World</title>
@@ -429,8 +436,8 @@ SpyParty is an asymmetrical 1v1 competitive game in which one player plays the S
 
 Monster Hunter World is the most recent entry in the long running Monster&gt;&gt;</description>
       <pubDate>Sat, 25 Aug 2018 00:00:00 -0000</pubDate>
-      <category>PC</category>
-      <category>thumbs_up</category>
+        <category>PC</category>
+        <category>thumbs_up</category>
     </item>
     <item>
       <title>Review - Danganronpa 2 Goodby Despair</title>
@@ -438,8 +445,8 @@ Monster Hunter World is the most recent entry in the long running Monster&gt;&gt
       <guid>https://strategineer.com/reviews/video-game/2018-07-16/index.html</guid>
       <description>Danganronpa 2 Goodbye Despair is a sequel to Danganronpa Trigger Happy Havoc both of which are weird and very dark visual novel / adventure games featuring talented school children who are forced into killing each other. The sequel is a very similar&gt;&gt;</description>
       <pubDate>Mon, 16 Jul 2018 00:00:00 -0000</pubDate>
-      <category>PC</category>
-      <category>thumbs_up</category>
+        <category>PC</category>
+        <category>thumbs_up</category>
     </item>
     <item>
       <title>Review - The Evil Within 2</title>
@@ -448,8 +455,8 @@ Monster Hunter World is the most recent entry in the long running Monster&gt;&gt
       <description>The Evil Within 2 is a Japanese horror survival game with a cheesy semi serious story in an American setting. It's heavily inspired by Resident Evil (especially 4) and could be considered as a spiritual successor to that game.
 </description>
       <pubDate>Sun, 15 Jul 2018 00:00:00 -0000</pubDate>
-      <category>PC</category>
-      <category>thumbs_up</category>
+        <category>PC</category>
+        <category>thumbs_up</category>
     </item>
     <item>
       <title>Project - Machine Head</title>
@@ -457,8 +464,8 @@ Monster Hunter World is the most recent entry in the long running Monster&gt;&gt
       <guid>https://strategineer.com/projects/2018-06-05/index.html</guid>
       <description>Machine Head was developed using python and an instance of it is constantly running on a Raspberry Pi at my house. It was built for automating various manual processes tied to managing my Discord server that I was tired of doing over and over again&gt;&gt;</description>
       <pubDate>Tue, 05 Jun 2018 00:00:00 -0000</pubDate>
-      <category>python</category>
-      <category>linux</category>
+        <category>python</category>
+        <category>linux</category>
     </item>
     <item>
       <title>Review - Wasteland 2</title>
@@ -467,8 +474,8 @@ Monster Hunter World is the most recent entry in the long running Monster&gt;&gt
       <description>Wasteland 2 is an interesting but unbalanced and dated CRPG in a post apocalyptic setting. It is a sequel to Wasteland, the game which inspired Fallout.
 </description>
       <pubDate>Tue, 27 Mar 2018 00:00:00 -0000</pubDate>
-      <category>PC</category>
-      <category>thumbs_down</category>
+        <category>PC</category>
+        <category>thumbs_down</category>
     </item>
     <item>
       <title>Review - Warhammer Vermintide 2</title>
@@ -477,8 +484,8 @@ Monster Hunter World is the most recent entry in the long running Monster&gt;&gt
       <description>Warhammer: Vermintide 2 is a masterful evolution of the L4D legacy set within the Warhammer universe.
 </description>
       <pubDate>Mon, 26 Mar 2018 00:00:00 -0000</pubDate>
-      <category>PC</category>
-      <category>thumbs_up</category>
+        <category>PC</category>
+        <category>thumbs_up</category>
     </item>
     <item>
       <title>Review - Killer Instinct</title>
@@ -487,8 +494,8 @@ Monster Hunter World is the most recent entry in the long running Monster&gt;&gt
       <description>Killer Instinct is a fighting game that is easy to learn, flashy and comes packed with a ton of content. It originally released on Xbox One in 2013, the Steam version contains years worth of patches.
 </description>
       <pubDate>Sun, 25 Mar 2018 00:00:00 -0000</pubDate>
-      <category>PC</category>
-      <category>thumbs_up</category>
+        <category>PC</category>
+        <category>thumbs_up</category>
     </item>
     <item>
       <title>Review - Bayonetta</title>
@@ -497,8 +504,8 @@ Monster Hunter World is the most recent entry in the long running Monster&gt;&gt
       <description>Bayonetta is a larger than life character action game that defies expectations and will leave anyone but the most dead to the world impressed and satisfied to the core.
 </description>
       <pubDate>Sat, 24 Mar 2018 00:00:00 -0000</pubDate>
-      <category>PC</category>
-      <category>thumbs_up</category>
+        <category>PC</category>
+        <category>thumbs_up</category>
     </item>
     <item>
       <title>Review - Shadow Tactics Blades of the Shotgun</title>
@@ -507,8 +514,8 @@ Monster Hunter World is the most recent entry in the long running Monster&gt;&gt
       <description>Shadow Tactics: Blades of the Shogun is a stealth-action tactical strategy game set in feudal Japan with tight gameplay reminiscent of Jagged Alliance 2, Commandos and Silent Storm.
 </description>
       <pubDate>Fri, 23 Mar 2018 00:00:00 -0000</pubDate>
-      <category>PC</category>
-      <category>thumbs_up</category>
+        <category>PC</category>
+        <category>thumbs_up</category>
     </item>
     <item>
       <title>Review - Prismata</title>
@@ -517,8 +524,8 @@ Monster Hunter World is the most recent entry in the long running Monster&gt;&gt
       <description>Prismata is a turn-based abstract Starcraft-esque game whereby both players have access to the same (randomized per match) set of units.
 </description>
       <pubDate>Thu, 22 Mar 2018 00:00:00 -0000</pubDate>
-      <category>PC</category>
-      <category>thumbs_up</category>
+        <category>PC</category>
+        <category>thumbs_up</category>
     </item>
     <item>
       <title>Review - Into the Breach</title>
@@ -527,8 +534,8 @@ Monster Hunter World is the most recent entry in the long running Monster&gt;&gt
       <description>Into The Breach is a turn-based strategy/puzzle roguelike by the same devs behind FTL.
 </description>
       <pubDate>Wed, 21 Mar 2018 00:00:00 -0000</pubDate>
-      <category>PC</category>
-      <category>thumbs_up</category>
+        <category>PC</category>
+        <category>thumbs_up</category>
     </item>
     <item>
       <title>Review - Dishonored 2</title>
@@ -536,8 +543,8 @@ Monster Hunter World is the most recent entry in the long running Monster&gt;&gt
       <guid>https://strategineer.com/reviews/video-game/2018-02-16/index.html</guid>
       <description>Dishonored 2 is a sequel to Dishonored… You sneak around, you observe, then you strike either by assassinating your target or subduing them in some other way and, finally you get away. Sooner rather than later, you get access to a variety of supernatural&gt;&gt;</description>
       <pubDate>Fri, 16 Feb 2018 00:00:00 -0000</pubDate>
-      <category>PC</category>
-      <category>thumbs_up</category>
+        <category>PC</category>
+        <category>thumbs_up</category>
     </item>
     <item>
       <title>Review - Prey</title>
@@ -546,8 +553,8 @@ Monster Hunter World is the most recent entry in the long running Monster&gt;&gt
       <description>Prey is an immersive-sim in the vein of Deus Ex, Bioshock in a science fiction setting with an interesting story and tight gameplay systems that keep you having fun and immersed until the very end.
 </description>
       <pubDate>Thu, 08 Feb 2018 00:00:00 -0000</pubDate>
-      <category>PC</category>
-      <category>thumbs_up</category>
+        <category>PC</category>
+        <category>thumbs_up</category>
     </item>
     <item>
       <title>Review - Dominions 5</title>
@@ -557,8 +564,8 @@ Monster Hunter World is the most recent entry in the long running Monster&gt;&gt
 
 Dominions 5 is a turn-based 4X game where&gt;&gt;</description>
       <pubDate>Thu, 01 Feb 2018 00:00:00 -0000</pubDate>
-      <category>PC</category>
-      <category>thumbs_up</category>
+        <category>PC</category>
+        <category>thumbs_up</category>
     </item>
     <item>
       <title>Review - Doki Doki Literature Club</title>
@@ -568,8 +575,8 @@ Dominions 5 is a turn-based 4X game where&gt;&gt;</description>
 
 I will never [spoiler]I WAS JUST BATHING IN THE FEELING OF YOUR BODY[/spoiler] forget my experience with Doki Doki Literature Club, [spoiler]GET OUT GET OUT GET OUT GET OUT[/spoiler] it might be the only game I've played [spoiler]EAGLES CAN FLY&gt;&gt;</description>
       <pubDate>Sun, 07 Jan 2018 00:00:00 -0000</pubDate>
-      <category>PC</category>
-      <category>thumbs_up</category>
+        <category>PC</category>
+        <category>thumbs_up</category>
     </item>
     <item>
       <title>Review - Dead Synchronicity Tomorrow Comes Today</title>
@@ -580,8 +587,8 @@ I will never [spoiler]I WAS JUST BATHING IN THE FEELING OF YOUR BODY[/spoiler] f
 Dead Synchronicity Tomorrow Comes Today is a graphic adventure game, it's pretty shit.
 </description>
       <pubDate>Sat, 06 Jan 2018 00:00:00 -0000</pubDate>
-      <category>PC</category>
-      <category>thumbs_down</category>
+        <category>PC</category>
+        <category>thumbs_down</category>
     </item>
     <item>
       <title>Review - Just Cause 3</title>
@@ -591,8 +598,8 @@ Dead Synchronicity Tomorrow Comes Today is a graphic adventure game, it's pretty
 
 Just Cause 3 is an open world action game whereby you'll&gt;&gt;</description>
       <pubDate>Wed, 03 Jan 2018 00:00:00 -0000</pubDate>
-      <category>PC</category>
-      <category>thumbs_down</category>
+        <category>PC</category>
+        <category>thumbs_down</category>
     </item>
     <item>
       <title>Review - Open Sorcery</title>
@@ -602,8 +609,8 @@ Just Cause 3 is an open world action game whereby you'll&gt;&gt;</description>
 
 Open Sorcery is a short&gt;&gt;</description>
       <pubDate>Mon, 01 Jan 2018 00:00:00 -0000</pubDate>
-      <category>PC</category>
-      <category>thumbs_up</category>
+        <category>PC</category>
+        <category>thumbs_up</category>
     </item>
     <item>
       <title>Review - The Long Dark</title>
@@ -613,8 +620,8 @@ Open Sorcery is a short&gt;&gt;</description>
 
 The Long Dark is a survival&gt;&gt;</description>
       <pubDate>Tue, 26 Dec 2017 00:00:00 -0000</pubDate>
-      <category>PC</category>
-      <category>thumbs_up</category>
+        <category>PC</category>
+        <category>thumbs_up</category>
     </item>
     <item>
       <title>Review - Deadly Tower of Monsters</title>
@@ -622,8 +629,8 @@ The Long Dark is a survival&gt;&gt;</description>
       <guid>https://strategineer.com/reviews/video-game/2017-12-25/index.html</guid>
       <description>In the Deadly Tower of Monsters, you play as Dick Starspeed, a hero who's crash landed on the alien planet of Gravoria… Wait, actually you play as Jonathan Digby who's playing the role of Dick Starspeed in the movie the Deadly Tower of Monsters… Wait&gt;&gt;</description>
       <pubDate>Mon, 25 Dec 2017 00:00:00 -0000</pubDate>
-      <category>PC</category>
-      <category>thumbs_up</category>
+        <category>PC</category>
+        <category>thumbs_up</category>
     </item>
     <item>
       <title>Review - Golf It</title>
@@ -632,8 +639,8 @@ The Long Dark is a survival&gt;&gt;</description>
       <description>Golf It is a multiplayer mini putt game that's a lot of fun to play with friends.
 </description>
       <pubDate>Tue, 28 Nov 2017 00:00:00 -0000</pubDate>
-      <category>PC</category>
-      <category>thumbs_up</category>
+        <category>PC</category>
+        <category>thumbs_up</category>
     </item>
     <item>
       <title>Review - Danganronpa Trigger Happy Havoc</title>
@@ -641,8 +648,8 @@ The Long Dark is a survival&gt;&gt;</description>
       <guid>https://strategineer.com/reviews/video-game/2017-11-27/index.html</guid>
       <description>In Danganronpa Trigger Happy Havoc, you play as Makoto Naegi, a normal high school student who's just transferred to Hope's Peak Academy with several remarkably talented students. On his first day, he faints and wakes up to find that someone has trapped&gt;&gt;</description>
       <pubDate>Mon, 27 Nov 2017 00:00:00 -0000</pubDate>
-      <category>PC</category>
-      <category>thumbs_up</category>
+        <category>PC</category>
+        <category>thumbs_up</category>
     </item>
     <item>
       <title>Review - Untold Stories</title>
@@ -652,8 +659,8 @@ The Long Dark is a survival&gt;&gt;</description>
 
 </description>
       <pubDate>Sun, 08 Oct 2017 00:00:00 -0000</pubDate>
-      <category>PC</category>
-      <category>thumbs_up</category>
+        <category>PC</category>
+        <category>thumbs_up</category>
     </item>
     <item>
       <title>Review - Pyre</title>
@@ -663,8 +670,8 @@ The Long Dark is a survival&gt;&gt;</description>
 
 Pyre is an RPG with real-time sports-like battles with fun gameplay, beautiful&gt;&gt;</description>
       <pubDate>Sat, 07 Oct 2017 00:00:00 -0000</pubDate>
-      <category>PC</category>
-      <category>thumbs_up</category>
+        <category>PC</category>
+        <category>thumbs_up</category>
     </item>
     <item>
       <title>Review - Tyranny</title>
@@ -672,8 +679,8 @@ Pyre is an RPG with real-time sports-like battles with fun gameplay, beautiful&g
       <guid>https://strategineer.com/reviews/video-game/2017-09-25/index.html</guid>
       <description>In Tyranny, you play the role of a Fatebinder, a servant of Kyros the Overlord, in a world where the epic struggle between good and evil is over and you're tasked with overseeing the takeover of the last free area of land on the continent of Terratus&gt;&gt;</description>
       <pubDate>Mon, 25 Sep 2017 00:00:00 -0000</pubDate>
-      <category>PC</category>
-      <category>thumbs_up</category>
+        <category>PC</category>
+        <category>thumbs_up</category>
     </item>
     <item>
       <title>Review - The Nonary Games</title>
@@ -681,8 +688,8 @@ Pyre is an RPG with real-time sports-like battles with fun gameplay, beautiful&g
       <guid>https://strategineer.com/reviews/video-game/2017-09-10/index.html</guid>
       <description>Zero Escape: The Nonary Games is a bundle of remastered PC versions of the first (999) and second (Virtue's Last Reward) games in the Zero Escape series. If you enjoy 999, then you'll enjoy Virtue's Last Reward because it is very good sequel that follows&gt;&gt;</description>
       <pubDate>Sun, 10 Sep 2017 00:00:00 -0000</pubDate>
-      <category>PC</category>
-      <category>thumbs_up</category>
+        <category>PC</category>
+        <category>thumbs_up</category>
     </item>
     <item>
       <title>Review - Rock of Ages II</title>
@@ -690,8 +697,8 @@ Pyre is an RPG with real-time sports-like battles with fun gameplay, beautiful&g
       <guid>https://strategineer.com/reviews/video-game/2017-09-04/index.html</guid>
       <description>In Rock of Ages 2: Bigger and Boulder, you play the role of a historical figure trying to bust down an opponent's castle by rolling a boulder through a level whilst protecting your own castle from your opponent's boulder by placing various obstacles&gt;&gt;</description>
       <pubDate>Mon, 04 Sep 2017 00:00:00 -0000</pubDate>
-      <category>PC</category>
-      <category>thumbs_up</category>
+        <category>PC</category>
+        <category>thumbs_up</category>
     </item>
     <item>
       <title>Review - Transistor</title>
@@ -701,8 +708,8 @@ Pyre is an RPG with real-time sports-like battles with fun gameplay, beautiful&g
 
 Transistor&gt;&gt;</description>
       <pubDate>Sat, 19 Aug 2017 00:00:00 -0000</pubDate>
-      <category>PC</category>
-      <category>thumbs_up</category>
+        <category>PC</category>
+        <category>thumbs_up</category>
     </item>
     <item>
       <title>Project - Pew Pew</title>
@@ -710,7 +717,7 @@ Transistor&gt;&gt;</description>
       <guid>https://strategineer.com/projects/2017-08-01/index.html</guid>
       <description>Pew Pew was developed using pico8 (which is a fantasy console with substantial constraints tied to memory, graphics, sounds, etc.) while I was working at Borealys Games. I was inspired to work on this project by a href="https://www.linkedin.com/in/dominique-morin-71331621">Dominique Morina> who was truly a pleasure&gt;&gt;</description>
       <pubDate>Tue, 01 Aug 2017 00:00:00 -0000</pubDate>
-      <category>pico8</category>
+        <category>pico8</category>
     </item>
     <item>
       <title>Review - Tadpole Treble</title>
@@ -721,8 +728,8 @@ Transistor&gt;&gt;</description>
 Tadpole Treble might be what you're looking for.
 </description>
       <pubDate>Sat, 01 Jul 2017 00:00:00 -0000</pubDate>
-      <category>PC</category>
-      <category>thumbs_up</category>
+        <category>PC</category>
+        <category>thumbs_up</category>
     </item>
     <item>
       <title>Review - Snake Pass</title>
@@ -733,8 +740,8 @@ Tadpole Treble might be what you're looking for.
 Snake Pass is an old school collect-a-thon platformer where you control a snake.
 </description>
       <pubDate>Fri, 30 Jun 2017 00:00:00 -0000</pubDate>
-      <category>PC</category>
-      <category>thumbs_up</category>
+        <category>PC</category>
+        <category>thumbs_up</category>
     </item>
     <item>
       <title>Review - Nex Machina</title>
@@ -743,8 +750,8 @@ Snake Pass is an old school collect-a-thon platformer where you control a snake.
       <description>Nex Machina is a satisfying twin stick shooter with a well developed leaderboard system that feels like Doom (2016) but as a twin stick shooter.
 </description>
       <pubDate>Wed, 28 Jun 2017 00:00:00 -0000</pubDate>
-      <category>PC</category>
-      <category>thumbs_up</category>
+        <category>PC</category>
+        <category>thumbs_up</category>
     </item>
     <item>
       <title>Review - Octodad Daliest Catch</title>
@@ -754,8 +761,8 @@ Snake Pass is an old school collect-a-thon platformer where you control a snake.
 
 Octodad: Dadliest Catch is a unique game that can be loosely described&gt;&gt;</description>
       <pubDate>Mon, 26 Jun 2017 00:00:00 -0000</pubDate>
-      <category>PC</category>
-      <category>thumbs_up</category>
+        <category>PC</category>
+        <category>thumbs_up</category>
     </item>
     <item>
       <title>Review - Furi</title>
@@ -765,8 +772,8 @@ Octodad: Dadliest Catch is a unique game that can be loosely described&gt;&gt;</
 
 Furi is a boss-rush character action game with a tough but fair difficulty curve&gt;&gt;</description>
       <pubDate>Sun, 25 Jun 2017 00:00:00 -0000</pubDate>
-      <category>PC</category>
-      <category>thumbs_up</category>
+        <category>PC</category>
+        <category>thumbs_up</category>
     </item>
     <item>
       <title>Review - Assault Android Cactus</title>
@@ -775,8 +782,8 @@ Furi is a boss-rush character action game with a tough but fair difficulty curve
       <description>Assault Android Cactus is a top-down twin stick shooter with tight gameplay, a cute well-realized aesthetic, a great soundtrack and a lot of replayability.
 </description>
       <pubDate>Sun, 04 Jun 2017 00:00:00 -0000</pubDate>
-      <category>PC</category>
-      <category>thumbs_up</category>
+        <category>PC</category>
+        <category>thumbs_up</category>
     </item>
     <item>
       <title>Review - Hook</title>
@@ -785,8 +792,8 @@ Furi is a boss-rush character action game with a tough but fair difficulty curve
       <description>Hook is a short (1-2h) and relaxing minimalist puzzle game with an interesting core mechanic that is expanded upon progressively in each of the 50 levels.
 </description>
       <pubDate>Mon, 29 May 2017 00:00:00 -0000</pubDate>
-      <category>PC</category>
-      <category>thumbs_up</category>
+        <category>PC</category>
+        <category>thumbs_up</category>
     </item>
     <item>
       <title>Review - Hollow Knight</title>
@@ -795,8 +802,8 @@ Furi is a boss-rush character action game with a tough but fair difficulty curve
       <description>Hollow Knight is a great Metroidvania game with a pinch of Souls-like elements sprinkled in.
 </description>
       <pubDate>Sat, 27 May 2017 00:00:00 -0000</pubDate>
-      <category>PC</category>
-      <category>thumbs_up</category>
+        <category>PC</category>
+        <category>thumbs_up</category>
     </item>
     <item>
       <title>Review - Warhammer - Vermintide</title>
@@ -805,8 +812,8 @@ Furi is a boss-rush character action game with a tough but fair difficulty curve
       <description>Warhammer: End Time - Vermintide is a masterpiece… and a L4D clone. It adds loot and hats to the proven L4D formula while setting the game in the Warhammer universe where Skaven (ratmen) are causing havoc and must be stopped.
 </description>
       <pubDate>Mon, 22 May 2017 00:00:00 -0000</pubDate>
-      <category>PC</category>
-      <category>thumbs_up</category>
+        <category>PC</category>
+        <category>thumbs_up</category>
     </item>
     <item>
       <title>Review - Salt and Sanctuary</title>
@@ -815,8 +822,8 @@ Furi is a boss-rush character action game with a tough but fair difficulty curve
       <description>Salt and Sanctuary is a tough 2D Metroidvania-Soulslike game which is a love letter to everything we know and love from the Souls series of games.
 </description>
       <pubDate>Sun, 21 May 2017 00:00:00 -0000</pubDate>
-      <category>PC</category>
-      <category>thumbs_up</category>
+        <category>PC</category>
+        <category>thumbs_up</category>
     </item>
     <item>
       <title>Project - Mages of Mystralia</title>
@@ -826,10 +833,10 @@ Furi is a boss-rush character action game with a tough but fair difficulty curve
 
 We were two/three programmers working on Mages of Mystralia&gt;&gt;</description>
       <pubDate>Thu, 18 May 2017 00:00:00 -0000</pubDate>
-      <category>C#</category>
-      <category>python</category>
-      <category>TeamCity</category>
-      <category>Unity</category>
+        <category>C#</category>
+        <category>python</category>
+        <category>TeamCity</category>
+        <category>Unity</category>
     </item>
     <item>
       <title>Review - Armello</title>
@@ -837,8 +844,8 @@ We were two/three programmers working on Mages of Mystralia&gt;&gt;</description
       <guid>https://strategineer.com/reviews/video-game/2017-02-06/index.html</guid>
       <description>In Armello, you play as a hero representing of one of four clans (Rat, Rabbit, Wolf and Bear) vying for the throne of Armello. At the start of the game, the King of Armello is infected by the Rot and starts dying slowly. You and three other players&gt;&gt;</description>
       <pubDate>Mon, 06 Feb 2017 00:00:00 -0000</pubDate>
-      <category>PC</category>
-      <category>thumbs_up</category>
+        <category>PC</category>
+        <category>thumbs_up</category>
     </item>
     <item>
       <title>Review - Rainbow Six Siege</title>
@@ -846,8 +853,8 @@ We were two/three programmers working on Mages of Mystralia&gt;&gt;</description
       <guid>https://strategineer.com/reviews/video-game/2017-02-05/index.html</guid>
       <description>Rainbow Six Siege is a 5v5 tactical FPS with environmental destruction which directly impacts the gameplay in interesting ways. In Siege, you play the role of an "operator", a person with a gun as well a gadget or ability that makes them unique and&gt;&gt;</description>
       <pubDate>Sun, 05 Feb 2017 00:00:00 -0000</pubDate>
-      <category>PC</category>
-      <category>thumbs_up</category>
+        <category>PC</category>
+        <category>thumbs_up</category>
     </item>
     <item>
       <title>Project - Get Out</title>
@@ -857,8 +864,8 @@ We were two/three programmers working on Mages of Mystralia&gt;&gt;</description
 
 We were a team of six programmers including a href="https://www.linkedin.com/in/thomasdobra/">Thomas Dobranowskia> (AI), a href="https://www.linkedin.com/in/christian-nior%C3%A9-250a8094">Christian Nioréa>, a href="https://www.linkedin.com/in/alexis-plet-05437a105">Alexis Pleta> (Gameplay&gt;&gt;</description>
       <pubDate>Tue, 10 May 2016 00:00:00 -0000</pubDate>
-      <category>cpp</category>
-      <category>Unreal Engine</category>
+        <category>cpp</category>
+        <category>Unreal Engine</category>
     </item>
     <item>
       <title>Project - Great Turtle Adventure IV</title>
@@ -866,7 +873,7 @@ We were a team of six programmers including a href="https://www.linkedin.com/in/
       <guid>https://strategineer.com/projects/2015-12-16/index.html</guid>
       <description>Great Turtle Adventure IV was developed using a custom game engine I designed and built (with DirectX 10 and PhysX) inspired by the a href="https://github.com/DDJV-INF740/GameEngine-src">game enginea> built by a href="https://www.linkedin.com/in/gaspardpetit/">Gaspard Petita> and the DirectX 10 knowledge provided by François Jean during my first semester in&gt;&gt;</description>
       <pubDate>Wed, 16 Dec 2015 00:00:00 -0000</pubDate>
-      <category>cpp</category>
+        <category>cpp</category>
     </item>
     <item>
       <title>Project - Black Box Bandit</title>
@@ -878,8 +885,8 @@ blockquote class="blockquote">
 You are the Black Box Bandit. You travel through the Interwebs and destroy the black boxes of the Utech corporation's computer systems. br>
 You do so, because&gt;&gt;blockquote></description>
       <pubDate>Mon, 25 Aug 2014 00:00:00 -0000</pubDate>
-      <category>C#</category>
-      <category>Unity</category>
+        <category>C#</category>
+        <category>Unity</category>
     </item>
     <item>
       <title>Project - Invasion Logistics Pro</title>
@@ -893,8 +900,8 @@ Dear Billguk,br>
 
 Today, our Guk leaders have decided to lead their fellow Guks into battle against the hated Surfacers.&gt;&gt;blockquote></description>
       <pubDate>Mon, 28 Apr 2014 00:00:00 -0000</pubDate>
-      <category>C#</category>
-      <category>Unity</category>
+        <category>C#</category>
+        <category>Unity</category>
     </item>
     <item>
       <title>Project - Battleships</title>
@@ -902,8 +909,8 @@ Today, our Guk leaders have decided to lead their fellow Guks into battle agains
       <guid>https://strategineer.com/projects/2014-04-10/index.html</guid>
       <description>Battleships was developed using C++ and SDL in a team of three programmers composed of a href="https://github.com/ben-zen">Benjamin Lewisa>, a href="https://github.com/franzpgarcia">Franz-Philippe Garciaa> and myself in my second year at McGill University within the context of the Software Engineering course led by a href="https://www.cs.mcgill.ca/~joerg/Home/Jorgs_Home.html">Jörg Kienzlea></description>
       <pubDate>Thu, 10 Apr 2014 00:00:00 -0000</pubDate>
-      <category>cpp</category>
-      <category>SDL2</category>
+        <category>cpp</category>
+        <category>SDL2</category>
     </item>
     <item>
       <title>Project - Graveyard Rush</title>
@@ -912,7 +919,7 @@ Today, our Guk leaders have decided to lead their fellow Guks into battle agains
       <description>I developed Graveyard Rush DURING my last exams of my fourth semester at McGill University right before my second internship at CAE.
 </description>
       <pubDate>Wed, 02 Apr 2014 00:00:00 -0000</pubDate>
-      <category>haxe</category>
+        <category>haxe</category>
     </item>
     <item>
       <title>Project - Mega Super Epic Tankz</title>
@@ -921,7 +928,7 @@ Today, our Guk leaders have decided to lead their fellow Guks into battle agains
       <description>I developed Mega Super Epic Tankz after my last exams of my second semester at McGill University right before my first internship at CAE.
 </description>
       <pubDate>Wed, 24 Apr 2013 00:00:00 -0000</pubDate>
-      <category>Torque2D</category>
+        <category>Torque2D</category>
     </item>
     <item>
       <title>Project - Writerator</title>
@@ -935,7 +942,7 @@ Oh… You're still here. OK.
 
 Well, Writerator gives the curious user&gt;&gt;</description>
       <pubDate>Fri, 01 Feb 2013 00:00:00 -0000</pubDate>
-      <category>python</category>
+        <category>python</category>
     </item>
     <item>
       <title>Project - InfiniCube</title>
@@ -945,8 +952,8 @@ Well, Writerator gives the curious user&gt;&gt;</description>
 
 It features two campaigns with themed levels based on bad puns and&gt;&gt;</description>
       <pubDate>Thu, 20 Dec 2012 00:00:00 -0000</pubDate>
-      <category>python</category>
-      <category>pygame</category>
+        <category>python</category>
+        <category>pygame</category>
     </item>
     <item>
       <title>Project - DnD Sidekick</title>
@@ -960,8 +967,8 @@ DnD Sidekick …
 
 – Simplifies&gt;&gt;</description>
       <pubDate>Fri, 02 Dec 2011 00:00:00 -0000</pubDate>
-      <category>C#</category>
-      <category>Windows Phone</category>
+        <category>C#</category>
+        <category>Windows Phone</category>
     </item>
     <item>
       <title>Project - DNA Toolkit</title>
@@ -972,8 +979,8 @@ DnD Sidekick …
 See my DnD Sidekick page for more information.
 </description>
       <pubDate>Thu, 01 Dec 2011 00:00:00 -0000</pubDate>
-      <category>C#</category>
-      <category>Windows Phone</category>
+        <category>C#</category>
+        <category>Windows Phone</category>
     </item>
   </channel>
 </rss>
