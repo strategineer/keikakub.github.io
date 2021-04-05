@@ -1,8 +1,16 @@
 <?xml version="1.0"?>
 <rss version="2.0">
   <channel>
-    <lastBuildDate>Sat, 27 Mar 2021 03:42:43 -0000</lastBuildDate>
+    <lastBuildDate>Mon, 05 Apr 2021 22:54:27 -0000</lastBuildDate>
 
+    <item>
+      <title>A Political Video Game: Suzerain</title>
+      <link>https://strategineer.com/blog/2021-04-05/index.html</link>
+      <guid>https://strategineer.com/blog/2021-04-05/index.html</guid>
+      <description>Suzerain is a text-based role-playing game where you play as President Anton Rayne leading the fictional country of Sordland in a political drama driven by conversations with your cabinet members and other significant people. The decisions you make&gt;&gt;</description>
+      <pubDate>Mon, 05 Apr 2021 00:00:00 -0000</pubDate>
+        <category>gaming</category>
+    </item>
     <item>
       <title>The PC master race is over: the Xbox Series X won</title>
       <link>https://strategineer.com/blog/2021-03-21/index.html</link>
