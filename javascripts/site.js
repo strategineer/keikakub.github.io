@@ -1,0 +1,1 @@
+function goToRandomUrl(o){o=o.filter(function(o){return!window.location.href.endsWith(o)}),url=o[Math.floor(Math.random()*o.length)],window.location.href=url}
