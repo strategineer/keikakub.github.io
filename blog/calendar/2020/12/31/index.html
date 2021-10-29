@@ -37,13 +37,13 @@
           
 <div class="container justify-content-center text-center page-title">
     
-    <div class="d-flex d-flex-inline-list justify-content-center">
-      <div class="col text-center">
+    <div class="d-flex justify-content-center d-flex-inline-list">
+      <div class="text-center">
         <ul class="list-inline ul-inline">
      
           <li class="list-inline-item li-inline">
       
-       <div class="col-6 justify-content-right">
+       <div class="col justify-content-left">
          <button onclick="goBackToMainPage()">🏠</button>
        </div>
     
@@ -51,7 +51,7 @@
       
           <li class="list-inline-item li-inline">
       
-       <div class="col-6 justify-content-left">
+       <div class="col justify-content-left">
          <button onclick="goToRandomUrl(['/blog/2020-12-31/'])">🎲</button>
        </div>
     
@@ -103,28 +103,33 @@
   <div class="d-flex justify-content-center">
     <div class="col-12">
       
-      <div class="d-flex justify-content-center footer-nav">
-  <div>
-    <a href="/index.html">Home</a>
-  </div>
-</div>
-<div class="d-flex justify-content-center footer-image">
-  <img class="mx-auto avatar-static" src="/images/fe_portrait.png" alt="Bill's Avatar">
-  <img class="mx-auto avatar-active" src="/images/fe_portrait_idle.gif" alt="Bill's Avatar Animated">
-</div>
-<div class="row justify-content-center footer-content">
-  <div class="col-12 text-center">Name's Bill; I'm a rooster illusion and I write about whatever I feel like writing about.
-  </div>
-  <div class="col-12 text-center">
-    <a href="https://fraidyc.at">Follow me with fraidycat</a>, or your <a href="https://en.wikipedia.org/wiki/RSS">RSS reader of choice</a>, to be notified whenever I publish an essay!
-  </div>
-  <div class="col-12 text-center">
-      I would love to hear from you! You can reach <a href="mailto:me@strategineer.com">me@strategineer.com</a>.
-  </div>
-</div>
-
       
-      <div class="d-flex justify-content-center footer-shortlist-title">
+      
+    <div class="d-flex justify-content-center d-flex-inline-list">
+      <div class="text-center">
+        <ul class="list-inline ul-inline">
+     
+          <li class="list-inline-item li-inline">
+      
+       <div class="col justify-content-left">
+         <button onclick="goBackToMainPage()">🏠</button>
+       </div>
+    
+          </li>
+      
+          <li class="list-inline-item li-inline">
+      
+       <div class="col justify-content-left">
+         <button onclick="goToRandomUrl(['/blog/2021-09-05/','/blog/2021-04-09/','/blog/2021-04-05/','/blog/2021-03-21/','/blog/2021-03-15/','/blog/2021-02-04/','/blog/2021-01-18/','/blog/2020-12-31/','/blog/2020-12-27/','/blog/2020-11-15/','/blog/2020-11-07/','/blog/2020-10-24/','/blog/2020-10-11/','/blog/2020-10-04/','/blog/2020-09-28/','/blog/2020-09-19/','/blog/2020-09-13/','/blog/2020-09-04/','/blog/2020-08-30/','/blog/2020-08-22/','/blog/2020-08-16/','/blog/2020-06-26/','/blog/2020-01-17/','/blog/2019-08-28/','/blog/2019-06-12/','/blog/2019-06-08/','/blog/2019-05-07/','/blog/2019-04-24/'])">🎲</button>
+       </div>
+    
+          </li>
+      
+       </ul>
+     </div>
+   </div>
+    
+<div class="d-flex justify-content-center footer-shortlist-title">
   <h4>Recent blog posts:</h4>
 </div>
 <div class="footer-shortlist-parent">
@@ -173,6 +178,21 @@
   </ul>
 </div>
 
+      <div class="d-flex justify-content-center footer-image">
+  <img class="mx-auto avatar-static" src="/images/fe_portrait.png" alt="Bill's Avatar">
+  <img class="mx-auto avatar-active" src="/images/fe_portrait_idle.gif" alt="Bill's Avatar Animated">
+</div>
+<div class="row justify-content-center footer-content">
+  <div class="col-12 text-center">Name's Bill; I'm a rooster illusion and I write about whatever I feel like writing about.
+  </div>
+  <div class="col-12 text-center">
+    <a href="https://fraidyc.at">Follow me with fraidycat</a>, or your <a href="https://en.wikipedia.org/wiki/RSS">RSS reader of choice</a>, to be notified whenever I publish an essay!
+  </div>
+  <div class="col-12 text-center">
+      I would love to hear from you! You can reach <a href="mailto:me@strategineer.com">me@strategineer.com</a>.
+  </div>
+</div>
+
     </div>
   </div>
 </nav>
@@ -181,8 +201,6 @@
       </div>
     </div>
     <script src="/javascripts/site.js"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   </body>
 </html>
