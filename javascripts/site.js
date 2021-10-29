@@ -1,1 +1,1 @@
-function goToRandomUrl(o){o=o.filter(function(o){return!window.location.href.endsWith(o)}),url=o[Math.floor(Math.random()*o.length)],window.location.href=url}
+function goToRandomUrl(o){o=o.filter(function(o){return!window.location.href.endsWith(o)}),url=o[Math.floor(Math.random()*o.length)],window.location.href=url}function goBackToMainPage(){var o=window.location.href.split("/")[3];o="blog"===o?"/index.html":"/"+o+"/",window.location.href=o}
