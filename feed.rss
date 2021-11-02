@@ -1,8 +1,23 @@
 <?xml version="1.0"?>
 <rss version="2.0">
   <channel>
-    <lastBuildDate>Tue, 02 Nov 2021 12:21:00 -0000</lastBuildDate>
+    <lastBuildDate>Tue, 02 Nov 2021 23:27:45 -0000</lastBuildDate>
 
+    <item>
+      <title>Cutting my own hair</title>
+      <link>https://strategineer.com/blog/2021-11-02/index.html</link>
+      <guid>https://strategineer.com/blog/2021-11-02/index.html</guid>
+      <description>I've been cutting my own hair for the past few years.
+
+Here's what I've learned:
+
+ul>
+  li>A decent hair trimmer costs as much as a single haircut. If you can learn how to cut your own hair with one then you can save a little time and money.li>
+  li>If you're looking&gt;&gt;li>
+ul></description>
+      <pubDate>Tue, 02 Nov 2021 00:00:00 -0000</pubDate>
+        <category>ramble</category>
+    </item>
     <item>
       <title>A (work)day in the life</title>
       <link>https://strategineer.com/blog/2021-11-01/index.html</link>
