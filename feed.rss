@@ -1,8 +1,16 @@
 <?xml version="1.0"?>
 <rss version="2.0">
   <channel>
-    <lastBuildDate>Wed, 03 Nov 2021 14:56:55 -0000</lastBuildDate>
+    <lastBuildDate>Thu, 04 Nov 2021 00:31:45 -0000</lastBuildDate>
 
+    <item>
+      <title>Sleep</title>
+      <link>https://strategineer.com/blog/2021-11-03/index.html</link>
+      <guid>https://strategineer.com/blog/2021-11-03/index.html</guid>
+      <description>I forgot to set my alarm last night, so I woke up 2h after I was expecting to and that's thrown off my entire day. I can't fix this by going to sleep 2h later than usual because I want to get a good night's sleep and I want to wake up at my usual time&gt;&gt;</description>
+      <pubDate>Wed, 03 Nov 2021 00:00:00 -0000</pubDate>
+        <category>ramble</category>
+    </item>
     <item>
       <title>Cutting my own hair</title>
       <link>https://strategineer.com/blog/2021-11-02/index.html</link>
