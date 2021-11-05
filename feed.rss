@@ -1,8 +1,21 @@
 <?xml version="1.0"?>
 <rss version="2.0">
   <channel>
-    <lastBuildDate>Thu, 04 Nov 2021 00:50:28 -0000</lastBuildDate>
+    <lastBuildDate>Fri, 05 Nov 2021 00:22:28 -0000</lastBuildDate>
 
+    <item>
+      <title>Cocktails #1</title>
+      <link>https://strategineer.com/blog/2021-11-04/index.html</link>
+      <guid>https://strategineer.com/blog/2021-11-04/index.html</guid>
+      <description>Here's an ordered list of all the cocktails I've tried since I've gotten into mixology from my most favorite to least favorite:
+
+dl>
+  dt>a href="/cocktails/dark_and_stormy/">Dark and Stormya>dt>
+  dd>Ginger beer combined with rum, garnished with lime. The "dark" part of the Dark and Stormy refers to&gt;&gt;dd>
+dl></description>
+      <pubDate>Thu, 04 Nov 2021 00:00:00 -0000</pubDate>
+        <category>ramble</category>
+    </item>
     <item>
       <title>Sleep</title>
       <link>https://strategineer.com/blog/2021-11-03/index.html</link>
@@ -203,7 +216,7 @@ I've been quite busy this week, I've been focusing a lot of my free time on modd
       <title>A Gamer's Guide to: Cheating in Single-Player Games</title>
       <link>https://strategineer.com/blog/2020-08-30/index.html</link>
       <guid>https://strategineer.com/blog/2020-08-30/index.html</guid>
-      <description>Welcome to my second "A Gamer's Guide to" blog post (check out my a href="../../../../blog/2020-08-22/">previous one on online multiplayer video gamesa>). I'll be explaining how you can cheat in single-player games on PC. If you're feeling like a rebel then take a seat and prepare to bask&gt;&gt;</description>
+      <description>Welcome to my second "A Gamer's Guide to" blog post (check out my a href="/blog/2020-08-22/">previous one on online multiplayer video gamesa>). I'll be explaining how you can cheat in single-player games on PC. If you're feeling like a rebel then take a seat and prepare to bask&gt;&gt;</description>
       <pubDate>Sun, 30 Aug 2020 00:00:00 -0000</pubDate>
         <category>gaming</category>
         <category>tech</category>
