@@ -1,8 +1,22 @@
 <?xml version="1.0"?>
 <rss version="2.0">
   <channel>
-    <lastBuildDate>Mon, 08 Nov 2021 00:20:20 -0000</lastBuildDate>
+    <lastBuildDate>Mon, 08 Nov 2021 01:02:10 -0000</lastBuildDate>
 
+    <item>
+      <title>I made spicy shrimp tacos today</title>
+      <link>https://strategineer.com/blog/2021-11-07/index.html</link>
+      <guid>https://strategineer.com/blog/2021-11-07/index.html</guid>
+      <description>I made this today.
+
+img src="/food/shrimp_tacos/thumbnail.jpg" alt="Beautiful shrimp taco" class="img-fluid rounded mx-auto d-block" />
+
+It was good.
+
+</description>
+      <pubDate>Sun, 07 Nov 2021 00:00:00 -0000</pubDate>
+        <category>ramble</category>
+    </item>
     <item>
       <title>Inline images with captions</title>
       <link>https://strategineer.com/blog/2021-11-06/index.html</link>
