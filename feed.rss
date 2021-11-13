@@ -1,13 +1,15 @@
 <?xml version="1.0"?>
 <rss version="2.0">
   <channel>
-    <lastBuildDate>Fri, 12 Nov 2021 02:16:47 -0000</lastBuildDate>
+    <lastBuildDate>Sat, 13 Nov 2021 05:27:29 -0000</lastBuildDate>
 
     <item>
       <title>ABCs #3</title>
       <link>https://strategineer.com/blog/2021-11-11/index.html</link>
       <guid>https://strategineer.com/blog/2021-11-11/index.html</guid>
-      <description>blockquote>
+      <description>img src="/img/chicken_pot_pie.jpg" alt="chicken pot pie" class="img-fluid rounded mx-auto d-block">
+
+blockquote>
   Alcohol, being crushed, dull every freedom
 
   Gobble hetero immaturity
