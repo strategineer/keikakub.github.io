@@ -1,8 +1,18 @@
 <?xml version="1.0"?>
 <rss version="2.0">
   <channel>
-    <lastBuildDate>Sat, 13 Nov 2021 05:27:29 -0000</lastBuildDate>
+    <lastBuildDate>Tue, 16 Nov 2021 03:59:07 -0000</lastBuildDate>
 
+    <item>
+      <title>Writing #1</title>
+      <link>https://strategineer.com/blog/2021-11-15/index.html</link>
+      <guid>https://strategineer.com/blog/2021-11-15/index.html</guid>
+      <description>My bars are low, almost completely drained. But here I am, back again for more. Doing exactly what I do everyday. Typing words on my computer.
+
+I'm a programmer by day, a writer by night. I'm a much better programmer than I am a writer. If you've ever&gt;&gt;</description>
+      <pubDate>Mon, 15 Nov 2021 00:00:00 -0000</pubDate>
+        <category>ramble</category>
+    </item>
     <item>
       <title>ABCs #3</title>
       <link>https://strategineer.com/blog/2021-11-11/index.html</link>
