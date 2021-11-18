@@ -1,8 +1,30 @@
 <?xml version="1.0"?>
 <rss version="2.0">
   <channel>
-    <lastBuildDate>Thu, 18 Nov 2021 23:51:53 -0000</lastBuildDate>
+    <lastBuildDate>Thu, 18 Nov 2021 23:52:44 -0000</lastBuildDate>
 
+    <item>
+      <title>Embeds, embeds, embeds</title>
+      <link>https://strategineer.com/blog/2021-11-18/index.html</link>
+      <guid>https://strategineer.com/blog/2021-11-18/index.html</guid>
+      <description>I wrote some code to help me embed audio files into my blog posts easily…
+
+Here's a song I produced about 5 years ago. It's a decent "bop"?
+
+div class="d-flex justify-content-center readable">
+    div class="col-12">
+      div class="d-flex align-items-center justify-content-center">
+        figure>
+          figcaption>figcaption>
+          audio controls="" src="./TheThird.wav">
+                Your browser does not support the
+             &gt;&gt;audio>figure>
+div>
+div>
+div></description>
+      <pubDate>Thu, 18 Nov 2021 00:00:00 -0000</pubDate>
+        <category>ramble</category>
+    </item>
     <item>
       <title>4 chill beats to work to</title>
       <link>https://strategineer.com/blog/2021-11-16/index.html</link>
