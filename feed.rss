@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <rss version="2.0">
   <channel>
-    <lastBuildDate>Fri, 19 Nov 2021 20:23:04 -0000</lastBuildDate>
+    <lastBuildDate>Fri, 19 Nov 2021 20:55:27 -0000</lastBuildDate>
 
     <item>
       <title>Embeds, embeds, embeds</title>
@@ -13,7 +13,7 @@ div class="d-flex justify-content-center readable">
     div class="d-flex align-items-center justify-content-center">
       figure>
         figcaption>figcaption>
-        audio controls="" src="./TheThird.wav">
+        audio controls="" src="/misc/music/TheThird.wav">
               Your browser does not support the
               code>audiocode> element.
         audio>
