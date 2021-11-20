@@ -1,8 +1,35 @@
 <?xml version="1.0"?>
 <rss version="2.0">
   <channel>
-    <lastBuildDate>Sat, 20 Nov 2021 22:13:02 -0000</lastBuildDate>
+    <lastBuildDate>Sat, 20 Nov 2021 22:58:30 -0000</lastBuildDate>
 
+    <item>
+      <title>Footnotes</title>
+      <link>https://strategineer.com/blog/2021-11-19/index.html</link>
+      <guid>https://strategineer.com/blog/2021-11-19/index.html</guid>
+      <description>This is a test sup id="fnref:1" role="doc-noteref">a href="#fn:1" class="footnote" rel="footnote">1a>sup>
+
+Now I can add footnotes to my essays to make myself seem 100x more intelligent (or obnoxious).
+div class="footnotes" role="doc-endnotes">
+  ol>
+    li id="fn:1" role="doc-endnote">
+      How does this look?
+
+      How about this.
+
+      ul>
+        li>Thisli>
+        li>Thatli>
+        li>Potatoli>
+      ul>
+      a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;a>
+    li>
+  ol>
+div>
+</description>
+      <pubDate>Fri, 19 Nov 2021 00:00:00 -0000</pubDate>
+        <category>ramble</category>
+    </item>
     <item>
       <title>Embeds, embeds, embeds</title>
       <link>https://strategineer.com/blog/2021-11-18/index.html</link>
