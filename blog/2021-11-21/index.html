@@ -12,7 +12,7 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Inline images with captions</title>
+    <title>montager: a script to generate Hunt Showdown montages</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
 
@@ -31,7 +31,7 @@
     <link href="/stylesheets/highlighting.css" rel="stylesheet" />
     
   </head>
-  <body id="documentTop" class="blog blog_2021-11-06 blog_2021-11-06_index">
+  <body id="documentTop" class="blog blog_2021-11-21 blog_2021-11-21_index">
     <div class="container">
       <div class="row justify-content-end">
         <div class="col-xl-8 main ">
@@ -66,7 +66,7 @@
   <div class="row">
     <h1>
     
-        Inline images with captions
+        montager: a script to generate Hunt Showdown montages
     
     </h1>
   </div>
@@ -75,7 +75,7 @@
     
     
 <div class="d-flex justify-content-center text-center page-reading-time">
-< 1 min read
+1 min read
 </div>
     
     
@@ -88,26 +88,43 @@
           This blog post is one of many (hopefully) daily posts. It will likely be less structured and more experimental (read: bad) than my other writing. It's a writing exercise more than anything. By writing something everyday, I'm looking to find my voice and figure out if I have anything of value to say.
         </div>
       </blockquote>
-      <p>I took me years of writing about video games (a visual medium) on here before I finally decided it was about time to make it easy for me to insert images with optional captions into my blog posts…</p>
+      <p>I want to write some python python code that'll take a folder containing Hunt Showdown video highlights generated through Nvidia Highlights (most of which are exactly 25s long) and automatically generate a "montage" video containing all the highlights combined.</p>
 
-<p>Well, here you go.</p>
+<div class="highlight"><pre class="highlight plaintext"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>montager /my_hunt_highlights/
+</pre></td></tr></tbody></table></code></pre></div>
+<p>I would like the code to analyze each video, and using one of several different algorithms, and detect which parts of the video are interesting and clip those parts out before combining all the clips together.</p>
 
-<p>This is some text before the image.</p>
+<div class="highlight"><pre class="highlight plaintext"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>montager /my_hunt_highlights/ --strategy time-based
+</pre></td></tr></tbody></table></code></pre></div>
+<p>I would start by implementing a simple time-based strategy that assumes that a kill happens at around 22s (TBD) into each video and clips the video X seconds before and Y seconds after that.</p>
 
-<p><img src="/cocktails/dark_and_stormy/thumbnail.jpg" alt="an awful picture dark and stormy cocktail" class="img-fluid rounded mx-auto d-block" />
-<em>testing the caption</em></p>
+<div class="highlight"><pre class="highlight plaintext"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>montager /my_hunt_highlights/ --strategy time-based --pre-event-length-in-ms 2000 --post-event-duration-in-ms 500
+</pre></td></tr></tbody></table></code></pre></div>
+<p>Once that works, we'll test it out on all of the highlights I've got and share the results.</p>
 
-<p>This is some text after the image.</p>
+<p>If the generated montage is "good enough", I might leave it at that.</p>
 
-<p>It took me about 30min to get this to work.</p>
+<p>Further work:</p>
 
-<p>I regret not doing this much earlier.</p>
+<ul>
+  <li>Implement more intelligent algorithms for detecting the importants parts of each video
+    <ul>
+      <li>Detecting when death sounds can be heard (the sound that hunters make when they die)</li>
+      <li>Detecting the "slicing" sound you hear when you land a headshot.</li>
+      <li>Detecting when the player shoots their weapon</li>
+      <li>Detecting when people on voice chat are speaking</li>
+    </ul>
+  </li>
+</ul>
 
-<p>But you know what they say?</p>
+<p>A cool extension to this, would be to allow for the creation of a "musical" montage in which each shot fired by the player lands on a beat of the given song.</p>
 
-<blockquote>
-  <p>"The best time to plant a tree was 20 years ago. The second best time is now." - Unknown</p>
-</blockquote>
+<p>…</p>
+
+<p>TBD</p>
 
       <blockquote class="blog-call-to-action">
         
@@ -123,14 +140,9 @@
     <nav class="footer d-none d-xl-block">
   <div class="row justify-content-center">
     <div class="col-12">
-      <div class="d-flex justify-content-center footer-paginator-next">
-  <div class="next-article-link col-12 mx-auto">
-      <a href="/blog/2021-11-07/">&#x27A1 I made spicy shrimp tacos today</a>
-  </div>
-</div>
-<div class="d-flex justify-content-center footer-paginator-previous">
+      <div class="d-flex justify-content-center footer-paginator-previous">
   <div class="previous-article-link col-12 mx-auto">
-      <a href="/blog/2021-11-04/">&#x2B05 Cocktails #1</a>
+      <a href="/blog/2021-11-19/">&#x2B05 Footnotes</a>
   </div>
 </div>
 
@@ -164,10 +176,6 @@
 </div>
 <div class="footer-shortlist-parent">
   <ul class="footer-shortlist-list">
-      <a href="/blog/2021-11-21/">
-
-        <li class="footer-shortlist-item"> montager: a script to generate Hunt Showdown montages</li>
-      </a>
       <a href="/blog/2021-11-19/">
 
         <li class="footer-shortlist-item"> Footnotes</li>
@@ -203,6 +211,10 @@
       <a href="/blog/2021-11-07/">
 
         <li class="footer-shortlist-item"> I made spicy shrimp tacos today</li>
+      </a>
+      <a href="/blog/2021-11-06/">
+
+        <li class="footer-shortlist-item"> Inline images with captions</li>
       </a>
       <li class="footer-shortlist-archive"><a href="/">... with 32 more blog posts in the archive</a>.</li>
   </ul>
@@ -219,14 +231,9 @@
             <nav class="footer">
   <div class="d-flex justify-content-center">
     <div class="col-12">
-      <div class="d-flex justify-content-center footer-paginator-next">
-  <div class="next-article-link col-12 mx-auto">
-      <a href="/blog/2021-11-07/">&#x27A1 I made spicy shrimp tacos today</a>
-  </div>
-</div>
-<div class="d-flex justify-content-center footer-paginator-previous">
+      <div class="d-flex justify-content-center footer-paginator-previous">
   <div class="previous-article-link col-12 mx-auto">
-      <a href="/blog/2021-11-04/">&#x2B05 Cocktails #1</a>
+      <a href="/blog/2021-11-19/">&#x2B05 Footnotes</a>
   </div>
 </div>
 
@@ -261,10 +268,6 @@
 </div>
 <div class="footer-shortlist-parent">
   <ul class="footer-shortlist-list">
-      <a href="/blog/2021-11-21/">
-
-        <li class="footer-shortlist-item"> montager: a script to generate Hunt Showdown montages</li>
-      </a>
       <a href="/blog/2021-11-19/">
 
         <li class="footer-shortlist-item"> Footnotes</li>
@@ -300,6 +303,10 @@
       <a href="/blog/2021-11-07/">
 
         <li class="footer-shortlist-item"> I made spicy shrimp tacos today</li>
+      </a>
+      <a href="/blog/2021-11-06/">
+
+        <li class="footer-shortlist-item"> Inline images with captions</li>
       </a>
       <li class="footer-shortlist-archive"><a href="/">... with 32 more blog posts in the archive</a>.</li>
   </ul>

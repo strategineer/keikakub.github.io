@@ -1,8 +1,16 @@
 <?xml version="1.0"?>
 <rss version="2.0">
   <channel>
-    <lastBuildDate>Sat, 20 Nov 2021 22:58:30 -0000</lastBuildDate>
+    <lastBuildDate>Sun, 21 Nov 2021 16:22:07 -0000</lastBuildDate>
 
+    <item>
+      <title>montager: a script to generate Hunt Showdown montages</title>
+      <link>https://strategineer.com/blog/2021-11-21/index.html</link>
+      <guid>https://strategineer.com/blog/2021-11-21/index.html</guid>
+      <description>I want to write some python python code that'll take a folder containing Hunt Showdown video highlights generated through Nvidia Highlights (most of which are exactly 25s long) and automatically generate a "montage" video containing all the highlights&gt;&gt;</description>
+      <pubDate>Sun, 21 Nov 2021 00:00:00 -0000</pubDate>
+        <category>ramble</category>
+    </item>
     <item>
       <title>Footnotes</title>
       <link>https://strategineer.com/blog/2021-11-19/index.html</link>
