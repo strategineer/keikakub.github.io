@@ -1,8 +1,17 @@
 <?xml version="1.0"?>
 <rss version="2.0">
   <channel>
-    <lastBuildDate>Mon, 22 Nov 2021 12:57:30 -0000</lastBuildDate>
+    <lastBuildDate>Tue, 23 Nov 2021 01:59:43 -0000</lastBuildDate>
 
+    <item>
+      <title>Pilk</title>
+      <link>https://strategineer.com/blog/2021-11-22/index.html</link>
+      <guid>https://strategineer.com/blog/2021-11-22/index.html</guid>
+      <description>a href="/pilk">Pilka>
+</description>
+      <pubDate>Mon, 22 Nov 2021 00:00:00 -0000</pubDate>
+        <category>ramble</category>
+    </item>
     <item>
       <title>montager: a script to generate Hunt Showdown montages</title>
       <link>https://strategineer.com/blog/2021-11-21/index.html</link>
