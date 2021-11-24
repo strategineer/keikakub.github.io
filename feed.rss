@@ -1,8 +1,19 @@
 <?xml version="1.0"?>
 <rss version="2.0">
   <channel>
-    <lastBuildDate>Wed, 24 Nov 2021 00:46:17 -0000</lastBuildDate>
+    <lastBuildDate>Wed, 24 Nov 2021 00:47:34 -0000</lastBuildDate>
 
+    <item>
+      <title>Game of the Year List Draft</title>
+      <link>https://strategineer.com/blog/2021-11-23/index.html</link>
+      <guid>https://strategineer.com/blog/2021-11-23/index.html</guid>
+      <description>dl>
+  dt>Supernatural (Oculus Quest 2)dt>
+  dd>Fantastic dance + boxing workouts in VR delivered straight to my headset daily with amazing music and movement. Having one of the many fantastic trainers encouraging you during your workout seems cheesy but it actually&gt;&gt;dd>
+dl></description>
+      <pubDate>Tue, 23 Nov 2021 00:00:00 -0000</pubDate>
+        <category>ramble</category>
+    </item>
     <item>
       <title>Pilk</title>
       <link>https://strategineer.com/blog/2021-11-22/index.html</link>
