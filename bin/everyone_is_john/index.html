@@ -36,10 +36,15 @@
       <div class="row justify-content-end">
         <div class="col-xl-12 main ">
             <div class="readable">
-            <p>The GM reveals John's tagline to players, setting the scene and giving a bit of context for the adventure John will be going on.</p>
+            <h1 id="how-to-play">How to Play</h1>
 
-<p>The PCs talk through and create their Voices' skills (GM must approve all skills), adding them to the spreadsheet.</p>
+<p>The GM reveals John's tagline to players, setting the scene and giving a bit of context for the adventure John will be going on.</p>
 
+<p>The PCs talk through and create their Voices' skills (GM must approve all skills) using the following command:</p>
+
+<div class="highlight"><pre class="highlight plaintext"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>/set skills skill1: Drinking excessive amounts of Pilk skill2: Making Pilk
+</pre></td></tr></tbody></table></code></pre></div>
 <ul>
   <li>Choose 2 skills, gain 10 Willpower</li>
   <li>Choose 3 skills, gain 7 Willpower</li>
@@ -47,14 +52,9 @@
 </ul>
 
 <div class="highlight"><pre class="highlight plaintext"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td><td class="rouge-code"><pre>/set skills skill1: Drinking excessive amounts of Pilk skill2: Making Pilk
-</pre></td></tr></tbody></table></code></pre></div>
-<p>or</p>
-
-<div class="highlight"><pre class="highlight plaintext"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 </pre></td><td class="rouge-code"><pre>/set skills skill1: Drinking excessive amounts of Pilk skill2: Making Pilk skill3: Quick Reflexes
 </pre></td></tr></tbody></table></code></pre></div>
-<p>The PCs run the command below to set their Level 1, 2 and 3 Obsessions (Each PC must secretly send their obsessions to the GM for approval beforehand , some private back-and-forth may occur to make them just right).</p>
+<p>Each PC must secretly send their obsessions to the GM for approval beforehand, some private back-and-forth may occur to make them just right).</p>
 
 <ul>
   <li>Obsessions are the insane (and sometimes nonsensical) drives of each Voice. Completing them rewards points.</li>
@@ -67,12 +67,14 @@
 </pre></td><td class="rouge-code"><pre>/whisper secret: can I be obsessed about Pilk?
 // GM responds verbally: "Yes"
 </pre></td></tr></tbody></table></code></pre></div>
+<p>When a PC's three obsessions have been approved by the DM, the PC will use the command below to set their Level 1, 2 and 3 Obsessions.</p>
+
 <div class="highlight"><pre class="highlight plaintext"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 </pre></td><td class="rouge-code"><pre>/set obsessions obsession1: Drink Pilk obsession2: Get somebody else to drink Pilk obsession3: Drink Pilk made from fresh milk you've milked from a cow yourself
 </pre></td></tr></tbody></table></code></pre></div>
 <p>Play begins.</p>
 
-<h1 id="how-to-play">How to Play</h1>
+<h1 id="faq">FAQ</h1>
 
 <h2 id="telling-secrets">Telling Secrets</h2>
 <p>Use the following command to whisper secrets to the GM.</p>
@@ -83,7 +85,7 @@
 <h2 id="willpower">Willpower</h2>
 <ul>
   <li>Each Voice starts with 10 (or 7 if they've chosen 3 skills) willpower</li>
-  <li>Voices spend willpower in 2 ways:
+  <li>PCs spend their Voice's willpower in 2 ways:
     <ul>
       <li>In <a href="#tests-for-control">Tests for Control</a>, to assert their dominance and take control of John.</li>
       <li>To improve the chances of their <a href="#skill-checks">Skill Checks</a> succeeding</li>
@@ -102,13 +104,14 @@
       <li>Succeed on a 6 for skills you don't have</li>
     </ul>
   </li>
-  <li>Before the roll, you can spend Willpower to add a +1 to the result</li>
 </ul>
 
 <div class="highlight"><pre class="highlight plaintext"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 </pre></td><td class="rouge-code"><pre>/roll
 </pre></td></tr></tbody></table></code></pre></div>
-<p>or</p>
+<ul>
+  <li>Before the roll, you can spend Willpower to add a +1 to the result</li>
+</ul>
 
 <div class="highlight"><pre class="highlight plaintext"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 </pre></td><td class="rouge-code"><pre>/roll willpower: 2
@@ -124,7 +127,7 @@
   <li>John Gets Distracted and Falls Asleep (pg. 19).</li>
 </ul>
 
-<p>Each Voice runs the following command with their bid in Willpower points</p>
+<p>If a PC would like to bid more than 0 willpower in a test for control, they do so with the following command:</p>
 
 <div class="highlight"><pre class="highlight plaintext"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 </pre></td><td class="rouge-code"><pre>/set bid willpower: 1
@@ -134,11 +137,11 @@
 <p>The Voice who becomes active loses the amount of Willpower they bid. All others keep their bids.</p>
 
 <h2 id="winning">Winning</h2>
-<p>You win by achieving as many of your obsessions as possible. Achieving a level 1 obsession rewards you 1 point, a level 2 obsession 2 points and a level 3 obsession 3 points.</p>
+<p>You win by having the most points when no more voices have any willpower and a test for control occurs. You gain points by achieving as many of your obsessions as possible. Achieving a level 1 obsession rewards you 1 point, a level 2 obsession 2 points and a level 3 obsession 3 points.</p>
 
-<p>An obsession can be completed at any time, whether or not your voice is currently in control.</p>
+<p>An obsession can be completed at any time, whether or not your Voice is currently in control.</p>
 
-<p>Whenever any voice achieves an obsession, a test for control occurs. The GM should usually be aware of when this happens and start a test for control at that point but feel free to secretly nudge him if he forgets (there's a lot of obsessions for him to keep track of).</p>
+<p>Whenever any Voice achieves an obsession, a test for control occurs. The GM should usually be aware of when this happens and start a test for control on their own but feel free to secretly nudge him if he forgets (there's a lot of obsessions for him to keep track of).</p>
 
             </div>
         </div>
