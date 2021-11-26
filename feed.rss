@@ -1,8 +1,19 @@
 <?xml version="1.0"?>
 <rss version="2.0">
   <channel>
-    <lastBuildDate>Thu, 25 Nov 2021 03:34:29 -0000</lastBuildDate>
+    <lastBuildDate>Fri, 26 Nov 2021 00:13:57 -0000</lastBuildDate>
 
+    <item>
+      <title>Building a Discord bot to play Everyone is John</title>
+      <link>https://strategineer.com/blog/2021-11-24/index.html</link>
+      <guid>https://strategineer.com/blog/2021-11-24/index.html</guid>
+      <description>I spent all my free time today a href="https://github.com/strategineer/discord-bot">working on a discord bota> to help me GM a href="/bin/everyone_is_john">a tabletop roleplaying session of "Everyone is John"a> over Discord.
+
+I hope people have fun!
+</description>
+      <pubDate>Wed, 24 Nov 2021 00:00:00 -0000</pubDate>
+        <category>ramble</category>
+    </item>
     <item>
       <title>Game of the Year List Draft</title>
       <link>https://strategineer.com/blog/2021-11-23/index.html</link>
