@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <rss version="2.0">
   <channel>
-    <lastBuildDate>Tue, 21 Dec 2021 02:10:55 -0000</lastBuildDate>
+    <lastBuildDate>Wed, 22 Dec 2021 04:53:07 -0000</lastBuildDate>
 
     <item>
       <title>Books I read in 2021</title>
@@ -190,7 +190,7 @@ I'm a programmer by day, a writer by night. I'm a much better programmer than I 
       <title>ABCs #3</title>
       <link>https://strategineer.com/blog/2021-11-11/index.html</link>
       <guid>https://strategineer.com/blog/2021-11-11/index.html</guid>
-      <description>img src="/img/chicken_pot_pie.jpg" alt="chicken pot pie" class="img-fluid rounded mx-auto d-block">
+      <description>img src="/img/chicken_pot_pie.jpg" alt="chicken pot pie" class="img-fluid rounded mx-auto d-block img-fluid-max-height">
 
 blockquote>
   Alcohol, being crushed, dull every freedom
@@ -258,7 +258,7 @@ Sink too, under veil waves, xeric you zombie
       <guid>https://strategineer.com/blog/2021-11-07/index.html</guid>
       <description>I made this today.
 
-img src="/food/shrimp_tacos/thumbnail.jpg" alt="Beautiful shrimp taco" class="img-fluid rounded mx-auto d-block" />
+img src="/food/shrimp_tacos/thumbnail.jpg" alt="Beautiful shrimp taco" class="img-fluid rounded mx-auto d-block img-fluid-max-height" />
 
 It was good.
 
