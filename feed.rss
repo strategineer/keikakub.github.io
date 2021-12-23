@@ -1,8 +1,18 @@
 <?xml version="1.0"?>
 <rss version="2.0">
   <channel>
-    <lastBuildDate>Wed, 22 Dec 2021 04:53:07 -0000</lastBuildDate>
+    <lastBuildDate>Thu, 23 Dec 2021 02:39:02 -0000</lastBuildDate>
 
+    <item>
+      <title>Movies I watched in 2021</title>
+      <link>https://strategineer.com/blog/2021-12-22/index.html</link>
+      <guid>https://strategineer.com/blog/2021-12-22/index.html</guid>
+      <description>I watched way more movies this year than I thought I did. Although, most of the movies I watched this year were very forgettable soooo that might explain why.
+
+Here's a list of the movies I watched (and remembered) in 2021 in categories that describe&gt;&gt;</description>
+      <pubDate>Wed, 22 Dec 2021 00:00:00 -0000</pubDate>
+        <category>life</category>
+    </item>
     <item>
       <title>Books I read in 2021</title>
       <link>https://strategineer.com/blog/2021-12-19/index.html</link>
