@@ -1,15 +1,22 @@
 <?xml version="1.0"?>
 <rss version="2.0">
   <channel>
-    <lastBuildDate>Thu, 23 Dec 2021 02:39:02 -0000</lastBuildDate>
+    <lastBuildDate>Thu, 23 Dec 2021 02:43:09 -0000</lastBuildDate>
 
     <item>
       <title>Movies I watched in 2021</title>
       <link>https://strategineer.com/blog/2021-12-22/index.html</link>
       <guid>https://strategineer.com/blog/2021-12-22/index.html</guid>
-      <description>I watched way more movies this year than I thought I did. Although, most of the movies I watched this year were very forgettable soooo that might explain why.
+      <description>Here's a list of the movies I loved (and hated) in 2021 in categories that describe how I felt about them (within each category, the ordering is irrelevant).
 
-Here's a list of the movies I watched (and remembered) in 2021 in categories that describe&gt;&gt;</description>
+h2 id="movies-i-loved">Movies I lovedh2>
+
+img src="/blog/2021-12-22/johnny_mnemonic.jpg" alt="" class="img-fluid rounded mx-auto d-block img-fluid-max-height">
+
+dl>
+  dt>Johnny Mnemonicdt>
+  dd>Keanu Reeves in a business suit going insane in a dystopian&gt;&gt;dd>
+dl></description>
       <pubDate>Wed, 22 Dec 2021 00:00:00 -0000</pubDate>
         <category>life</category>
     </item>
