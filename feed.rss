@@ -1,8 +1,18 @@
 <?xml version="1.0"?>
 <rss version="2.0">
   <channel>
-    <lastBuildDate>Sun, 26 Dec 2021 15:19:05 -0000</lastBuildDate>
+    <lastBuildDate>Sun, 26 Dec 2021 15:24:13 -0000</lastBuildDate>
 
+    <item>
+      <title>Games I played in 2021</title>
+      <link>https://strategineer.com/blog/2021-12-26/index.html</link>
+      <guid>https://strategineer.com/blog/2021-12-26/index.html</guid>
+      <description>Despite getting sucked into Hunt Showdown in a big way this year, I spent less time playing games than I usually do.
+
+Still, I enjoyed a href="/blog/2020-11-07/">diving into other worlds with the Oculus Quest 2a>, a href="/blog/2021-03-21/">quick resuming games on my Xbox Series Xa> (purchased in desperation&gt;&gt;</description>
+      <pubDate>Sun, 26 Dec 2021 00:00:00 -0000</pubDate>
+        <category>gaming</category>
+    </item>
     <item>
       <title>Movies I watched in 2021</title>
       <link>https://strategineer.com/blog/2021-12-22/index.html</link>
