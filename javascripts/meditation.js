@@ -1,40 +1,29 @@
 var MEDITATIONS = [
     `1.1
-MY GRANDFATHER VERUS
-Character and self-control.`,
+MY GRANDFATHER VERUS Character and self-control.`,
     `1.2
-MY FATHER (FROM MY OWN MEMORIES AND HIS
-REPUTATIONf)
+MY FATHER (FROM MY OWN MEMORIES AND HIS REPUTATIONf)
 Integrity and manliness.`,
     `1.3
-MY MOTHER
-Her reverence for the divine, her generosity, her inability not only to do wrong but even to conceive of doing it. And the simple way she lived—not in the least like the rich.`,
+MY MOTHER Her reverence for the divine, her generosity, her inability not only to do wrong but even to conceive of doing it. And the simple way she lived—not in the least like the rich.`,
     `1.4
-MY GREAT-GRANDFATHER
-To avoid the public schools, to hire good private teachers, and to accept the resulting costs as money well-spent.`,
+MY GREAT-GRANDFATHER To avoid the public schools, to hire good private teachers, and to accept the resulting costs as money well-spent.`,
     `1.5
-MY FIRST TEACHER
-Not to support this side or that in chariot-racing, this fighter or that in the games. To put up with discomfort and not make demands. To do my own work, mind my own business, and have no time for slanderers.`,
+MY FIRST TEACHER Not to support this side or that in chariot-racing, this fighter or that in the games. To put up with discomfort and not make demands. To do my own work, mind my own business, and have no time for slanderers.`,
     `1.6
-DIOGNETUS
-Not to waste time on nonsense. Not to be taken in by conjurors and hoodoo artists with their talk about incantations and exorcism and all the rest of it. Not to be obsessed with quail-fighting or other crazes like that. To hear unwelcome truths. To practice philosophy, and to study with
-Baccheius, and then with Tandasis and Marcianus. To write dialogues as a student. To choose the Greek lifestyle—the camp-bed and the cloak.`,
+DIOGNETUS Not to waste time on nonsense. Not to be taken in by conjurors and hoodoo artists with their talk about incantations and exorcism and all the rest of it. Not to be obsessed with quail-fighting or other crazes like that. To hear unwelcome truths. To practice philosophy, and to study with Baccheius, and then with Tandasis and Marcianus. To write dialogues as a student. To choose the Greek lifestyle—the camp-bed and the cloak.`,
     `1.7
-RUSTICUS
-The recognition that I needed to train and discipline my character.
-Not to be sidetracked by my interest in rhetoric. Not to write treatises on abstract questions, or deliver moralizing little sermons, or compose imaginary descriptions of The
-Simple Life or The Man Who Lives Only for Others. To steer clear of oratory, poetry and belles lettres.
+RUSTICUS The recognition that I needed to train and discipline my character.
+Not to be sidetracked by my interest in rhetoric. Not to write treatises on abstract questions, or deliver moralizing little sermons, or compose imaginary descriptions of The Simple Life or The Man Who Lives Only for Others. To steer clear of oratory, poetry and belles lettres.
 Not to dress up just to stroll around the house, or things like that. To write straightforward letters (like the one he sent my mother from Sinuessa). And to behave in a conciliatory way when people who have angered or annoyed us want to make up.
 To read attentively—not to be satisfied with “just getting the gist of it.” And not to fall for every smooth talker.
 And for introducing me to Epictetus’s lectures—and loaning me his own copy.`,
     `1.8
-APOLLONIUS
-Independence and unvarying reliability, and to pay attention to nothing, no matter how fleetingly, except the logos. And to be the same in all circumstances—intense pain, the loss of a child, chronic illness. And to see clearly, from his example, that a man can show both strength and flexibility.
+APOLLONIUS Independence and unvarying reliability, and to pay attention to nothing, no matter how fleetingly, except the logos. And to be the same in all circumstances—intense pain, the loss of a child, chronic illness. And to see clearly, from his example, that a man can show both strength and flexibility.
 His patience in teaching. And to have seen someone who clearly viewed his expertise and ability as a teacher as the humblest of virtues.
 And to have learned how to accept favors from friends without losing your self-respect or appearing ungrateful.`,
     `1.9
-SEXTUS
-Kindness.
+SEXTUS Kindness.
 An example of fatherly authority in the home. What it means to live as nature requires.
 Gravity without airs.
 To show intuitive sympathy for friends, tolerance to amateurs and sloppy thinkers. His ability to get along with everyone: sharing his company was the highest of compliments, and the opportunity an honor for those around him.
@@ -42,30 +31,22 @@ To investigate and analyze, with understanding and logic, the principles we ough
 Not to display anger or other emotions. To be free of passion and yet full of love.
 To praise without bombast; to display expertise without pretension.`,
     `1.10
-THE LITERARY CRITIC ALEXANDER
-Not to be constantly correcting people, and in particular not to jump on them whenever they make an error of usage or a grammatical mistake or mispronounce something, but just answer their question or add another example, or debate the issue itself (not their phrasing), or make some other contribution to the discussion—and insert the right expression, unobtrusively.`,
+THE LITERARY CRITIC ALEXANDER Not to be constantly correcting people, and in particular not to jump on them whenever they make an error of usage or a grammatical mistake or mispronounce something, but just answer their question or add another example, or debate the issue itself (not their phrasing), or make some other contribution to the discussion—and insert the right expression, unobtrusively.`,
     `1.11
-FRONTO
-To recognize the malice, cunning, and hypocrisy that power produces, and the peculiar ruthlessness often shown by people from “good families.”`,
+FRONTO To recognize the malice, cunning, and hypocrisy that power produces, and the peculiar ruthlessness often shown by people from “good families.”`,
     `1.12
-ALEXANDER THE PLATONIST
-Not to be constantly telling people (or writing them) that I’m too busy, unless I really am. Similarly, not to be always ducking my responsibilities to the people around me because of “pressing business.”`,
+ALEXANDER THE PLATONIST Not to be constantly telling people (or writing them) that I’m too busy, unless I really am. Similarly, not to be always ducking my responsibilities to the people around me because of “pressing business.”`,
     `1.13
-CATULUS
-Not to shrug off a friend’s resentment—even unjustified resentment—but try to put things right.
+CATULUS Not to shrug off a friend’s resentment—even unjustified resentment—but try to put things right.
 To show your teachers ungrudging respect (the Domitius and Athenodotus story), and your children unfeigned love.`,
     `1.14
-[MY BROTHER] SEVERUS
-To love my family, truth and justice. It was through him that I
-encountered Thrasea, Helvidius, Cato, Dion and Brutus, and conceived of a society of equal laws, governed by equality of status and of speech, and of rulers who respect the liberty of their subjects above all else.
+[MY BROTHER] SEVERUS To love my family, truth and justice. It was through him that I encountered Thrasea, Helvidius, Cato, Dion and Brutus, and conceived of a society of equal laws, governed by equality of status and of speech, and of rulers who respect the liberty of their subjects above all else.
 And from him as well, to be steady and consistent in valuing philosophy.
 
 And to help others and be eager to share, not to be a pessimist, and never to doubt your friends’ affection for you.
 And that when people incurred his disapproval, they always knew it. And that his friends never had to speculate about his attitude to anything: it was always clear.`,
     `1.15
-MAXIMUSMaximus
-
-Self-control and resistance to distractions.
+MAXIMUSMaximus Self-control and resistance to distractions.
 Optimism in adversity—especially illness.
 A personality in balance: dignity and grace together.
 Doing your job without whining.
@@ -78,8 +59,7 @@ The sense he gave of staying on the path rather than being kept on it.
 That no one could ever have felt patronized by him—or in a position to patronize him.
 A sense of humor.`,
     `1.16
-MY ADOPTED FATHER
-Compassion. Unwavering adherence to decisions, once he’d reached them. Indifference to superficial honors. Hard work.
+MY ADOPTED FATHER Compassion. Unwavering adherence to decisions, once he’d reached them. Indifference to superficial honors. Hard work.
 Persistence.
 Listening to anyone who could contribute to the public good.
 His dogged determination to treat people as they deserved.
@@ -102,8 +82,7 @@ His respect for people who practiced philosophy—at least, those who were since
 His ability to feel at ease with people—and put them at their ease, without being pushy.
 His willingness to take adequate care of himself. Not a hypochondriac or obsessed with his appearance, but not ignoring things either. With the result that he hardly ever needed medical attention, or drugs or any sort of salve or ointment.
 This, in particular: his willingness to yield the floor to experts—in oratory, law, psychology, whatever—and to support them energetically, so that each of them could fulfill his potential.
-That he respected tradition without needing to constantly congratulate himself for Safeguarding Our Traditional
-Values.
+That he respected tradition without needing to constantly congratulate himself for Safeguarding Our Traditional Values.
 Not prone to go off on tangents, or pulled in all directions, but sticking with the same old places and the same old things.
 The way he could have one of his migraines and then go right back to what he was doing—fresh and at the top of his game.
 That he had so few secrets—only state secrets, in fact, and not all that many of those.
@@ -116,8 +95,7 @@ You could have said of him (as they say of Socrates) that he knew how to enjoy a
 Strength, perseverance, self-control in both areas: the mark of a soul in readiness—indomitable.
 (Maximus’s illness.)`,
     `1.17
-THE GODS
-That I had good grandparents, a good mother and father, a good sister, good teachers, good servants, relatives, friends
+THE GODS That I had good grandparents, a good mother and father, a good sister, good teachers, good servants, relatives, friends
 —almost without exception. And that I never lost control of myself with any of them, although I had it in me to do that, and I might have, easily. But thanks to the gods, I was never put in that position, and so escaped the test.
 That I wasn’t raised by my grandfather’s girlfriend for longer than I was. That I didn’t lose my virginity too early, and didn’t enter adulthood until it was time—put it off, even.
 That I had someone—as a ruler and as a father—who could keep me from being arrogant and make me realize that even at court you can live without a troop of bodyguards, and gorgeous clothes, lamps, sculpture—the whole charade. That you can behave almost like an ordinary person without seeming slovenly or careless as a ruler or when carrying out official obligations.
@@ -128,18 +106,14 @@ That I wasn’t more talented in rhetoric or poetry, or other areas. If I’d fe
 That I conferred on the people who brought me up the honors they seemed to want early on, instead of putting them off (since they were still young) with the hope that I’d do it later.
 That I knew Apollonius, and Rusticus, and Maximus.
 That I was shown clearly and often what it would be like to live as nature requires. The gods did all they could—
-through their gifts, their help, their inspiration—to ensure that
-I could live as nature demands. And if I’ve failed, it’s no one’s fault but mine. Because I didn’t pay attention to what they told me—to what they taught me, practically, step by step.
-That my body has held out, especially considering the life
-I’ve led.
+through their gifts, their help, their inspiration—to ensure that I could live as nature demands. And if I’ve failed, it’s no one’s fault but mine. Because I didn’t pay attention to what they told me—to what they taught me, practically, step by step.
+That my body has held out, especially considering the life I’ve led.
 
 That I never laid a finger on Benedicta or on Theodotus.
-And that even later, when I was overcome by passion, I
-recovered from it.
+And that even later, when I was overcome by passion, I recovered from it.
 That even though I was often upset with Rusticus I never did anything I would have regretted later.
 That even though she died young, at least my mother spent her last years with me.
-That whenever I felt like helping someone who was short of money, or otherwise in need, I never had to be told that I
-had no resources to do it with. And that I was never put in that position myself—of having to take something from someone else.
+That whenever I felt like helping someone who was short of money, or otherwise in need, I never had to be told that I had no resources to do it with. And that I was never put in that position myself—of having to take something from someone else.
 That I have the wife I do: obedient, loving, humble.
 That my children had competent teachers.
 Remedies granted through dreams—when I was coughing blood, for instance, and having fits of dizziness. And the one at Caieta.
@@ -190,8 +164,7 @@ Remember two things:
 i. that everything has always been the same, and keeps recurring, and it makes no difference whether you see the same things recur in a hundred years or two hundred, or in an infinite period;
 ii. that the longest-lived and those who will die soonest lose the same thing. The present is all that they can give up, since that is all you have, and what you do not have, you cannot lose.`,
     `2.15
-“Everything is just an impression.” —Monimus the
-Cynic. And the response is obvious enough. But the point is a useful one, if you take it for what it’s worth.`,
+“Everything is just an impression.” —Monimus the Cynic. And the response is obvious enough. But the point is a useful one, if you take it for what it’s worth.`,
     `2.16
 The human soul degrades itself:
 
@@ -226,10 +199,8 @@ Stalks of wheat bending under their own weight. The furrowed brow of the lion. F
 And other things. If you look at them in isolation there’s nothing beautiful about them, and yet by supplementing nature they enrich it and draw us in. And anyone with a feeling for nature—a deeper sensitivity—will find it all gives pleasure.
 Even what seems inadvertent. He’ll find the jaws of live animals as beautiful as painted ones or sculptures. He’ll look calmly at the distinct beauty of old age in men, women, and at the loveliness of children. And other things like that will call out to him constantly—things unnoticed by others. Things seen only by those at home with Nature and its works.`,
     `3.3
-Hippocrates cured many illnesses—and then fell ill and died. The Chaldaeans predicted the deaths of many others; in due course their own hour arrived. Alexander, Pompey,
-Caesar—who utterly destroyed so many cities, cut down so many thousand foot and horse in battle—they too departed this life. Heraclitus often told us the world would end in fire.
-But it was moisture that carried him off; he died smeared with cowshit. Democritus was killed by ordinary vermin,
-Socrates by the human kind.
+Hippocrates cured many illnesses—and then fell ill and died. The Chaldaeans predicted the deaths of many others; in due course their own hour arrived. Alexander, Pompey, Caesar—who utterly destroyed so many cities, cut down so many thousand foot and horse in battle—they too departed this life. Heraclitus often told us the world would end in fire.
+But it was moisture that carried him off; he died smeared with cowshit. Democritus was killed by ordinary vermin, Socrates by the human kind.
 And?
 You boarded, you set sail, you’ve made the passage. Time to disembark. If it’s for another life, well, there’s nowhere without gods on that side either. If to nothingness, then you no longer have to put up with pain and pleasure, or go on dancing attendance on this battered crate, your body—so much inferior to that which serves it.
 One is mind and spirit, the other earth and garbage.`,
@@ -296,8 +267,7 @@ No one can prevent that.`,
     `3.13
 Doctors keep their scalpels and other instruments handy, for emergencies. Keep your philosophy ready too—ready to understand heaven and earth. In everything you do, even the smallest thing, remember the chain that links them. Nothing earthly succeeds by ignoring heaven, nothing heavenly by ignoring the earth.`,
     `3.14
-Stop drifting. You’re not going to re-read your Brief
-Comments, your Deeds of the Ancient Greeks and Romans, the commonplace books you saved for your old age. Sprint for the finish. Write off your hopes, and if your well-being matters to you, be your own savior while you can.`,
+Stop drifting. You’re not going to re-read your Brief Comments, your Deeds of the Ancient Greeks and Romans, the commonplace books you saved for your old age. Sprint for the finish. Write off your hopes, and if your well-being matters to you, be your own savior while you can.`,
     `3.15
 They don’t realize how much is included in stealing, sowing, buying, resting, seeing to business (not with the eyes, but another kind of sight).`,
     `3.16
@@ -308,8 +278,7 @@ Reasoning: the mind.
 To experience sensations: even grazing beasts do that. To let your desires control you: even wild animals do that—and rutting humans, and tyrants (from Phalaris to Nero . . .).
 To make your mind your guide to what seems best: even people who deny the gods do that. Even people who betray their country. Even people who do <. . .> behind closed doors.
 If all the rest is common coin, then what is unique to the good man?
-To welcome with affection what is sent by fate. Not to stain or disturb the spirit within him with a mess of false beliefs. Instead, to preserve it faithfully, by calmly obeying
-God—saying nothing untrue, doing nothing unjust. And if the others don’t acknowledge it—this life lived with simplicity, humility, cheerfulness—he doesn’t resent them for it, and isn’t deterred from following the road where it leads: to the end of life. An end to be approached in purity, in serenity, in acceptance, in peaceful unity with what must be.`,
+To welcome with affection what is sent by fate. Not to stain or disturb the spirit within him with a mess of false beliefs. Instead, to preserve it faithfully, by calmly obeying God—saying nothing untrue, doing nothing unjust. And if the others don’t acknowledge it—this life lived with simplicity, humility, cheerfulness—he doesn’t resent them for it, and isn’t deterred from following the road where it leads: to the end of life. An end to be approached in purity, in serenity, in acceptance, in peaceful unity with what must be.`,
     `4.1
 Our inward power, when it obeys nature, reacts to events by accommodating itself to what it faces—to what is possible. It needs no specific material. It pursues its own aims as circumstances allow; it turns obstacles into fuel. As a fire overwhelms what would have quenched a lamp.
 What’s thrown on top of the conflagration is absorbed, consumed by it—and makes it burn still higher.`,
@@ -446,10 +415,8 @@ Poor: (adj.) requiring others; not having the necessities of life in one’s own
 Rebel: (n.) one who is rebellious, one who withdraws from the logos of Nature because he resents its workings. (It produced you; now it produces this.)
 Schismatic: (n.) one who separates his own soul from others with the logos. They should be one.`,
     `4.30
-A philosopher without clothes and one without books. “I
-have nothing to eat,” says he, as he stands there half-naked,
-“but I subsist on the logos.” And with nothing to read, I
-subsist on it too.`,
+A philosopher without clothes and one without books. “I have nothing to eat,” says he, as he stands there half-naked,
+“but I subsist on the logos.” And with nothing to read, I subsist on it too.`,
     `4.31
 Love the discipline you know, and let it support you.
 Entrust everything willingly to the gods, and then make your way through life—no one’s master and no one’s slave.`,
@@ -461,9 +428,7 @@ Survey the records of other eras. And see how many others gave their all and soo
 But most of all, run through the list of those you knew yourself. Those who worked in vain, who failed to do what they should have—what they should have remained fixed on and found satisfaction in.
 A key point to bear in mind: The value of attentiveness varies in proportion to its object. You’re better off not giving the small things more time than they deserve.`,
     `4.33
-Words once in common use now sound archaic. And the names of the famous dead as well: Camillus, Caeso, Volesus,
-Dentatus . . . Scipio and Cato . . . Augustus . . . Hadrian and
-Antoninus, and . . .
+Words once in common use now sound archaic. And the names of the famous dead as well: Camillus, Caeso, Volesus, Dentatus . . . Scipio and Cato . . . Augustus . . . Hadrian and Antoninus, and . . .
 Everything fades so quickly, turns into legend, and soon oblivion covers it.
 And those are the ones who shone. The rest—“unknown, unasked-for” a minute after death. What is “eternal” fame?
 Emptiness.
@@ -509,8 +474,7 @@ Suppose that a god announced that you were going to die tomorrow “or the day a
     `4.48
 Don’t let yourself forget how many doctors have died, after furrowing their brows over how many deathbeds. How many astrologers, after pompous forecasts about others’
 ends. How many philosophers, after endless disquisitions on death and immortality. How many warriors, after inflicting thousands of casualties themselves. How many tyrants, after abusing the power of life and death atrociously, as if they were themselves immortal.
-How many whole cities have met their end: Helike,
-Pompeii, Herculaneum, and countless others.
+How many whole cities have met their end: Helike, Pompeii, Herculaneum, and countless others.
 And all the ones you know yourself, one after another. One who laid out another for burial, and was buried himself, and then the man who buried him—all in the same short space of time.
 In short, know this: Human lives are brief and trivial.
 Yesterday a blob of semen; tomorrow embalming fluid, ash.
@@ -530,10 +494,8 @@ Our lifetime is so brief. And to live it out in these circumstances, among these
     `4.51
 Take the shortest route, the one that nature planned—to speak and act in the healthiest way. Do that, and be free of pain and stress, free of all calculation and pretension.`,
     `5.1
-At dawn, when you have trouble getting out of bed, tell yourself: “I have to go to work—as a human being. What do I
-have to complain of, if I’m going to do what I was born for—
-the things I was brought into the world to do? Or is this what
-I was created for? To huddle under the blankets and stay warm?
+At dawn, when you have trouble getting out of bed, tell yourself: “I have to go to work—as a human being. What do I have to complain of, if I’m going to do what I was born for—
+the things I was brought into the world to do? Or is this what I was created for? To huddle under the blankets and stay warm?
 —But it’s nicer here. . . .
 So you were born to feel “nice”? Instead of doing things and experiencing them? Don’t you see the plants, the birds, the ants and spiders and bees going about their individual tasks, putting the world in order, as best they can? And you’re not willing to do your job as a human being? Why aren’t you running to do what your nature demands?
 —But we have to sleep sometime. . . .
@@ -569,8 +531,7 @@ That’s true. But you’re misunderstanding me. You’ll wind up like the peopl
     `5.7
 Prayer of the Athenians:
 
-Zeus, rain down, rain down
-On the land and fields of Athens.
+Zeus, rain down, rain down On the land and fields of Athens.
 
 Either no prayers at all—or one as straightforward as that.`,
     `5.8
@@ -580,8 +541,7 @@ What happens to each of us is ordered. It furthers our destiny.
 And when we describe things as “taking place,” we’re talking like builders, who say that blocks in a wall or a pyramid “take their place” in the structure, and fit together in a harmonious pattern.
 For there is a single harmony. Just as the world forms a single body comprising all bodies, so fate forms a single purpose, comprising all purposes. Even complete illiterates acknowledge it when they say that something “brought on”
 this or that. Brought on, yes. Or prescribed it. And in that case, let’s accept it—as we accept what the doctor prescribes. It may not always be pleasant, but we embrace it
-—because we want to get well. Look at the accomplishment of nature’s plans in that light—the way you look at your own health—and accept what happens (even if it seems hard to accept). Accept it because of what it leads to: the good health of the world, and the well-being and prosperity of
-Zeus himself, who would not have brought this on anyone unless it brought benefit to the world as a whole. No nature would do that—bring something about that wasn’t beneficial to what it governed.
+—because we want to get well. Look at the accomplishment of nature’s plans in that light—the way you look at your own health—and accept what happens (even if it seems hard to accept). Accept it because of what it leads to: the good health of the world, and the well-being and prosperity of Zeus himself, who would not have brought this on anyone unless it brought benefit to the world as a whole. No nature would do that—bring something about that wasn’t beneficial to what it governed.
 So there are two reasons to embrace what happens. One is that it’s happening to you. It was prescribed for you, and it pertains to you. The thread was spun long ago, by the oldest cause of all.
 The other reason is that what happens to an individual is a cause of well-being in what directs the world—of its wellbeing, its fulfillment, of its very existence, even. Because the whole is damaged if you cut away anything—anything at all
 —from its continuity and its coherence. Not only its parts, but its purposes. And that’s what you’re doing when you complain: hacking and destroying.`,
@@ -763,8 +723,7 @@ If you had a stepmother and a real mother, you would pay your respects to your s
 The court . . . and philosophy: Keep returning to it, to rest in its embrace. It’s all that makes the court—and you—
 endurable.`,
     `6.13
-Like seeing roasted meat and other dishes in front of you and suddenly realizing: This is a dead fish. A dead bird. A
-dead pig. Or that this noble vintage is grape juice, and the purple robes are sheep wool dyed with shellfish blood. Or making love—something rubbing against your penis, a brief seizure and a little cloudy liquid.
+Like seeing roasted meat and other dishes in front of you and suddenly realizing: This is a dead fish. A dead bird. A dead pig. Or that this noble vintage is grape juice, and the purple robes are sheep wool dyed with shellfish blood. Or making love—something rubbing against your penis, a brief seizure and a little cloudy liquid.
 Perceptions like that—latching onto things and piercing through them, so we see what they really are. That’s what we need to do all the time—all through our lives when things lay claim to our trust—to lay them bare and see how pointless they are, to strip away the legend that encrusts them.
 
 Pride is a master of deception: when you think you’re occupied in the weightiest business, that’s when he has you in his spell.
@@ -880,14 +839,12 @@ You take things you don’t control and define them as
 “good” or “bad.” And so of course when the “bad” things happen, or the “good” ones don’t, you blame the gods and feel hatred for the people responsible—or those you decide to make responsible. Much of our bad behavior stems from trying to apply those criteria. If we limited “good” and “bad”
 to our own actions, we’d have no call to challenge God, or to treat other people as enemies.`,
     `6.42
-All of us are working on the same project. Some consciously, with understanding; some without knowing it. (I
-think this is what Heraclitus meant when he said that “those who sleep are also hard at work”—that they too collaborate in what happens.) Some of us work in one way, and some in others. And those who complain and try to obstruct and thwart things—they help as much as anyone. The world needs them as well.
+All of us are working on the same project. Some consciously, with understanding; some without knowing it. (I think this is what Heraclitus meant when he said that “those who sleep are also hard at work”—that they too collaborate in what happens.) Some of us work in one way, and some in others. And those who complain and try to obstruct and thwart things—they help as much as anyone. The world needs them as well.
 So make up your mind who you’ll choose to work with.
 The force that directs all things will make good use of you regardless—will put you on its payroll and set you to work.
 But make sure it’s not the job Chrysippus speaks of: the bad line in the play, put there for laughs.`,
     `6.43
-Does the sun try to do the rain’s work? Or Asclepius
-Demeter’s? And what about each of the stars—different, yet working in common?`,
+Does the sun try to do the rain’s work? Or Asclepius Demeter’s? And what about each of the stars—different, yet working in common?`,
     `6.44
 If the gods have made decisions about me and the things that happen to me, then they were good decisions. (It’s hard to picture a god who makes bad ones.) And why would they expend their energies on causing me harm? What good would it do them—or the world, which is their primary concern?
 And if they haven’t made decisions about me as an individual, they certainly have about the general welfare.
@@ -907,8 +864,7 @@ How much longer?`,
 Keep this constantly in mind: that all sorts of people have died—all professions, all nationalities. Follow the thought all the way down to Philistion, Phoebus, and Origanion. Now extend it to other species.
 We have to go there too, where all of them have already gone:
 
-. . . the eloquent and the wise—Heraclitus, Pythagoras,
-Socrates . . .
+. . . the eloquent and the wise—Heraclitus, Pythagoras, Socrates . . .
 . . . the heroes of old, the soldiers and kings who followed them . . .
 . . . Eudoxus, Hipparchus, Archimedes . . .
 . . . the smart, the generous, the hardworking, the cunning, the selfish . . .
@@ -1004,15 +960,13 @@ The mind in itself has no needs, except for those it creates itself. Is undistur
     `7.17
 Well-being is good luck, or good character.
 17a. (But what are you doing here, Perceptions? Get back to where you came from, and good riddance. I don’t need you.
-Yes, I know, it was only force of habit that brought you. No,
-I’m not angry with you. Just go away.)`,
+Yes, I know, it was only force of habit that brought you. No, I’m not angry with you. Just go away.)`,
     `7.18
 Frightened of change? But what can exist without it?
 What’s closer to nature’s heart? Can you take a hot bath and leave the firewood as it was? Eat food without transforming it? Can any vital process take place without something being changed?
 Can’t you see? It’s just the same with you—and just as vital to nature.`,
     `7.19
-Carried through existence as through rushing rapids. All bodies. Which are sprung from nature and cooperate with it, as our limbs do with each other. Time has swallowed a
-Chrysippus, a Socrates and an Epictetus, many times over.
+Carried through existence as through rushing rapids. All bodies. Which are sprung from nature and cooperate with it, as our limbs do with each other. Time has swallowed a Chrysippus, a Socrates and an Epictetus, many times over.
 
 For “Epictetus” read any person, and any thing.`,
     `7.20
@@ -1098,17 +1052,13 @@ To watch the courses of the stars as if you revolved with them. To keep constant
 Look at the past—empire succeeding empire—and from that, extrapolate the future: the same thing. No escape from the rhythm of events.
 Which is why observing life for forty years is as good as a thousand. Would you really see anything new?`,
     `7.50
-“ . . . Earth’s offspring back to earth
-But all that’s born of heaven
-To heaven returns again.”
+“ . . . Earth’s offspring back to earth But all that’s born of heaven To heaven returns again.”
 
 Either that or the cluster of atoms pulls apart and one way or another the insensible elements disperse.`,
     `7.51
-“. . . with food and drink and magic spells
-Seeking some novel way to frustrate death.”
+“. . . with food and drink and magic spells Seeking some novel way to frustrate death.”
 
-51a. “To labor cheerfully and so endure
-The wind that blows from heaven.”`,
+51a. “To labor cheerfully and so endure The wind that blows from heaven.”`,
     `7.52
 A better wrestler. But not a better citizen, a better person, a better resource in tight places, a better forgiver of faults.`,
     `7.53
@@ -1159,10 +1109,8 @@ as drowsiness, fever, loss of appetite. . . . When you’re bothered by things l
     `7.65
 Take care that you don’t treat inhumanity as it treats human beings.`,
     `7.66
-How do we know that Telauges wasn’t a better man than
-Socrates?
-It’s not enough to ask whether Socrates’ death was nobler, whether he debated with the sophists more adeptly, whether he showed greater endurance by spending the night out in the cold, and when he was ordered to arrest the man from
-Salamis decided it was preferable to refuse, and “swaggered about the streets” (which one could reasonably doubt).
+How do we know that Telauges wasn’t a better man than Socrates?
+It’s not enough to ask whether Socrates’ death was nobler, whether he debated with the sophists more adeptly, whether he showed greater endurance by spending the night out in the cold, and when he was ordered to arrest the man from Salamis decided it was preferable to refuse, and “swaggered about the streets” (which one could reasonably doubt).
 What matters is what kind of soul he had.
 Whether he was satisfied to treat men with justice and the gods with reverence and didn’t lose his temper unpredictably at evil done by others, didn’t make himself the slave of other people’s ignorance, didn’t treat anything that nature did as abnormal, or put up with it as an unbearable imposition, didn’t put his mind in his body’s keeping.`,
     `7.67
@@ -1181,8 +1129,7 @@ It’s silly to try to escape other people’s faults. They are inescapable. Jus
     `7.72
 Whenever the force that makes us rational and social encounters something that is neither, then it can reasonably regard it as inferior.`,
     `7.73
-You’ve given aid and they’ve received it. And yet, like an idiot, you keep holding out for more: to be credited with a
-Good Deed, to be repaid in kind. Why?`,
+You’ve given aid and they’ve received it. And yet, like an idiot, you keep holding out for more: to be credited with a Good Deed, to be repaid in kind. Why?`,
     `7.74
 No one objects to what is useful to him.
 To be of use to others is natural.
@@ -1201,12 +1148,10 @@ Through first principles. Which should govern your intentions and your actions.
 —What principles?
 Those to do with good and evil. That nothing is good except what leads to fairness, and self-control, and courage, and free will. And nothing bad except what does the opposite.`,
     `8.2
-For every action, ask: How does it affect me? Could I
-change my mind about it?
+For every action, ask: How does it affect me? Could I change my mind about it?
 But soon I’ll be dead, and the slate’s empty. So this is the only question: Is it the action of a responsible being, part of society, and subject to the same decrees as God?`,
     `8.3
-Alexander and Caesar and Pompey. Compared with
-Diogenes, Heraclitus, Socrates? The philosophers knew the what, the why, the how. Their minds were their own.
+Alexander and Caesar and Pompey. Compared with Diogenes, Heraclitus, Socrates? The philosophers knew the what, the why, the how. Their minds were their own.
 The others? Nothing but anxiety and enslavement.`,
     `8.4
 You can hold your breath until you turn blue, but they’ll still go on doing it.`,
@@ -1277,13 +1222,10 @@ What is done to me? I accept it—and attribute it to the gods, and that source 
 Like the baths—oil, sweat, dirt, grayish water, all of it disgusting.
 The whole of life, all of the visible world.`,
     `8.25
-Verus, leaving Lucilla behind, then Lucilla. Maximus, leaving Secunda. And Secunda. Diotimus, leaving
-Epitynchanus. Then Epitynchanus. Faustina, leaving
-Antoninus. Then Antoninus.
+Verus, leaving Lucilla behind, then Lucilla. Maximus, leaving Secunda. And Secunda. Diotimus, leaving Epitynchanus. Then Epitynchanus. Faustina, leaving Antoninus. Then Antoninus.
 So with all of them.
 Hadrian, leaving Celer. And Celer.
-Where have they gone, the brilliant, the insightful ones, the proud? Brilliant as Charax and Demetrius the Platonist and
-Eudaemon and the rest of them. Short-lived creatures, long dead. Some of them not remembered at all, some become legends, some lost even to legend.
+Where have they gone, the brilliant, the insightful ones, the proud? Brilliant as Charax and Demetrius the Platonist and Eudaemon and the rest of them. Short-lived creatures, long dead. Some of them not remembered at all, some become legends, some lost even to legend.
 So remember: your components will be scattered too, the life within you quenched. Or marching orders and another posting.`,
     `8.26
 Joy for humans lies in human actions.
@@ -1335,8 +1277,7 @@ And even if it did, would the mourners live forever? Were they, too, not fated t
 The stench of decay. Rotting meat in a bag.
 Look at it clearly. If you can.`,
     `8.39
-“To the best of my judgment, when I look at the human character I see no virtue placed there to counter justice. But I
-see one to counter pleasure: self-control.”`,
+“To the best of my judgment, when I look at the human character I see no virtue placed there to counter justice. But I see one to counter pleasure: self-control.”`,
     `8.40
 Stop perceiving the pain you imagine and you’ll remain completely unaffected.
 —“You?”
@@ -1353,8 +1294,7 @@ I have no right to do myself an injury. Have I ever injured anyone else if I cou
 People find pleasure in different ways. I find it in keeping my mind clear. In not turning away from people or the things that happen to them. In accepting and welcoming everything I see. In treating each thing as it deserves.`,
     `8.44
 Give yourself a gift: the present moment.
-People out for posthumous fame forget that the Generations
-To Come will be the same annoying people they know now.
+People out for posthumous fame forget that the Generations To Come will be the same annoying people they know now.
 And just as mortal. What does it matter to you if they say x about you, or think y?`,
     `8.45
 Lift me up and hurl me. Wherever you will. My spirit will be gracious to me there—gracious and satisfied—as long as its existence and actions match its nature.
@@ -1512,8 +1452,7 @@ Your neighbor’s—to distinguish ignorance calculation. And recognize it as li
 from`,
     `9.23
 You participate in a society by your existence. Then participate in its life through your actions—all your actions.
-Any action not directed toward a social end (directly or indirectly) is a disturbance to your life, an obstacle to wholeness, a source of dissension. Like the man in the
-Assembly—a faction to himself, always out of step with the majority.`,
+Any action not directed toward a social end (directly or indirectly) is a disturbance to your life, an obstacle to wholeness, a source of dissension. Like the man in the Assembly—a faction to himself, always out of step with the majority.`,
     `9.24
 Childish tantrums, children’s games, “spirits carrying corpses”; “Odysseus in the Underworld” saw more real life.`,
     `9.25
@@ -1727,8 +1666,7 @@ Those are the only options. Reason for optimism.`,
     `10.23
 Keep always before you that “this is no different from an empty field,” and the things in it are the same as on a mountaintop, on the seashore, wherever. Plato gets to the heart of it: “fencing a sheepfold in the mountains, and milking goats or sheep.”`,
     `10.24
-My mind. What is it? What am I making of it? What am I
-using it for?
+My mind. What is it? What am I making of it? What am I using it for?
 Is it empty of thought?
 Isolated and torn loose from those around it?
 Melted into flesh and blended with it, so that it shares its urges?`,
@@ -1742,8 +1680,7 @@ Or:
 He pours food down his throat. And then a force not his takes it and creates sensations, desires, daily life, physical strength and so much else besides.
 To look at these things going on silently and see the force that drives them. As we see the force that pushes things and pulls them. Not with our eyes, but just as clearly.`,
     `10.27
-To bear in mind constantly that all of this has happened before. And will happen again—the same plot from beginning to end, the identical staging. Produce them in your mind, as you know them from experience or from history: the court of Hadrian, of Antoninus. The courts of Philip,
-Alexander, Croesus. All just the same. Only the people different.`,
+To bear in mind constantly that all of this has happened before. And will happen again—the same plot from beginning to end, the identical staging. Produce them in your mind, as you know them from experience or from history: the court of Hadrian, of Antoninus. The courts of Philip, Alexander, Croesus. All just the same. Only the people different.`,
     `10.28
 People who feel hurt and resentment: picture them as the pig at the sacrifice, kicking and squealing all the way.
 Like the man alone in his bed, silently weeping over the chains that bind us.
@@ -1782,8 +1719,7 @@ And keep in mind that nothing can harm one of nature’s citizens except what ha
     `10.34
 If you’ve immersed yourself in the principles of truth, the briefest, most random reminder is enough to dispel all fear and pain:
 
-. . . leaves that the wind
-Drives earthward; such are the generations of men.
+. . . leaves that the wind Drives earthward; such are the generations of men.
 
 Your children, leaves.
 Leaves applauding loyally and heaping praise upon you, or turning around and calling down curses, sneering and mocking from a safe distance.
@@ -1837,10 +1773,7 @@ To stay centered on that. Not to give up.`,
     `11.6
 First, tragedies. To remind us of what can happen, and that it happens inevitably—and if something gives you pleasure on that stage, it shouldn’t cause you anger on this one. You realize that these are things we all have to go through, and that even those who cry aloud “o Mount Cithaeron!” have to endure them. And some excellent lines as well. These, for example:
 
-If I and my two children cannot move the gods
-The gods must have their reasons
-
-Or:
+If I and my two children cannot move the gods The gods must have their reasons Or:
 
 And why should we feel anger at the world?
 
@@ -1886,10 +1819,8 @@ As long as you do what’s proper to your nature, and accept what the world’s 
     `11.14
 They flatter one another out of contempt, and their desire to rule one another makes them bow and scrape.`,
     `11.15
-The despicable phoniness of people who say, “Listen,
-I’m going to level with you here.” What does that mean? It shouldn’t even need to be said. It should be obvious—
-written in block letters on your forehead. It should be audible in your voice, visible in your eyes, like a lover who looks into your face and takes in the whole story at a glance. A
-straightforward, honest person should be like someone who stinks: when you’re in the same room with him, you know it.
+The despicable phoniness of people who say, “Listen, I’m going to level with you here.” What does that mean? It shouldn’t even need to be said. It should be obvious—
+written in block letters on your forehead. It should be audible in your voice, visible in your eyes, like a lover who looks into your face and takes in the whole story at a glance. A straightforward, honest person should be like someone who stinks: when you’re in the same room with him, you know it.
 But false straightforwardness is like a knife in the back.
 False friendship is the worst. Avoid it at all costs. If you’re honest and straightforward and mean well, it should show in your eyes. It should be unmistakable.`,
     `11.16
@@ -1903,8 +1834,7 @@ None of us is forbidden to pursue our own good.`,
     `11.17
 Source and substance of each thing. What it changes into, and what it’s like transformed; that nothing can harm it.`,
     `11.18
-i. My relationship to them. That we came into the world for the sake of one another. Or from another point of view, I
-came into it to be their guardian—as the ram is of the flock, and the bull of the herd.
+i. My relationship to them. That we came into the world for the sake of one another. Or from another point of view, I came into it to be their guardian—as the ram is of the flock, and the bull of the herd.
 Start from this: if not atoms, then Nature—directing everything. In that case, lower things for the sake of higher ones, and higher ones for one another.
 
 ii. What they’re like eating, in bed, etc. How driven they are by their beliefs. How proud they are of what they do.
@@ -1921,8 +1851,7 @@ ix. That kindness is invincible, provided it’s sincere—
 not ironic or an act. What can even the most vicious person do if you keep treating him with kindness and gently set him straight—if you get the chance—
 correcting him cheerfully at the exact moment that he’s trying to do you harm. “No, no, my friend. That isn’t what we’re here for. It isn’t me who’s harmed by that.
 It’s you.” And show him, gently and without pointing fingers, that it’s so. That bees don’t behave like this—or any other animals with a sense of community. Don’t do it sardonically or meanly, but affectionately—with no hatred in your heart. And not ex cathedra or to impress third parties, but speaking directly. Even if there are other people around.
-Keep these nine points in mind, like gifts from the nine
-Muses, and start becoming a human being. Now and for the rest of your life.
+Keep these nine points in mind, like gifts from the nine Muses, and start becoming a human being. Now and for the rest of your life.
 And along with not getting angry at others, try not to pander either. Both are forms of selfishness; both of them will do you harm. When you start to lose your temper, remember: There’s nothing manly about rage.
 
 It’s courtesy and kindness that define a human being—
@@ -1960,8 +1889,7 @@ This advice from Epicurean writings: to think continually of one of the men of o
 The Pythagoreans tell us to look at the stars at daybreak.
 To remind ourselves how they complete the tasks assigned them—always the same tasks, the same way. And their order, purity, nakedness. Stars wear no concealment.`,
     `11.28
-Socrates dressed in a towel, the time Xanthippe took his cloak and went out. The friends who were embarrassed and avoided him when they saw him dressed like that, and what
-Socrates said to them.`,
+Socrates dressed in a towel, the time Xanthippe took his cloak and went out. The friends who were embarrassed and avoided him when they saw him dressed like that, and what Socrates said to them.`,
     `11.29
 Mastery of reading and writing requires a master. Still more so life.`,
     `11.30
@@ -2012,8 +1940,7 @@ Your three components: body, breath, mind. Two are yours in trust; to the third 
 If you can cut yourself—your mind—free of what other people do and say, of what you’ve said or done, of the things that you’re afraid will happen, the impositions of the body that contains you and the breath within, and what the whirling chaos sweeps in from outside, so that the mind is freed from fate, brought to clarity, and lives life on its own recognizance
 —doing what’s right, accepting what happens, and speaking the truth—
 
-If you can cut free of impressions that cling to the mind, free of the future and the past—can make yourself, as
-Empedocles says, “a sphere rejoicing in its perfect stillness,” and concentrate on living what can be lived
+If you can cut free of impressions that cling to the mind, free of the future and the past—can make yourself, as Empedocles says, “a sphere rejoicing in its perfect stillness,” and concentrate on living what can be lived
 (which means the present) . . . then you can spend the time you have left in tranquillity. And in kindness. And at peace with the spirit within you.`,
     `12.4
 It never ceases to amaze me: we all love ourselves more than other people, but care more about their opinion than our own. If a god appeared to us—or a wise human being, even
@@ -2053,8 +1980,7 @@ The gods are not to blame. They do nothing wrong, on purpose or by accident. Nor
     `12.13
 The foolishness of people who are surprised by anything that happens. Like travelers amazed at foreign customs.`,
     `12.14
-Fatal necessity, and inescapable order. Or benevolent
-Providence. Or confusion—random and undirected.
+Fatal necessity, and inescapable order. Or benevolent Providence. Or confusion—random and undirected.
 
 If it’s an inescapable necessity, why resist it?
 If it’s Providence, and admits of being worshipped, then try to be worthy of God’s aid.
@@ -2133,13 +2059,10 @@ That nothing belongs to anyone. Children, body, life itself—all of them come f
 That it’s all how you choose to see things.
 That the present is all we have to live in. Or to lose.`,
     `12.27
-Constantly run down the list of those who felt intense anger at something: the most famous, the most unfortunate, the most hated, the most whatever. And ask: Where is all that now? Smoke, dust, legend . . . or not even a legend. Think of all the examples: Fabius Catullinus in the country, Lusius
-Lupus in the orchard, Stertinius at Baiae, Tiberius on Capri,
-Velius Rufus . . . obsession and arrogance.
+Constantly run down the list of those who felt intense anger at something: the most famous, the most unfortunate, the most hated, the most whatever. And ask: Where is all that now? Smoke, dust, legend . . . or not even a legend. Think of all the examples: Fabius Catullinus in the country, Lusius Lupus in the orchard, Stertinius at Baiae, Tiberius on Capri, Velius Rufus . . . obsession and arrogance.
 
 And how trivial the things we want so passionately are.
-And how much more philosophical it would be to take what we’re given and show uprightness, self-control, obedience to
-God, without making a production of it. There’s nothing more insufferable than people who boast about their own humility.`,
+And how much more philosophical it would be to take what we’re given and show uprightness, self-control, obedience to God, without making a production of it. There’s nothing more insufferable than people who boast about their own humility.`,
     `12.28
 People ask, “Have you ever seen the gods you worship?
 How can you be sure they exist?”
@@ -2170,8 +2093,7 @@ to grieve because death deprives us of them—is an obstacle.`,
 The fraction of infinity, of that vast abyss of time, allotted to each of us. Absorbed in an instant into eternity.
 The fraction of all substance, and all spirit.
 The fraction of the whole earth you crawl about on.
-Keep all that in mind, and don’t treat anything as important except doing what your nature demands, and accepting what
-Nature sends you.`,
+Keep all that in mind, and don’t treat anything as important except doing what your nature demands, and accepting what Nature sends you.`,
     `12.33
 How the mind conducts itself. It all depends on that. All the rest is within its power, or beyond its control—corpses and smoke.`,
     `12.34
