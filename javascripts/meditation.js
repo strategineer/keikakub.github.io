@@ -3095,6 +3095,10 @@ var MEDITATIONS_DICT_FROM_NUMBERS = {
 };
 
 window.onload = function () {
+  if (navigator.canShare) {
+    const btn = document.querySelector('#meditation-footer-button-share');
+    btn.classList.remove("d-none");
+  }
   if (performance.navigation.type == performance.navigation.TYPE_RELOAD
   || tryLoadMeditationFromLocationHash()) {
     setRandomMeditation();
@@ -3104,7 +3108,7 @@ window.onload = function () {
 function tryLoadMeditationFromLocationHash() {
   //console.log(window.location.hash);
   if(window.location.hash) {
-    var meditation_index = MEDITATIONS_DICT_FROM_NUMBERS[window.location.hash.substring(1)]
+    var meditation_index = MEDITATIONS_DICT_FROM_NUMBERS[getMeditationNumberString()]
     //console.log(meditation_index);
     if(isValidMeditationIndex(meditation_index)) {
       //console.log("Setting meditation from hash: " + meditation_index)
@@ -3157,5 +3161,28 @@ function setRandomMeditation() {
   var meditation_index = pickIndex(MEDITATIONS);
   //console.log("Setting random meditation: " + meditation_index)
   setMeditation(meditation_index);
+}
+
+function getMeditationNumberString() {
+  return window.location.hash.substring(1);
+}
+
+async function shareMeditation() {
+  if (!navigator.canShare) {
+    return;
+  }
+  var e = document.getElementById("meditation");
+  if(typeof e !== 'undefined' && e !== null) {
+    const shareData = {
+      title: `Marcus Aurelius's Meditation ${getMeditationNumberString()}`,
+      text: e.innerText,
+      url: window.location.href
+    };
+    try {
+      await navigator.share(shareData);
+    } catch(err) {
+      return
+    }
+  }
 }
 
