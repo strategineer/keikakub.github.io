@@ -4575,7 +4575,7 @@ function setRandomMeditation() {
   var meditation = pickOne(MEDITATIONS);
   var e = document.getElementById("meditation")
   if(typeof e !== 'undefined' && e !== null) {
-    e.innerText = meditation + "\n- Marcus Aurelius";
+    e.innerText = meditation;
   }
 }
 
