@@ -1,29 +1,37 @@
 const MEDITATIONS = [
     `1.1
-MY GRANDFATHER VERUS Character and self-control.`,
+MY GRANDFATHER VERUS​
+Character and self-control.`,
     `1.2
-MY FATHER (FROM MY OWN MEMORIES AND HIS REPUTATIONf)
+MY FATHER (FROM MY OWN MEMORIES AND HIS REPUTATION)​
 Integrity and manliness.`,
     `1.3
-MY MOTHER Her reverence for the divine, her generosity, her inability not only to do wrong but even to conceive of doing it. And the simple way she lived—not in the least like the rich.`,
+MY MOTHER​
+Her reverence for the divine, her generosity, her inability not only to do wrong but even to conceive of doing it. And the simple way she lived—not in the least like the rich.`,
     `1.4
-MY GREAT-GRANDFATHER To avoid the public schools, to hire good private teachers, and to accept the resulting costs as money well-spent.`,
+MY GREAT-GRANDFATHER​
+To avoid the public schools, to hire good private teachers, and to accept the resulting costs as money well-spent.`,
     `1.5
-MY FIRST TEACHER Not to support this side or that in chariot-racing, this fighter or that in the games. To put up with discomfort and not make demands. To do my own work, mind my own business, and have no time for slanderers.`,
+MY FIRST TEACHER​
+Not to support this side or that in chariot-racing, this fighter or that in the games. To put up with discomfort and not make demands. To do my own work, mind my own business, and have no time for slanderers.`,
     `1.6
-DIOGNETUS Not to waste time on nonsense. Not to be taken in by conjurors and hoodoo artists with their talk about incantations and exorcism and all the rest of it. Not to be obsessed with quail-fighting or other crazes like that. To hear unwelcome truths. To practice philosophy, and to study with Baccheius, and then with Tandasis and Marcianus. To write dialogues as a student. To choose the Greek lifestyle—the camp-bed and the cloak.`,
+DIOGNETUS​
+Not to waste time on nonsense. Not to be taken in by conjurors and hoodoo artists with their talk about incantations and exorcism and all the rest of it. Not to be obsessed with quail-fighting or other crazes like that. To hear unwelcome truths. To practice philosophy, and to study with Baccheius, and then with Tandasis and Marcianus. To write dialogues as a student. To choose the Greek lifestyle—the camp-bed and the cloak.`,
     `1.7
-RUSTICUS The recognition that I needed to train and discipline my character.
+RUSTICUS​
+The recognition that I needed to train and discipline my character.
 Not to be sidetracked by my interest in rhetoric. Not to write treatises on abstract questions, or deliver moralizing little sermons, or compose imaginary descriptions of The Simple Life or The Man Who Lives Only for Others. To steer clear of oratory, poetry and belles lettres.
 Not to dress up just to stroll around the house, or things like that. To write straightforward letters (like the one he sent my mother from Sinuessa). And to behave in a conciliatory way when people who have angered or annoyed us want to make up.
 To read attentively—not to be satisfied with “just getting the gist of it.” And not to fall for every smooth talker.
 And for introducing me to Epictetus’s lectures—and loaning me his own copy.`,
     `1.8
-APOLLONIUS Independence and unvarying reliability, and to pay attention to nothing, no matter how fleetingly, except the logos. And to be the same in all circumstances—intense pain, the loss of a child, chronic illness. And to see clearly, from his example, that a man can show both strength and flexibility.
+APOLLONIUS​
+Independence and unvarying reliability, and to pay attention to nothing, no matter how fleetingly, except the logos. And to be the same in all circumstances—intense pain, the loss of a child, chronic illness. And to see clearly, from his example, that a man can show both strength and flexibility.
 His patience in teaching. And to have seen someone who clearly viewed his expertise and ability as a teacher as the humblest of virtues.
 And to have learned how to accept favors from friends without losing your self-respect or appearing ungrateful.`,
     `1.9
-SEXTUS Kindness.
+SEXTUS​
+Kindness.
 An example of fatherly authority in the home. What it means to live as nature requires.
 Gravity without airs.
 To show intuitive sympathy for friends, tolerance to amateurs and sloppy thinkers. His ability to get along with everyone: sharing his company was the highest of compliments, and the opportunity an honor for those around him.
@@ -31,22 +39,29 @@ To investigate and analyze, with understanding and logic, the principles we ough
 Not to display anger or other emotions. To be free of passion and yet full of love.
 To praise without bombast; to display expertise without pretension.`,
     `1.10
-THE LITERARY CRITIC ALEXANDER Not to be constantly correcting people, and in particular not to jump on them whenever they make an error of usage or a grammatical mistake or mispronounce something, but just answer their question or add another example, or debate the issue itself (not their phrasing), or make some other contribution to the discussion—and insert the right expression, unobtrusively.`,
+THE LITERARY CRITIC ALEXANDER​
+Not to be constantly correcting people, and in particular not to jump on them whenever they make an error of usage or a grammatical mistake or mispronounce something, but just answer their question or add another example, or debate the issue itself (not their phrasing), or make some other contribution to the discussion—and insert the right expression, unobtrusively.`,
     `1.11
-FRONTO To recognize the malice, cunning, and hypocrisy that power produces, and the peculiar ruthlessness often shown by people from “good families.”`,
+FRONTO​
+To recognize the malice, cunning, and hypocrisy that power produces, and the peculiar ruthlessness often shown by people from “good families.”`,
     `1.12
-ALEXANDER THE PLATONIST Not to be constantly telling people (or writing them) that I’m too busy, unless I really am. Similarly, not to be always ducking my responsibilities to the people around me because of “pressing business.”`,
+ALEXANDER THE PLATONIST​
+Not to be constantly telling people (or writing them) that I’m too busy, unless I really am. Similarly, not to be always ducking my responsibilities to the people around me because of “pressing business.”`,
     `1.13
-CATULUS Not to shrug off a friend’s resentment—even unjustified resentment—but try to put things right.
+CATULUS​
+Not to shrug off a friend’s resentment—even unjustified resentment—but try to put things right.
 To show your teachers ungrudging respect (the Domitius and Athenodotus story), and your children unfeigned love.`,
     `1.14
-[MY BROTHER] SEVERUS To love my family, truth and justice. It was through him that I encountered Thrasea, Helvidius, Cato, Dion and Brutus, and conceived of a society of equal laws, governed by equality of status and of speech, and of rulers who respect the liberty of their subjects above all else.
+[MY BROTHER] SEVERUS​
+To love my family, truth and justice. It was through him that I encountered Thrasea, Helvidius, Cato, Dion and Brutus, and conceived of a society of equal laws, governed by equality of status and of speech, and of rulers who respect the liberty of their subjects above all else.
 And from him as well, to be steady and consistent in valuing philosophy.
 
 And to help others and be eager to share, not to be a pessimist, and never to doubt your friends’ affection for you.
 And that when people incurred his disapproval, they always knew it. And that his friends never had to speculate about his attitude to anything: it was always clear.`,
     `1.15
-MAXIMUSMaximus Self-control and resistance to distractions.
+MAXIMUS​
+
+Self-control and resistance to distractions.
 Optimism in adversity—especially illness.
 A personality in balance: dignity and grace together.
 Doing your job without whining.
@@ -59,7 +74,8 @@ The sense he gave of staying on the path rather than being kept on it.
 That no one could ever have felt patronized by him—or in a position to patronize him.
 A sense of humor.`,
     `1.16
-MY ADOPTED FATHER Compassion. Unwavering adherence to decisions, once he’d reached them. Indifference to superficial honors. Hard work.
+MY ADOPTED FATHER​
+Compassion. Unwavering adherence to decisions, once he’d reached them. Indifference to superficial honors. Hard work.
 Persistence.
 Listening to anyone who could contribute to the public good.
 His dogged determination to treat people as they deserved.
@@ -89,13 +105,13 @@ That he had so few secrets—only state secrets, in fact, and not all that many 
 The way he kept public actions within reasonable bounds
 —games, building projects, distributions of money and so on
 —because he looked to what needed doing and not the credit to be gained from doing it.
-No bathing at strange hours, no self-indulgent building projects, no concern for food, or the cut and color of his clothes, or having attractive slaves. (The robe from his farm at Lorium, most of the things at Lanuvium, the way he accepted the customs agent’s apology at Tusculum, etc.)
-He never exhibited rudeness, lost control of himself, or turned violent. No one ever saw him sweat. Everything was to be approached logically and with due consideration, in a calm and orderly fashion but decisively, and with no loose ends.
+No bathing at strange hours, no self-indulgent building projects, no concern for food, or the cut and color of his clothes, or having attractive slaves. (The robe from his farm at Lorium, most of the things at Lanuvium, the way he accepted the customs agent’s apology at Tusculum, etc.) He never exhibited rudeness, lost control of himself, or turned violent. No one ever saw him sweat. Everything was to be approached logically and with due consideration, in a calm and orderly fashion but decisively, and with no loose ends.
 You could have said of him (as they say of Socrates) that he knew how to enjoy and abstain from things that most people find it hard to abstain from and all too easy to enjoy.
 Strength, perseverance, self-control in both areas: the mark of a soul in readiness—indomitable.
 (Maximus’s illness.)`,
     `1.17
-THE GODS That I had good grandparents, a good mother and father, a good sister, good teachers, good servants, relatives, friends
+THE GODS​
+That I had good grandparents, a good mother and father, a good sister, good teachers, good servants, relatives, friends
 —almost without exception. And that I never lost control of myself with any of them, although I had it in me to do that, and I might have, easily. But thanks to the gods, I was never put in that position, and so escaped the test.
 That I wasn’t raised by my grandfather’s girlfriend for longer than I was. That I didn’t lose my virginity too early, and didn’t enter adulthood until it was time—put it off, even.
 That I had someone—as a ruler and as a father—who could keep me from being arrogant and make me realize that even at court you can live without a troop of bodyguards, and gorgeous clothes, lamps, sculpture—the whole charade. That you can behave almost like an ordinary person without seeming slovenly or careless as a ruler or when carrying out official obligations.
@@ -388,8 +404,7 @@ To the world: Your harmony is mine. Whatever time you choose is the right time. 
 To nature: What the turn of your seasons brings me falls like ripe fruit. All things are born from you, exist in you, return to you.
 The poet says “dear city of Cecrops . . .” Can’t you bring yourself to say “of Zeus”?`,
     `4.24
-“If you seek tranquillity, do less.” Or (more accurately)
-do what’s essential—what the logos of a social being requires, and in the requisite way. Which brings a double satisfaction: to do less, better.
+“If you seek tranquillity, do less.” Or (more accurately) do what’s essential—what the logos of a social being requires, and in the requisite way. Which brings a double satisfaction: to do less, better.
 Because most of what we say and do is not essential. If you can eliminate it, you’ll have more time, and more tranquillity. Ask yourself at every moment, “Is this necessary?”
 But we need to eliminate unnecessary assumptions as well. To eliminate the unnecessary actions that follow.`,
     `4.25
@@ -410,8 +425,7 @@ Alien: (n.) one who doesn’t know what the world contains. Or how it operates.
 Fugitive: (n.) one who evades his obligations to others.
 Blind: (adj.) one who keeps the eyes of his mind shut tight.
 Poor: (adj.) requiring others; not having the necessities of life in one’s own possession.
-Rebel: (n.) one who is rebellious, one who withdraws from the logos of Nature because he resents its workings. (It produced you; now it produces this.)
-Schismatic: (n.) one who separates his own soul from others with the logos. They should be one.`,
+Rebel: (n.) one who is rebellious, one who withdraws from the logos of Nature because he resents its workings. (It produced you; now it produces this.) Schismatic: (n.) one who separates his own soul from others with the logos. They should be one.`,
     `4.30
 A philosopher without clothes and one without books. “I have nothing to eat,” says he, as he stands there half-naked,
 “but I subsist on the logos.” And with nothing to read, I subsist on it too.`,
@@ -673,8 +687,7 @@ If:
 
 Where's the danger for the community?`,
     `5.36
-Not to be overwhelmed by what you imagine, but just do what you can and should. And if < . . . > suffer in inessentials, not to treat that as a defeat. (Bad habit.)
-Like the old man asking for the orphan’s toy on the way out
+Not to be overwhelmed by what you imagine, but just do what you can and should. And if < . . . > suffer in inessentials, not to treat that as a defeat. (Bad habit.) Like the old man asking for the orphan’s toy on the way out
 —even though he knew that’s all it was. Like that.
 36a. † Up on the platform. †
 Have you forgotten what’s what?
@@ -1345,8 +1358,7 @@ Other people’s wills are as independent of mine as their breath and bodies. We
     `8.57
 We speak of the sun’s light as “pouring down on us,” as
 “pouring over us” in all directions. Yet it’s never poured out.
-Because it doesn’t really pour; it extends. Its beams (aktai)
-get their name from their extension (ekteinesthai).
+Because it doesn’t really pour; it extends. Its beams (aktai) get their name from their extension (ekteinesthai).
 To see the nature of a sunbeam, look at light as it falls through a narrow opening into a dark room. It extends in a straight line, striking any solid object that stands in its way and blocks the space beyond it. There it remains—not vanishing, or falling away.
 That’s what the outpouring—the diffusion—of thought should be like: not emptied out, but extended. And not striking at obstacles with fury and violence, or falling away before them, but holding its ground and illuminating what receives it.
 What doesn’t transmit light creates its own darkness.`,
@@ -1656,9 +1668,9 @@ Each of us needs what nature gives us, when nature gives it.`,
     `10.22
 Possibilities:
 
-i. To keep on living (you should be used to it by now)
-ii. To end it (it was your choice, after all)
-iii. To die (having met your obligations)
+i. To keep on living (you should be used to it by now)​
+ii. To end it (it was your choice, after all)​
+iii. To die (having met your obligations)​
 
 Those are the only options. Reason for optimism.`,
     `10.23
@@ -1778,8 +1790,7 @@ And why should we feel anger at the world?
 And:
 
 To harvest life like standing stalks of grain and a good many others.
-Then, after tragedy, Old Comedy: instructive in its frankness, its plain speaking designed to puncture pretensions. (Diogenes used the same tactic for similar ends.)
-Then consider the Middle (and later the New) Comedy and what it aimed at—gradually degenerating into mere realism and empty technique. There are undeniably good passages, even in those writers, but what was the point of it all—the script and staging alike?`,
+Then, after tragedy, Old Comedy: instructive in its frankness, its plain speaking designed to puncture pretensions. (Diogenes used the same tactic for similar ends.) Then consider the Middle (and later the New) Comedy and what it aimed at—gradually degenerating into mere realism and empty technique. There are undeniably good passages, even in those writers, but what was the point of it all—the script and staging alike?`,
     `11.7
 It stares you in the face. No role is so well suited to philosophy as the one you happen to be in right now.`,
     `11.8
