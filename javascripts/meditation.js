@@ -3230,7 +3230,7 @@ async function shareMeditation() {
     await navigator.share({
       title: `Marcus Aurelius's Meditation ${getMeditationNumberString()}`,
       text: MEDITATIONS[currentMeditationIndex],
-      url: ''
+      url: window.location.href
     });
   } catch(err) {
     return
