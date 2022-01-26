@@ -190,9 +190,7 @@ If our mind starts to wander, we’ll still go on breathing, go on eating, imagi
 So we need to hurry.
 Not just because we move daily closer to death but also because our understanding—our grasp of the world—may be gone before we get there.`,
     `3.2
-We should remember that even Nature’s inadvertence has its own charm, its own attractiveness. The way loaves of bread split open on top in the oven; the ridges are just by-
-
-products of the baking, and yet pleasing, somehow: they rouse our appetite without our knowing why.
+We should remember that even Nature’s inadvertence has its own charm, its own attractiveness. The way loaves of bread split open on top in the oven; the ridges are just by-products of the baking, and yet pleasing, somehow: they rouse our appetite without our knowing why.
 Or how ripe figs begin to burst.
 And olives on the point of falling: the shadow of decay gives them a peculiar beauty.
 Stalks of wheat bending under their own weight. The furrowed brow of the lion. Flecks of foam on the boar’s mouth.
