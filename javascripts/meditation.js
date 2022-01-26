@@ -1,4 +1,4 @@
-var MEDITATIONS = [
+const MEDITATIONS = [
     `1.1
 MY GRANDFATHER VERUS Character and self-control.`,
     `1.2
@@ -2112,7 +2112,7 @@ Yes. This will be a drama in three acts, the length fixed by the power that dire
 So make your exit with grace—the same grace shown to you.`
 ];
 
-var MEDITATIONS_DICT_FROM_INDEX = {
+const MEDITATIONS_DICT_FROM_INDEX = {
     0:"1.1",
     1:"1.2",
     2:"1.3",
@@ -2603,7 +2603,7 @@ var MEDITATIONS_DICT_FROM_INDEX = {
     487:"12.36"
 };
 
-var MEDITATIONS_DICT_FROM_NUMBERS = {
+const MEDITATIONS_DICT_FROM_NUMBERS = {
     "1.1":0,
     "1.2":1,
     "1.3":2,
@@ -3094,6 +3094,9 @@ var MEDITATIONS_DICT_FROM_NUMBERS = {
     "12.36":487
 };
 
+
+let currentMeditationIndex = undefined
+
 window.onload = function () {
   if (navigator.canShare) {
     const btn = document.querySelector('#meditation-footer-button-share');
@@ -3108,11 +3111,11 @@ window.onload = function () {
 function tryLoadMeditationFromLocationHash() {
   //console.log(window.location.hash);
   if(window.location.hash) {
-    var meditation_index = MEDITATIONS_DICT_FROM_NUMBERS[getMeditationNumberString()]
-    //console.log(meditation_index);
-    if(isValidMeditationIndex(meditation_index)) {
-      //console.log("Setting meditation from hash: " + meditation_index)
-      setMeditation(meditation_index);
+    const meditationIndex = MEDITATIONS_DICT_FROM_NUMBERS[getMeditationNumberString()]
+    //console.log(meditationIndex);
+    if(isValidMeditationIndex(meditationIndex)) {
+      //console.log("Setting meditation from hash: " + meditationIndex)
+      setMeditation(meditationIndex);
       return false;
     }
   }
@@ -3135,32 +3138,74 @@ document.body.onkeyup = function(e){
   }
 }
 
-function isValidMeditationIndex(meditation_index) {
-  if(typeof meditation_index !== 'undefined' && meditation_index !== null) {
-    if(0 <= meditation_index && meditation_index < MEDITATIONS.length) {
+function searchForClickedWordInOtherMeditations() {
+  s = window.getSelection();
+  let range = s.getRangeAt(0);
+  let node = s.anchorNode;
+  while(range.toString().indexOf(' ') != 0) {
+    try {
+      range.setStart(node,(range.startOffset -1));
+    } catch {
+      break;
+    }
+  }
+  range.setStart(node, range.startOffset +1);
+  do{
+    try {
+      range.setEnd(node,range.endOffset + 1);
+    } catch {
+      break;
+    }
+  } while(range.toString().indexOf(' ') == -1 && range.toString().trim() != '');
+  const term = range.toString().trim().replace(/^\W/g, '').replace(/\W$/g, '').toLowerCase();
+  setMeditationThroughSearchTerm(term);
+}
+
+function isValidMeditationIndex(meditationIndex) {
+  if(typeof meditationIndex !== 'undefined' && meditationIndex !== null) {
+    if(0 <= meditationIndex && meditationIndex < MEDITATIONS.length) {
       return true;
     }
   }
   return false;
 }
 
-function setMeditation(meditation_index) {
-  if(!isValidMeditationIndex(meditation_index)) {
+function setMeditation(meditationIndex) {
+  if(!isValidMeditationIndex(meditationIndex)) {
     return;
   }
-  //console.log("Setting meditation to: " + meditation_index)
-  var meditation = MEDITATIONS[meditation_index]
-  var e = document.getElementById("meditation")
+  currentMeditationIndex = meditationIndex;
+  //console.log("Setting meditation to: " + meditationIndex)
+  let meditation = MEDITATIONS[meditationIndex]
+  let e = document.getElementById("meditation")
   if(typeof e !== 'undefined' && e !== null) {
     e.innerText = meditation;
-    window.location.hash = MEDITATIONS_DICT_FROM_INDEX[meditation_index]
+    window.location.hash = MEDITATIONS_DICT_FROM_INDEX[meditationIndex]
   }
 }
 
+function getAllMeditationIndexes(term) {
+  let indexes = [], i;
+  for(i = 0; i < MEDITATIONS.length; i++) {
+    if (i == currentMeditationIndex)
+      continue;
+    if (MEDITATIONS[i].toLowerCase().includes(term))
+      indexes.push(i);
+  }
+  //console.log(`Number of choices: ${indexes}`)
+  return indexes;
+}
+
+function setMeditationThroughSearchTerm(term) {
+  const meditationIndex = pickOne(getAllMeditationIndexes(term));
+  //console.log("Setting meditation through search term: " + meditationIndex)
+  setMeditation(meditationIndex);
+}
+
 function setRandomMeditation() {
-  var meditation_index = pickIndex(MEDITATIONS);
-  //console.log("Setting random meditation: " + meditation_index)
-  setMeditation(meditation_index);
+  const meditationIndex = pickIndex(MEDITATIONS);
+  //console.log("Setting random meditation: " + meditationIndex)
+  setMeditation(meditationIndex);
 }
 
 function getMeditationNumberString() {
@@ -3171,7 +3216,7 @@ async function shareMeditation() {
   if (!navigator.canShare) {
     return;
   }
-  var e = document.getElementById("meditation");
+  const e = document.getElementById("meditation");
   if(typeof e !== 'undefined' && e !== null) {
     const shareData = {
       title: `Marcus Aurelius's Meditation ${getMeditationNumberString()}`,
