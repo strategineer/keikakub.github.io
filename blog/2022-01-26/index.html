@@ -131,7 +131,7 @@
 
 <div class="highlight"><pre class="highlight python"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 </pre></td><td class="rouge-code"><pre><span class="n">POINT_REGEX</span> <span class="o">=</span> <span class="n">re</span><span class="p">.</span><span class="nb">compile</span><span class="p">(</span><span class="sa">r</span><span class="s">"[0-9]+\."</span><span class="p">)</span>
-</pre></td></tr></tbody></table></code></pre></div><p><em>This simple regex should be read as "find one or more digits followed by a dot". The '.' is a special character within the regex language so we must 'escape' it using a backslash.</em></p>
+</pre></td></tr></tbody></table></code></pre></div><p><em>This simple regex should be read as "find one or more digits followed by a dot". The '.' is a special regex character which refers to any character (it's a wildcard) so we must 'escape' its special meaning using a backslash.</em></p>
 
 <p>The text we've extracted from the PDF file has a ton of extra line breaks everywhere which we don't want because we're not planning on displaying the text in a fixed print format. The line breaks will be added as needed depending on whether someone is looking at the web page from a tiny phone or a gigantic computer screen.</p>
 
