@@ -133,26 +133,24 @@
 </pre></td><td class="rouge-code"><pre><span class="n">POINT_REGEX</span> <span class="o">=</span> <span class="n">re</span><span class="p">.</span><span class="nb">compile</span><span class="p">(</span><span class="sa">r</span><span class="s">"[0-9]+\."</span><span class="p">)</span>
 </pre></td></tr></tbody></table></code></pre></div><p><em>This simple regex should be read as "find one or more digits followed by a dot". The '.' is a special regex character which refers to any character (it's a wildcard) so we must 'escape' its special meaning using a backslash.</em></p>
 
-<p>The text we've extracted from the PDF file has a ton of extra line breaks everywhere which we don't want because we're not planning on displaying the text in a fixed print format. The line breaks will be added as needed depending on whether someone is looking at the web page from a tiny phone or a gigantic computer screen.</p>
+<p>The text we've extracted from the PDF file has a ton of extra line breaks everywhere which we don't want because we're not planning on displaying the text in a fixed print format. The line breaks will be added as needed depending on whether you're using a tiny phone or a gigantic computer screen to use this tool.</p>
 
 <p>So, I wrote the following regex to find and remove all of these line breaks.</p>
 
 <div class="highlight"><pre class="highlight python"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 </pre></td><td class="rouge-code"><pre><span class="n">ARTIFICIAL_LINE_BREAK_REGEX</span> <span class="o">=</span> <span class="n">re</span><span class="p">.</span><span class="nb">compile</span><span class="p">(</span><span class="sa">r</span><span class="s">"([a-zA-Z\-,\(\) ])\n+([a-zA-Z ])"</span><span class="p">)</span>
-</pre></td></tr></tbody></table></code></pre></div><p><em>This less simple regex should be read as "find a letter, dash, comma, left parentheses, right parentheses or space followed by a newline followed a letter or space". Notice that we've put everything to the left of the newline in parentheses as well as everything to the right of the newline. These are called "groups" and are useful to separate the different parts of a regex. In this case, we use groups to detect the offending newlines (which we want to remove) separate from its surrounding characters (which we don't want to remove).</em></p>
+</pre></td></tr></tbody></table></code></pre></div><p><em>This less simple regex should be read as "find a letter, dash, comma, left parentheses, right parentheses or space followed by a newline followed a letter or space". Notice that we've put everything to the left of the newline in parentheses as well as everything to the right of the newline. These are called "groups" and are useful to separate the different parts of a regex. In this case, we use groups to detect the offending newlines (which we want to remove) separate from there surrounding characters (which we don't want to remove).</em></p>
 
-<p>Now that we have separated each book into each of its meditations in order. The script prints this data out in a JSON format (which we want so that we can reuse it elsewhere).</p>
+<p>We've separated each book into each of its meditations in order, and so now the script can print this data out in a JSON format which we can easily read and use elsewhere.</p>
 
 <div class="highlight"><pre class="highlight shell"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 </pre></td><td class="rouge-code"><pre>python3 get_meditations.py <span class="o">&gt;</span> data/meditations.json
 </pre></td></tr></tbody></table></code></pre></div>
 <h2 id="make-use-of-the-meditations-in-our-code">Make use of the Meditations in our code</h2>
 
-<p>My entire website is built using <a href="https://middlemanapp.com/">Middleman 4</a> which is a static site generator. It helps you make static web pages (which unlike dynamic web pages, are served to your browser exactly how they are stored on the server) by making it easier to separate your content from its layout and look.</p>
+<p>The website you're on currently is built using <a href="https://middlemanapp.com/">Middleman 4</a>. Middleman helps you make static web pages by making it easier to separate your content from its layout and look.</p>
 
 <p>This allows me to define how my blog posts look in one place (updating the look if needed over time) while making it easy for me to write new blog posts without having to think about how they're going to look while I'm writing them.</p>
-
-<p>I can either focus on the look or the content, I don't need to be thinking about both at all times.</p>
 
 <p>So now, we have a JSON file containing all of the insightful and, sometimes, cringe meditations.</p>
 
@@ -171,7 +169,7 @@
 </span></pre></td></tr></tbody></table></code></pre></div>
 <p>All the web pages on my website are "static" but that doesn't mean that I can't do anything "dynamic" in them. I can, as long as I do it using javascript (which runs locally in your browser).</p>
 
-<p>Using the Embedded RuBy (ERB) templating engine, we can read all the meditations from the JSON file we generated earlier then stamp it directly into the client-side javascript file (that's responsible for making the meditations tool work).</p>
+<p>Using the Embedded RuBy (ERB) templating engine, we can read all the meditations from the JSON file we generated earlier then paste them directly into the client-side javascript code (that's going to be responsible for making the meditations tool work).</p>
 
 <p>Separating our data from our code is useful (it usually is), because we can change our data without needing to change our code. I did this every time I tweaked the complex "line break removing" regex while I was trying to get it to work properly and cover all of the weird edge cases.</p>
 
@@ -183,9 +181,9 @@
 
 <p>I started by implementing the core functionality of showing a random meditation every time the page was loaded.</p>
 
-<p>Then, I added the meditation's book and number as a hash to the URL allowing users to share or refer to specific meditations as well as navigate back and forth between meditations that they've read.</p>
+<p>Then, I added the meditation's book and number as a hash to the URL allowing you to share or refer to specific meditations as well as navigate back and forth between meditations that you've read.</p>
 
-<p>Finally, I added a feature allowing users to click/tap on a word in a meditation to randomly show another meditation containing that same word. This allows users to browse through meditations that cover similar topics which makes it easier to discover the nuances and, sometimes, contradictions in them.</p>
+<p>Finally, I added a feature allowing you to click/tap on a word in a meditation to randomly show another meditation containing that same word. This allows you to browse through meditations that cover similar topics which makes it easier for you to discover the nuances and, sometimes, contradictions in them.</p>
 
 <p>All throughout this process, I played around with the look and feel of the tool using my decent knowlege of CSS and <a href="https://getbootstrap.com/">Bootstrap</a> (which I've been cultivating my entire career).</p>
 
