@@ -12,7 +12,7 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Warhammer 40k - a Blast from the Past</title>
+    <title>Building a tool to explorer the Meditations of Marcus Aurelius</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
 
@@ -31,7 +31,7 @@
     <link href="/stylesheets/highlighting.css" rel="stylesheet" />
     
   </head>
-  <body id="documentTop" class="blog blog_2019-08-28 blog_2019-08-28_index">
+  <body id="documentTop" class="blog blog_2022-01-26 blog_2022-01-26_index">
     <div class="container">
       <div class="row justify-content-end">
         <div class="col-xl-8 main ">
@@ -66,7 +66,7 @@
   <div class="row">
     <h1>
     
-        Warhammer 40k - a Blast from the Past
+        Building a tool to explorer the Meditations of Marcus Aurelius
     
     </h1>
   </div>
@@ -83,61 +83,123 @@
     
     
     <div class="row justify-content-center readable">
-      <p>I recently dove head first into the world of Warhammer 40k. A dark and edgy tabletop game born in the 80s played with many miniature models of science fiction soldiers, aliens, etc.</p>
+      <p>I recently read Marcus Aurelius' Meditations (translated by Gregory Hays) and I quite enjoyed it. Some of his ideas are still relevant today and others haven't aged very well (which is not surprising given how far removed Marcus' experience of life is from our own).</p>
 
-<p>If you've heard of space orks (generic fantasy orcs thrust forty thousand years into the future) who paint their ships red because it makes them go faster (their belief makes it so) or about an immortal Emperor sending genetically modified soldiers all over the universe to defeat the forces of Chaos then that's Warhammer 40k.</p>
+<p>Overall, the text was interesting enough for me to be motivated to make <a href="/meditations/">this little toy that shows you one of the "meditations" every time you refresh the page</a> (tip: if you click/tap on a word it'll bring you to another meditation containing that word).</p>
 
-<p>StarCraft was initially meant to be a Warhammer 40k game but turned into its own IP during the course of development. That's why the three factions within the game, namely the Terran, the Protoss and the Zerg have a close similarity to three factions in the Warhammer 40k universe, namely Space Marines, the Eldar and the Tyrannids.</p>
+<p>It was fun!</p>
 
-<p>The game isn't cheap to get into. A small plastic miniature around half the size of your thumb can cost up to 40$ or more for special characters.</p>
+<p>It took me about 2h to get 90% of the way there and another 2h to polish everything up and make it squeaky clean.</p>
 
-<p>This might not seem like a lot but the costs grow rapidly as the number of miniatures needed to play competitively can be large depending on the faction you're playing as. As such a newly army bought can easily cost between 600$ to 1000$.</p>
+<p>I'll quickly go over how it works for my own future reference. I'll share it with y'all as a tiny contribution to the common good (my man Marcus would be so proud).</p>
 
-<p>As a couple buddies were introducing me to the game I found a good deal on a used army and was lucky enough to pounce on it before anyone else did.</p>
+<h2 id="get-a-digital-version-of-the-meditations">Get a digital version of the Meditations</h2>
 
-<p>It was a beaten up Astra Militarum army, formerly known as the Imperial Guard. The guardsmen, which form the backbone of most Imperial Guard armies, are conscripts taken from population dense worlds. They are given minimal amounts of training and a set of equipment which is commonly referred to as a "flashlight" and a "shirt", a laser gun and a flak jacket, both of which are of dubious quality.</p>
+<p>First, I needed to acquire a digital version of the text (I try to read physical books these days because writing notes in them is critical for me to retain the information I'm reading).</p>
 
-<p>The Imperial Guard are one of the oldest armies and thus have a generous amount of different units they can field with a wide range of competitive options at their disposal. There are exceptions to the rule but most lists, meaning the list of units and set of options a player choose to bring to the table, will favour having a large number of cheap guardsmen coupled with fewer but more expensive units such as Leman Russ tanks, various artillery guns, Valkyries (VTOL jets), Ogryns (towering genetically modified beings), etc.</p>
+<p>I used my expert Googler skills to find a PDF file of Gregory Hays's translation of the text which I read.</p>
 
-<p>The guardsmen serve to capture objectives, screen off more important targets, act as an annoyance and optimally do some damage themselves. The more expensive units have more specific roles tied to their stats, skills and also how they fit into the list and interact with other units. For example, Valkyries move fast and can transport a small number of infantry so we can use them in combination with small squads of Ogryns (usually their Bullgryn variant) to transport them where they need to be given that the Ogryns are slow but strong melee units.</p>
+<p>Then, I used the aptly named <code>pdftotext</code> command line utility to take the PDF file and extract the text from it.</p>
 
-<p>The game remains fresh and interesting because:
-- There are around twenty different factions other than the Imperial Guard which play quite different from another.
-- Some factions can be allied with one another and be brought on the table on the same side.
-- Lists using the exact same faction might play and function completely differently from one another depending on the units they contain.
-- The terrain a match is played on can be setup in different ways.</p>
+<h2 id="clean-up-the-digital-version-of-the-meditations">Clean up the digital version of the Meditations</h2>
 
-<p>Another aspect of the Warhammer experience is painting the miniatures.</p>
+<p>Now, I needed to find and separate each meditation in the text while also removing all of the extra line breaks which have been retained through the <code>pdftotext</code> process.</p>
 
-<p>Let me paint a picture for you. Little Timmy enters his friendly local game store. He sees rows of boxes with cool looking toy soldiers, aliens and monsters on them. He points and he says "I want that!" He reaches for one of the boxes, the large humans in armour box, pays for it and heads back home.</p>
+<p>Technically, I could have done this by hand (which would have taken days of work and would leave room for error) but why would I do that when I can make the computer work for me.</p>
 
-<p>To little Timmy's dismay, he opens the box only to find small grey plastic heads, arms, legs, guns, etc. attached together by thin rods of plastic.</p>
+<p>I wrote a <a href="https://github.com/strategineer/personal-website/blob/master/get_meditations.py">python script to do the hard work for me</a>.</p>
 
-<p>Little did Timmy know that a large part of the fun of Warhammer for some players comes from the assembly and painting of the miniatures. This process allows for a great degree of flexibility, giving the player the opportunity to make their army truly unique. Think of it like an IKEA for toy soldiers.</p>
+<p>How?</p>
 
-<p>I took it upon myself to learn how to paint miniatures to finish what the previous owner of the army started. I've painted around thirty five guardsmen, five special characters and three smallish vehicles. I've also done the bases (the round platform below most miniatures that stabilizes it and denotes the space it takes on the board) for almost sixty miniatures. Instead of standing on a solid black platform, most of my guardsmen are now standing in and on a muddy/swampy surface uniquely sculpted using a texture paste (think of a thick acrylic paste that dries solid) combined with various pigments.</p>
+<p>Using <a href="https://en.wikipedia.org/wiki/Regular_expression">Regular Expressions</a>, of course.</p>
 
-<p>In doing so, I discovered a passion for painting miniatures that I didn't know I had. Creatively speaking, I've done a little bit of many things: composing music, playing drums, pixel art, 3D modelling. But nothing has grabbed me the way that miniature painting has. It's a flexible hobby in that I can both challenge myself by exploring new painting techniques, colour schemes or thinking up processes for painting miniatures well and quickly but I can also choose to paint another batch of miniatures exactly how I painted the previous ones without thinking too hard.</p>
+<p>No matter what kind of programming you expect to do or enjoy doing, knowing how to use regular expressions (regex) to sift through text is an invaluable skill.</p>
 
-<p>Painting miniatures requires a steady hand, a good eye and intense concentration at times which encourages me to take deep breaths mimicking the physical state I enter when meditating. I find it quite easy to enter into a state of Flow when painting.</p>
+<p>Lucky for us, the text of the Meditations has a very regular structure.</p>
 
-<p>Furthermore, it is well documented that building something yourself, like IKEA furniture, makes you more attached and happier with whatever it is you built. I would hypothesize that the same principle can be applied to miniatures given my own experience and what I've seen in others.</p>
+<p>The word "Book" followed by a space and number from 1 to 12 separates each of the books within the text.</p>
 
-<p>The assembly, painting, theory crafting and actual playing of the game combine to make Warhammer a compelling hobby for me even though the cost verges on the outrageous even if you're lucky enough to find someone selling a used army for cheap.</p>
+<p>So, I wrote the following regex to separate the entire text into 12 chunks, one for each book.</p>
 
-<p>There are many other similar miniatures games on the market, others by Games Workshop like Blood Bowl (which I play digitally and I've written about before) and some by other companies.</p>
+<div class="highlight"><pre class="highlight python"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre><span class="n">BOOK_REGEX</span> <span class="o">=</span> <span class="n">re</span><span class="p">.</span><span class="nb">compile</span><span class="p">(</span><span class="sa">r</span><span class="s">"Book [0-9]+"</span><span class="p">)</span>
+</pre></td></tr></tbody></table></code></pre></div><p><em>This simple regex should be read as "find the word 'Book', followed by a space, followed by one or more digits".</em></p>
 
-<p>One in particular, called Infinity, has recently peaked my interest. It is played with fewer miniatures than Warhammer 40k (15-25 vs around 150 with my Imperial Guard army), its rules remind me of XCOM (small scale tactical skirmishes in urban environments). I like the look of the miniatures which are inspired by video games and anime, two things I tend to enjoy.</p>
+<p>Each meditation within each book is preceded by a number followed by a dot.</p>
 
-<p>I may have been able to convince a friend to try it out with me. If I get into it I'll write about it here eventually. In the meantime, I'll continue playing Warhammer (and painting miniatures).</p>
+<p>So, I wrote the following regex to separate each book into each of its meditations.</p>
 
-<p>Warhammer 40k is a blast from the past. It doesn't pull any punches. It expects you to pay a lot of money upfront to be able to play. It expects you to spend dozens if not hundreds (thousands?) of hours painting an army's worth of miniatures.</p>
+<div class="highlight"><pre class="highlight python"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre><span class="n">POINT_REGEX</span> <span class="o">=</span> <span class="n">re</span><span class="p">.</span><span class="nb">compile</span><span class="p">(</span><span class="sa">r</span><span class="s">"[0-9]+\."</span><span class="p">)</span>
+</pre></td></tr></tbody></table></code></pre></div><p><em>This simple regex should be read as "find one or more digits followed by a dot". The '.' is a special character within the regex language so we must 'escape' it using a backslash.</em></p>
 
-<p>Is it worth it? It is for me and maybe this has peaked your interest. If you can find a used army for cheap and can find some friends to play with I recommend you think about it. Maybe I'll see you at the table!</p>
+<p>The text we've extracted from the PDF file has a ton of extra line breaks everywhere which we don't want because we're not planning on displaying the text in a fixed print format. The line breaks will be added as needed depending on whether someone is looking at the web page from a tiny phone or a gigantic computer screen.</p>
 
-<p>EDIT: A couple days after writing most of this article, I bought a used but completely unpainted Chaos Space Marines army for a fair price. If I had bought an equivalent army new it would have cost twice as much if not more.</p>
+<p>So, I wrote the following regex to find and remove all of these line breaks.</p>
 
-<p>Being unpainted is a boon for me rather than a disadvantage because it will allow me to paint all of the miniatures in the way I desire without me having to strip the paint off a hundred miniatures (FYI I've had great success using original formula Pine-Sol).</p>
+<div class="highlight"><pre class="highlight python"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre><span class="n">ARTIFICIAL_LINE_BREAK_REGEX</span> <span class="o">=</span> <span class="n">re</span><span class="p">.</span><span class="nb">compile</span><span class="p">(</span><span class="sa">r</span><span class="s">"([a-zA-Z\-,\(\) ])\n+([a-zA-Z ])"</span><span class="p">)</span>
+</pre></td></tr></tbody></table></code></pre></div><p><em>This less simple regex should be read as "find a letter, dash, comma, left parentheses, right parentheses or space followed by a newline followed a letter or space". Notice that we've put everything to the left of the newline in parentheses as well as everything to the right of the newline. These are called "groups" and are useful to separate the different parts of a regex. In this case, we use groups to detect the offending newlines (which we want to remove) separate from its surrounding characters (which we don't want to remove).</em></p>
+
+<p>Now that we have separated each book into each of its meditations in order. The script prints this data out in a JSON format (which we want so that we can reuse it elsewhere).</p>
+
+<div class="highlight"><pre class="highlight shell"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>python3 get_meditations.py <span class="o">&gt;</span> data/meditations.json
+</pre></td></tr></tbody></table></code></pre></div>
+<h2 id="make-use-of-the-meditations-in-our-code">Make use of the Meditations in our code</h2>
+
+<p>My entire website is built using <a href="https://middlemanapp.com/">Middleman 4</a> which is a static site generator. It helps you make static web pages (which unlike dynamic web pages, are served to your browser exactly how they are stored on the server) by making it easier to separate your content from its layout and look.</p>
+
+<p>This allows me to define how my blog posts look in one place (updating the look if needed over time) while making it easy for me to write new blog posts without having to think about how they're going to look while I'm writing them.</p>
+
+<p>I can either focus on the look or the content, I don't need to be thinking about both at all times.</p>
+
+<p>So now, we have a JSON file containing all of the insightful and, sometimes, cringe meditations.</p>
+
+<div class="highlight"><pre class="highlight json"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+</pre></td><td class="rouge-code"><pre><span class="p">{</span><span class="w">
+</span><span class="p">[</span><span class="err">...</span><span class="p">]</span><span class="w">
+  </span><span class="s2">"3.8</span><span class="se">\n</span><span class="s2">The mind of one set straight and purified: no pus, no dirt, no scabs.</span><span class="se">\n</span><span class="s2">And not a life cut short by death, like an actor who stops before the play is done, the plot wound up.</span><span class="se">\n\n</span><span class="s2">Neither servility nor arrogance. Neither cringing nor disdain. Neither excuses nor evasions."</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"3.9</span><span class="se">\n</span><span class="s2">Your ability to control your thoughts</span><span class="se">\u</span><span class="s2">2014treat it with respect.</span><span class="se">\n</span><span class="s2">It</span><span class="se">\u</span><span class="s2">2019s all that protects your mind from false perceptions</span><span class="se">\u</span><span class="s2">2014false to your nature, and that of all rational beings. It</span><span class="se">\u</span><span class="s2">2019s what makes thoughtfulness possible, and affection for other people, and submission to the divine."</span><span class="p">,</span><span class="w">
+</span><span class="p">[</span><span class="err">...</span><span class="p">]</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></pre></td></tr></tbody></table></code></pre></div>
+<p>All the web pages on my website are "static" but that doesn't mean that I can't do anything "dynamic" in them. I can, as long as I do it using javascript (which runs locally in your browser).</p>
+
+<p>Using the Embedded RuBy (ERB) templating engine, we can read all the meditations from the JSON file we generated earlier then stamp it directly into the client-side javascript file (that's responsible for making the meditations tool work).</p>
+
+<p>Separating our data from our code is useful (it usually is), because we can change our data without needing to change our code. I did this every time I tweaked the complex "line break removing" regex while I was trying to get it to work properly and cover all of the weird edge cases.</p>
+
+<h2 id="write-the-code-thatll-make-use-of-the-meditations">Write the code that'll make use of the Meditations</h2>
+
+<p>The <a href="https://github.com/strategineer/personal-website/blob/master/source/javascripts/meditation.js.erb">javascript code is relatively simple</a>.</p>
+
+<p>I built it up in layers.</p>
+
+<p>I started by implementing the core functionality of showing a random meditation every time the page was loaded.</p>
+
+<p>Then, I added the meditation's book and number as a hash to the URL allowing users to share or refer to specific meditations as well as navigate back and forth between meditations that they've read.</p>
+
+<p>Finally, I added a feature allowing users to click/tap on a word in a meditation to randomly show another meditation containing that same word. This allows users to browse through meditations that cover similar topics which makes it easier to discover the nuances and, sometimes, contradictions in them.</p>
+
+<p>All throughout this process, I played around with the look and feel of the tool using my decent knowlege of CSS and <a href="https://getbootstrap.com/">Bootstrap</a> (which I've been cultivating my entire career).</p>
+
+<p>That's pretty much it.</p>
+
+<h2 id="the-end">The End.</h2>
+
+<p><a href="/meditations/">I think it turned out pretty good</a> and I enjoyed making it.</p>
+
+<p>Disgusting spaghetti code weighs you down like a ton of bricks, but clean code lifts you up.</p>
+
+<p>If I hadn't taken the time late last year to clean up my code to make it easier for me to <a href="https://strategineer.com/pilk/">write about pilk</a>, making this toy would have been much harder.</p>
+
+<p>I'm glad I did, and I'm excited to make more little interactive toys and tools like this.</p>
 
       <blockquote class="blog-call-to-action">
         
@@ -153,14 +215,9 @@
     <nav class="footer d-none d-xl-block">
   <div class="row justify-content-center">
     <div class="col-12">
-      <div class="d-flex justify-content-center footer-paginator-next">
-  <div class="next-article-link col-12 mx-auto">
-      <a href="/blog/2020-01-17/">&#x27A1 My Game of the Year List for 2019</a>
-  </div>
-</div>
-<div class="d-flex justify-content-center footer-paginator-previous">
+      <div class="d-flex justify-content-center footer-paginator-previous">
   <div class="previous-article-link col-12 mx-auto">
-      <a href="/blog/2019-06-12/">&#x2B05 I code review an 8 year old project</a>
+      <a href="/blog/2022-01-23/">&#x2B05 F*ck dating apps</a>
   </div>
 </div>
 
@@ -194,10 +251,6 @@
 </div>
 <div class="footer-shortlist-parent">
   <ul class="footer-shortlist-list">
-      <a href="/blog/2022-01-26/">
-
-        <li class="footer-shortlist-item"> Building a tool to explorer the Meditations of Marcus Aurelius</li>
-      </a>
       <a href="/blog/2022-01-23/">
 
         <li class="footer-shortlist-item"> F*ck dating apps</li>
@@ -233,6 +286,10 @@
       <a href="/blog/2021-12-19/">
 
         <li class="footer-shortlist-item"> Books I read in 2021</li>
+      </a>
+      <a href="/blog/2021-11-29/">
+
+        <li class="footer-shortlist-item"> Getting high on Siralim Ultimate</li>
       </a>
       <li class="footer-shortlist-archive"><a href="/">... with 29 more blog posts in the archive</a>.</li>
   </ul>
@@ -249,14 +306,9 @@
             <nav class="footer">
   <div class="d-flex justify-content-center">
     <div class="col-12">
-      <div class="d-flex justify-content-center footer-paginator-next">
-  <div class="next-article-link col-12 mx-auto">
-      <a href="/blog/2020-01-17/">&#x27A1 My Game of the Year List for 2019</a>
-  </div>
-</div>
-<div class="d-flex justify-content-center footer-paginator-previous">
+      <div class="d-flex justify-content-center footer-paginator-previous">
   <div class="previous-article-link col-12 mx-auto">
-      <a href="/blog/2019-06-12/">&#x2B05 I code review an 8 year old project</a>
+      <a href="/blog/2022-01-23/">&#x2B05 F*ck dating apps</a>
   </div>
 </div>
 
@@ -291,10 +343,6 @@
 </div>
 <div class="footer-shortlist-parent">
   <ul class="footer-shortlist-list">
-      <a href="/blog/2022-01-26/">
-
-        <li class="footer-shortlist-item"> Building a tool to explorer the Meditations of Marcus Aurelius</li>
-      </a>
       <a href="/blog/2022-01-23/">
 
         <li class="footer-shortlist-item"> F*ck dating apps</li>
@@ -330,6 +378,10 @@
       <a href="/blog/2021-12-19/">
 
         <li class="footer-shortlist-item"> Books I read in 2021</li>
+      </a>
+      <a href="/blog/2021-11-29/">
+
+        <li class="footer-shortlist-item"> Getting high on Siralim Ultimate</li>
       </a>
       <li class="footer-shortlist-archive"><a href="/">... with 29 more blog posts in the archive</a>.</li>
   </ul>
