@@ -2138,7 +2138,7 @@ ExplorerImp = {
   map: meditations,
   keys: meditationKeys,
   currentKey: undefined,
-  onSetDiscovery: function (discovery) {
+  onSetDiscovery: async function (key, discovery) {
     let e = document.getElementById("explorer-text")
     if(typeof e !== 'undefined' && e !== null) {
       e.innerText = discovery;
@@ -2151,8 +2151,8 @@ ExplorerImp = {
       url: window.location.href
     }
   },
-  onClickWord: function (word) {
+  onClickWord: async function (word) {
     const key = pickOne(getAllMeditationKeys(word));
-    setDiscovery(key);
+    await setDiscovery(key);
   }
 }
