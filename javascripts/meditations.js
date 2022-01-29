@@ -2138,10 +2138,10 @@ ExplorerImp = {
   map: meditations,
   keys: meditationKeys,
   count: 1,
-  onDefaultActionActivated: async function () {
-    await setRandomDiscovery();
+  onDefaultActionActivated: function () {
+    setRandomDiscovery();
   },
-  onSetDiscovery: async function (discoveries) {
+  onSetDiscovery: function (discoveries) {
     const d = discoveries[0];
     let e = document.getElementById("explorer-text");
     if(typeof e !== 'undefined' && e !== null) {
@@ -2156,8 +2156,8 @@ ExplorerImp = {
       url: window.location.href
     }
   },
-  onClickWord: async function (word) {
+  onClickWord: function (word) {
     const key = pickOne(getAllMeditationKeys(word));
-    await setDiscovery(key);
+    setDiscovery(key);
   }
 }
