@@ -1,8 +1,22 @@
 <?xml version="1.0"?>
 <rss version="2.0">
   <channel>
-    <lastBuildDate>Thu, 10 Mar 2022 01:18:53 -0000</lastBuildDate>
+    <lastBuildDate>Fri, 25 Mar 2022 01:57:44 -0000</lastBuildDate>
 
+    <item>
+      <title>The Overjustification Effect</title>
+      <link>https://strategineer.com/blog/2022-03-24/index.html</link>
+      <guid>https://strategineer.com/blog/2022-03-24/index.html</guid>
+      <description>I learned to code sometime in 2011. I started getting paid to code in 2016.
+
+What started out as a passion turned into a job. This sometimes leads to what's called the a href="https://en.wikipedia.org/wiki/Overjustification_effect">overjustification effecta>.
+
+blockquote>
+  The overjustification effect occurs when an expected&gt;&gt;
+blockquote></description>
+      <pubDate>Thu, 24 Mar 2022 00:00:00 -0000</pubDate>
+        <category>life</category>
+    </item>
     <item>
       <title>A bar fight to remember</title>
       <link>https://strategineer.com/blog/2022-03-09/index.html</link>
