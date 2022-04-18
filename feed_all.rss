@@ -1,8 +1,21 @@
 <?xml version="1.0"?>
 <rss version="2.0">
   <channel>
-    <lastBuildDate>Sun, 17 Apr 2022 14:26:10 -0000</lastBuildDate>
+    <lastBuildDate>Mon, 18 Apr 2022 23:57:37 -0000</lastBuildDate>
 
+    <item>
+      <title>Introducing Myself</title>
+      <link>https://strategineer.com/blog/2022-04-18/index.html</link>
+      <guid>https://strategineer.com/blog/2022-04-18/index.html</guid>
+      <description>Hi, my name's [NAME]. I've lived in [CITY], [COUNTRY] my whole life.
+
+I've worked in the flight simulator space, the video game world, in special effects and, most recently, in financial services.
+
+I'm em>débrouillardem> meaning that no matter what problem&gt;&gt;</description>
+      <pubDate>Mon, 18 Apr 2022 00:00:00 -0000</pubDate>
+        <category>ramble</category>
+        <category>life</category>
+    </item>
     <item>
       <title>Twilight</title>
       <link>https://strategineer.com/blog/2022-04-17/index.html</link>
@@ -149,10 +162,10 @@ Twelve or more weeks later&gt;&gt;</description>
         <category>tech</category>
     </item>
     <item>
-      <title>F*ck dating apps</title>
+      <title>F*** dating apps</title>
       <link>https://strategineer.com/blog/2022-01-23/index.html</link>
       <guid>https://strategineer.com/blog/2022-01-23/index.html</guid>
-      <description>a href="/blog/2022-01-14/">As discussed in my first entry of my "F*ck X" series of postsa>, we are motivated by a combination of intrinsic and extrinsic rewards that encourage us to spend our valuable time on certain activities rather than others.
+      <description>a href="/blog/2022-01-14/">As discussed in my first entry of my "F*** X" series of postsa>, we are motivated by a combination of intrinsic and extrinsic rewards that encourage us to spend our valuable time on certain activities rather than others.
 
 Companies are not people, they&gt;&gt;</description>
       <pubDate>Sun, 23 Jan 2022 00:00:00 -0000</pubDate>
@@ -202,7 +215,7 @@ I've never been super excited about planes and doing bombing runs on tiny white 
         <category>gaming</category>
     </item>
     <item>
-      <title>F*ck the haters.</title>
+      <title>F*** the haters.</title>
       <link>https://strategineer.com/blog/2022-01-14/index.html</link>
       <guid>https://strategineer.com/blog/2022-01-14/index.html</guid>
       <description>Every couple of weeks, my friend L decides that it's time to remind me of the "small" number of people who actively read the writing I do here.
