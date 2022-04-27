@@ -1,8 +1,20 @@
 <?xml version="1.0"?>
 <rss version="2.0">
   <channel>
-    <lastBuildDate>Wed, 27 Apr 2022 00:51:53 -0000</lastBuildDate>
+    <lastBuildDate>Wed, 27 Apr 2022 00:57:51 -0000</lastBuildDate>
 
+    <item>
+      <title>I'm not laughing, you're laughing...</title>
+      <link>https://strategineer.com/blog/2022-04-26/index.html</link>
+      <guid>https://strategineer.com/blog/2022-04-26/index.html</guid>
+      <description>Documental is a Japanese reality TV show with a simple premise.
+
+10 comedians (ponying up 1 million Yen each) are locked in a room for 6 hours with cameras filming everything that happens inside.
+
+If one of them smiles or laughs, they get a yellow card&gt;&gt;</description>
+      <pubDate>Tue, 26 Apr 2022 00:00:00 -0000</pubDate>
+        <category>media</category>
+    </item>
     <item>
       <title>Undiscording yourself 101</title>
       <link>https://strategineer.com/blog/2022-04-25/index.html</link>
@@ -60,7 +72,7 @@ Cup your ear and you'll hear,</description>
 
 Hopefully reading a few of&gt;&gt;</description>
       <pubDate>Thu, 07 Apr 2022 00:00:00 -0000</pubDate>
-        <category>life</category>
+        <category>media</category>
     </item>
     <item>
       <title>The Overjustification Effect</title>
@@ -105,6 +117,7 @@ But my symptoms worsened over time, making&gt;&gt;</description>
       <description>I recently read Marcus Aurelius's Meditations (translated by Gregory Hays) and I quite enjoyed it. Some of his ideas are still relevant today and others haven't aged very well (which is not surprising given how far removed Marcus's experience of life&gt;&gt;</description>
       <pubDate>Wed, 26 Jan 2022 00:00:00 -0000</pubDate>
         <category>tech</category>
+        <category>media</category>
     </item>
     <item>
       <title>F*** dating apps</title>
@@ -132,7 +145,7 @@ Companies are not people, they&gt;&gt;</description>
 
 I started listening to a href="https://lingthusiasm.com/">the Lingthusiasm podcasta> in early 2021. It took&gt;&gt;</description>
       <pubDate>Thu, 20 Jan 2022 00:00:00 -0000</pubDate>
-        <category>reading</category>
+        <category>media</category>
     </item>
     <item>
       <title>F*** the haters.</title>
@@ -207,7 +220,7 @@ dl>
   dd>Keanu Reeves in a business suit going insane in a dystopian&gt;&gt;dd>
 dl></description>
       <pubDate>Wed, 22 Dec 2021 00:00:00 -0000</pubDate>
-        <category>life</category>
+        <category>media</category>
     </item>
     <item>
       <title>Books I read in 2021</title>
@@ -221,7 +234,7 @@ I used to read during my daily commute… One day, I just stopped commuting and 
 
 This summer, I decided to set aside&gt;&gt;</description>
       <pubDate>Sun, 19 Dec 2021 00:00:00 -0000</pubDate>
-        <category>life</category>
+        <category>media</category>
     </item>
     <item>
       <title>Getting high on Siralim Ultimate</title>
@@ -247,7 +260,7 @@ a href="mailto:fuck-off@strategineer.com">If that bothers you, I would love to h
 
 Giant Bomb has been my primary source for gaming news for a long time. I've been listening to and watching the people who&gt;&gt;</description>
       <pubDate>Fri, 26 Nov 2021 00:00:00 -0000</pubDate>
-        <category>life</category>
+        <category>media</category>
     </item>
     <item>
       <title>You're a Rift Wizard, Harry!</title>
