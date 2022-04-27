@@ -1,8 +1,18 @@
 <?xml version="1.0"?>
 <rss version="2.0">
   <channel>
-    <lastBuildDate>Wed, 27 Apr 2022 00:57:51 -0000</lastBuildDate>
+    <lastBuildDate>Wed, 27 Apr 2022 16:03:11 -0000</lastBuildDate>
 
+    <item>
+      <title>My insults to the chef</title>
+      <link>https://strategineer.com/blog/2022-04-27/index.html</link>
+      <guid>https://strategineer.com/blog/2022-04-27/index.html</guid>
+      <description>I've been working full time and cooking for myself for long enough to be able to tell you that keeping yourself well fed is a lot harder than you think.
+
+For years, I've been spending hours each week: planning what I'm going to eat when, getting ingredients&gt;&gt;</description>
+      <pubDate>Wed, 27 Apr 2022 00:00:00 -0000</pubDate>
+        <category>food</category>
+    </item>
     <item>
       <title>I'm not laughing, you're laughing...</title>
       <link>https://strategineer.com/blog/2022-04-26/index.html</link>
