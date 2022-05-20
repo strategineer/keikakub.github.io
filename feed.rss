@@ -1,23 +1,8 @@
 <?xml version="1.0"?>
 <rss version="2.0">
   <channel>
-    <lastBuildDate>Fri, 20 May 2022 22:42:55 -0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 May 2022 22:45:04 -0000</lastBuildDate>
 
-    <item>
-      <title>Low Effort Meals: The Breakfast Quesadilla</title>
-      <link>https://strategineer.com/blog/2022-05-14/index.html</link>
-      <guid>https://strategineer.com/blog/2022-05-14/index.html</guid>
-      <description>em>a href="#the-recipe">skip to the recipea>em>
-
-I love eating food but I've grown to mostly hate cooking (it's too much work).
-
-I need to keep myself fed but I would prefer to not have to resort a href="/blog/2022-04-27">to ordering out all the timea>.
-
-So here we are, I'm going to be putting together some&gt;&gt;</description>
-      <pubDate>Sat, 14 May 2022 00:00:00 -0000</pubDate>
-        <category>food</category>
-        <category>lem</category>
-    </item>
     <item>
       <title>Vim plugins I like</title>
       <link>https://strategineer.com/blog/2022-05-10/index.html</link>
