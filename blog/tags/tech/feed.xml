@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tech on Strategineer</title>
+    <link>https://strategineer.com/blog/tags/tech/</link>
+    <description>Recent content in tech on Strategineer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://strategineer.com/blog/tags/tech/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Vim plugins I like</title>
+      <link>https://strategineer.com/blog/2022-05-10/</link>
+      <pubDate>Tue, 10 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://strategineer.com/blog/2022-05-10/</guid>
+      <description>Vim is a text editor. I&amp;rsquo;ve been using it for over 6 years now and I&amp;rsquo;m madly in love with it.
+If you&amp;rsquo;re married to the command line like I am (or want to be), then getting over Vim&amp;rsquo;s steep learning curve will be well worth the effort. There&amp;rsquo;s quite a few good resources out there to help non-Vim users get acquainted with it.
+What makes Vim so cool?
+Vim is powerful.</description>
+    </item>
+    
+    <item>
+      <title>Undiscording yourself 101</title>
+      <link>https://strategineer.com/blog/2022-04-25/</link>
+      <pubDate>Mon, 25 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://strategineer.com/blog/2022-04-25/</guid>
+      <description>Skip ahead if you know what you&amp;rsquo;re doing and just want to learn how to delete all your messages on a Discord server.
+ Discord is a social media platform allowing users in various user-created groups, called servers, to chat with each other through text or voice chat and stream video of themselves or their screen, all in real time.
+Text messages are stored on the server forever and aren&amp;rsquo;t automatically deleted no matter how old they are or currently relevant they are.</description>
+    </item>
+    
+    <item>
+      <title>Exploring Marcus Aurelius&#39;s Meditations</title>
+      <link>https://strategineer.com/blog/2022-01-26/</link>
+      <pubDate>Wed, 26 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://strategineer.com/blog/2022-01-26/</guid>
+      <description>I recently read Marcus Aurelius&amp;rsquo;s Meditations (translated by Gregory Hays) and I quite enjoyed it. Some of his ideas are still relevant today and others haven&amp;rsquo;t aged very well (which is not surprising given how far removed Marcus&amp;rsquo;s experience of life is from our own).
+Overall, the text was interesting enough for me to be motivated to make this little toy that shows you one of the &amp;ldquo;meditations&amp;rdquo; every time you refresh the page (tip: if you click/tap on a word it&amp;rsquo;ll bring you to another meditation containing that word).</description>
+    </item>
+    
+    <item>
+      <title>Baby&#39;s First 3D Models for Printing</title>
+      <link>https://strategineer.com/blog/2020-10-04/</link>
+      <pubDate>Sun, 04 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://strategineer.com/blog/2020-10-04/</guid>
+      <description>I&amp;rsquo;ve been thinking of buying a 3D printer&amp;hellip;
+It&amp;rsquo;s something I&amp;rsquo;ve always been interested in but until recently I haven&amp;rsquo;t had the space for it. The consumer 3D printing world has gotten a lot cheaper and simpler to get into in recent years.
+In preparation for that I&amp;rsquo;ve been playing around with OpenSCAD. It&amp;rsquo;s a CAD (Computer-aided design) program which, according to Wikipedia, is a computer program used to aid in the creation, modification, analysis or optimization of a design.</description>
+    </item>
+    
+    <item>
+      <title>The Second Coming of Rust</title>
+      <link>https://strategineer.com/blog/2020-09-19/</link>
+      <pubDate>Sat, 19 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://strategineer.com/blog/2020-09-19/</guid>
+      <description>In these UNCERTAIN TIMES, I&amp;rsquo;ve found myself with a little more free time than usual because I haven&amp;rsquo;t needed to commute to an office every day. I&amp;rsquo;ve tried to funnel that energy into creative and constructive hobbies. Keyword: tried.
+In the past week, I&amp;rsquo;ve spent some of that time learning the Rust programming language. I&amp;rsquo;ve heard a lot of good things about it and I finally took the plunge. Here&amp;rsquo;s a couple of notable features that I&amp;rsquo;ve managed to grok from my brief time with it.</description>
+    </item>
+    
+    <item>
+      <title>A Gamer&#39;s Guide to: Cheating in Single-Player Games</title>
+      <link>https://strategineer.com/blog/2020-08-30/</link>
+      <pubDate>Sun, 30 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://strategineer.com/blog/2020-08-30/</guid>
+      <description>Welcome to my second &amp;ldquo;A Gamer&amp;rsquo;s Guide to&amp;rdquo; blog post (check out my previous one on online multiplayer video games). I&amp;rsquo;ll be explaining how you can cheat in single-player games on PC. If you&amp;rsquo;re feeling like a rebel then take a seat and prepare to bask in the glow of infinite health, infinite currency and infinity itself.
+Feel free to use the techniques that I describe below at your own risk, I don&amp;rsquo;t advise cheating in any game that is a live service, is online in any way, has leaderboards or has micro-transactions.</description>
+    </item>
+    
+    <item>
+      <title>A Gamer&#39;s Guide to: Online Multiplayer</title>
+      <link>https://strategineer.com/blog/2020-08-22/</link>
+      <pubDate>Sat, 22 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://strategineer.com/blog/2020-08-22/</guid>
+      <description>Welcome to my first &amp;ldquo;A Gamer&amp;rsquo;s Guide to…&amp;rdquo;. This series of articles will cover a wide range of topics of interest to gamers from the perspective of a video game programmer.
+I know a little about what goes into making a video game. I gained a wide breadth of knowledge of every part of a video game including game engines, physics, gameplay, audio, AI, C++ (shiver) and more in my studies.</description>
+    </item>
+    
+    <item>
+      <title>Interviews - The Good, the Bad and the Ugly</title>
+      <link>https://strategineer.com/blog/2020-06-26/</link>
+      <pubDate>Fri, 26 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://strategineer.com/blog/2020-06-26/</guid>
+      <description>Looking for a job sucks. A couple of months ago, I was going through interview after interview like a wrecking ball blasting through concrete. No buildings were destroyed in the process but I may have burned some bridges along the way. We laughed, we cried, it was roller coaster of emotions and then I got a job.
+Here&amp;rsquo;s a blow-by-blow review of the interviews I went through. I&amp;rsquo;ve reflected on each interview and coupled each with recommendations for you if you are or are planning to go through a similar interview process.</description>
+    </item>
+    
+    <item>
+      <title>I code review an 8 year old project</title>
+      <link>https://strategineer.com/blog/2019-06-12/</link>
+      <pubDate>Wed, 12 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://strategineer.com/blog/2019-06-12/</guid>
+      <description>One of the first projects I worked on after learning how to program, around 8 years ago, is called writerator. It is a Python command line interface (or CLI for short) for analyzing English language text and generating randomized poetry such as haikus and poems. I was contemplating using it to build a new side project which would analyze text from all over the internet from the previous day (news articles, Twitter posts, etc.</description>
+    </item>
+    
+    <item>
+      <title>Building a website for 17$ or less</title>
+      <link>https://strategineer.com/blog/2019-06-08/</link>
+      <pubDate>Sat, 08 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://strategineer.com/blog/2019-06-08/</guid>
+      <description>The website you&amp;rsquo;re reading this on was built by myself and it cost me a total of 17$ CDN (yearly). Without a custom domain it would have cost me nothing, zilch, nada.
+My goal for this website was to create my own space on the internet to allow me to easily share the software engineering work I&amp;rsquo;ve done, share the writing I do on video games and encourage me to write about other topics that interest me.</description>
+    </item>
+    
+  </channel>
+</rss>
