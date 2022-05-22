@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Jenkins on Strategineer</title>
-    <link>http://strategineer.com/projects/tags/jenkins/</link>
+    <link>https://strategineer.com/projects/tags/jenkins/</link>
     <description>Recent content in Jenkins on Strategineer</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://strategineer.com/projects/tags/jenkins/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://strategineer.com/projects/tags/jenkins/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Framestore VR</title>
-      <link>http://strategineer.com/projects/2019-02-03/</link>
+      <link>https://strategineer.com/projects/2019-02-03/</link>
       <pubDate>Sun, 03 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://strategineer.com/projects/2019-02-03/</guid>
+      <guid>https://strategineer.com/projects/2019-02-03/</guid>
       <description>Developed an Unreal Engine 4 Plugin (C++) for importing and iterating on art assets from Shotgun and Perforce into Unreal Engine projects with one click. Developed a data-driven system for automating the generation of new projects in Perforce and Jenkins based on a project-specific specification of Perforce hierarchies of depots, streams and source branching strategies. Developed a Python command line tool which acted as the glue connecting Perforce, Shotgun and Unreal Engine which was used primarily for detecting changed art assets, generating turntables automatically and uploading them to Shotgun for stakeholders to review if needed.</description>
     </item>
     

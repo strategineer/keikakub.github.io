@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>linux on Strategineer</title>
-    <link>http://strategineer.com/projects/tags/linux/</link>
+    <link>https://strategineer.com/projects/tags/linux/</link>
     <description>Recent content in linux on Strategineer</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://strategineer.com/projects/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://strategineer.com/projects/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Machine Head</title>
-      <link>http://strategineer.com/projects/2018-06-05/</link>
+      <link>https://strategineer.com/projects/2018-06-05/</link>
       <pubDate>Tue, 05 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://strategineer.com/projects/2018-06-05/</guid>
+      <guid>https://strategineer.com/projects/2018-06-05/</guid>
       <description>Machine Head was developed using python and an instance of it is constantly running on a Raspberry Pi at my house. It was built for automating various manual processes tied to managing my Discord server that I was tired of doing over and over again.
 I dove into Linux head first to optimize my programming workflow which, on this project, consisted of working in my development environment (a Windows PC using the Linux Subsystem for Windows with Ubuntu), testing the changes in this environment on a sandbox server on Discord, pushing the changes into the production environment (my Raspberry Pi).</description>
     </item>

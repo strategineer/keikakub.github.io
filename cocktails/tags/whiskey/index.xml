@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>whiskey on Strategineer</title>
-    <link>http://strategineer.com/cocktails/tags/whiskey/</link>
+    <link>https://strategineer.com/cocktails/tags/whiskey/</link>
     <description>Recent content in whiskey on Strategineer</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://strategineer.com/cocktails/tags/whiskey/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://strategineer.com/cocktails/tags/whiskey/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Fruity Old Fashioned</title>
-      <link>http://strategineer.com/cocktails/fruity_old_fashioned/</link>
+      <link>https://strategineer.com/cocktails/fruity_old_fashioned/</link>
       <pubDate>Sat, 23 Oct 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://strategineer.com/cocktails/fruity_old_fashioned/</guid>
+      <guid>https://strategineer.com/cocktails/fruity_old_fashioned/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Whiskey Sour</title>
-      <link>http://strategineer.com/cocktails/whiskey_sour/</link>
+      <link>https://strategineer.com/cocktails/whiskey_sour/</link>
       <pubDate>Sat, 20 Nov 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://strategineer.com/cocktails/whiskey_sour/</guid>
+      <guid>https://strategineer.com/cocktails/whiskey_sour/</guid>
       <description></description>
     </item>
     
