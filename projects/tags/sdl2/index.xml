@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SDL2 on Strategineer</title>
+    <link>http://strategineer.com/projects/tags/sdl2/</link>
+    <description>Recent content in SDL2 on Strategineer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="http://strategineer.com/projects/tags/sdl2/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Battleships</title>
+      <link>http://strategineer.com/projects/2014-04-10/</link>
+      <pubDate>Thu, 10 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://strategineer.com/projects/2014-04-10/</guid>
+      <description>Battleships was developed using C++ and SDL in a team of three programmers composed of Benjamin Lewis, Franz-Philippe Garcia and myself in my second year at McGill University within the context of the Software Engineering course led by Jörg Kienzle.
+I worked specifically on the game client, the graphics code and the art.</description>
+    </item>
+    
+  </channel>
+</rss>
