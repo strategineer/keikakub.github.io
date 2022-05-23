@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Strategineer</title>
+    <title>Strat&#39;s Blog on Strategineer</title>
     <link>https://strategineer.com/</link>
-    <description>Recent content on Strategineer</description>
+    <description>Recent content in Strat&#39;s Blog on Strategineer</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Wed, 18 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://strategineer.com/feed.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://strategineer.com/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Vim plugins I like</title>
       <link>https://strategineer.com/blog/2022-05-10/</link>
@@ -894,6 +893,10 @@ In Blood Bowl, you take on the role of a coach leading and managing a team playi
       <description>I&amp;rsquo;m currently working on my website (the one you&amp;rsquo;re currently on, I should probably put a &amp;ldquo;work-in-progress&amp;rdquo; sign up&amp;hellip;). Work has been going well so far. I had done most of the &amp;lsquo;setting everything up&amp;rsquo; for the site a year and a half ago before I was employed by Framestore VR.
 I&amp;rsquo;ve recently begun working on the project again, and the work has been going according to plan. I was expecting to spend the whole day working on on the website yesterday however Mortal Kombat 11&amp;rsquo;s story mode and juicy gameplay got in the way.</description>
     </item>
+    
+  </channel>
+</rss>
+>
     
   </channel>
 </rss>
