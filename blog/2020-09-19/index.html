@@ -462,7 +462,18 @@
       
       <p>In these UNCERTAIN TIMES, I&rsquo;ve found myself with a little more free time than usual because I haven&rsquo;t needed to commute to an office every day. I&rsquo;ve tried to funnel that energy into creative and constructive hobbies. Keyword: <em>tried</em>.</p>
 <p>In the past week, I&rsquo;ve spent some of that time learning the Rust programming language. I&rsquo;ve heard a lot of good things about it and I finally took the plunge. Here&rsquo;s a couple of notable features that I&rsquo;ve managed to grok from my brief time with it.</p>
-<h2 id="everything-is-immutable">Everything is immutable!</h2>
+
+
+
+
+
+
+<h2 id="everything-is-immutable">
+Everything is immutable!
+    <a href="#everything-is-immutable">
+        ¶
+    </a>
+</h2>
 <p>Immutability makes code easier to reason about. Rust has the strongest implementation of immutability I&rsquo;ve seen in a programming language.</p>
 <p>Any variable you define is immutable by default.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-rust" data-lang="rust"><span style="display:flex;"><span><span style="color:#66d9ef">let</span> x <span style="color:#f92672">=</span> <span style="color:#ae81ff">5</span>;
@@ -491,7 +502,18 @@
 </span></span><span style="display:flex;"><span>    }
 </span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><p>Without using the <code>mut</code> keyword, you cannot modify the defined variable in any way; making it immutable. This is similar to how C++ handles its <code>const</code> keyword. Although, in Rust, having everything be immutable by default is even better.</p>
-<h2 id="null-values-no-more">Null values, no more!</h2>
+
+
+
+
+
+
+<h2 id="null-values-no-more">
+Null values, no more!
+    <a href="#null-values-no-more">
+        ¶
+    </a>
+</h2>
 <p>Handling <code>null</code> values is the bane of my existence when working with my favorite programming language, Python. Don&rsquo;t hold your breath Python, Rust is coming for your top spot!</p>
 <p>The concept of a &ldquo;null value&rdquo; was a mistake, it leads to problems upon problems. Don&rsquo;t get me started on the whole <code>undefined</code> vs. <code>null</code> JavaScript debacle. What a mess&hellip;</p>
 <p>If we can avoid it we should.</p>
@@ -510,7 +532,18 @@
 </span></span><span style="display:flex;"><span>};
 </span></span><span style="display:flex;"><span>println!(<span style="color:#e6db74">&#34;{}&#34;</span>, val);
 </span></span></code></pre></div><p>Having the compiler detect, and nag us about, every possible case where we might run into a missing value helps us write safe and functional code.</p>
-<h2 id="cargo---an-environment-and-package-manager-for-the-common-folk">Cargo - an environment and package manager for the common folk!</h2>
+
+
+
+
+
+
+<h2 id="cargo---an-environment-and-package-manager-for-the-common-folk">
+Cargo - an environment and package manager for the common folk!
+    <a href="#cargo---an-environment-and-package-manager-for-the-common-folk">
+        ¶
+    </a>
+</h2>
 <p>Cargo is the package manager of the Rust language and it does exactly what you would expect it to do. Compared to the profoundly awful mess that is the equivalent Python solution.</p>
 <p>I don&rsquo;t want to get into the mess that is Python virtual environments, the differences between Python 2 and Python 3, pip vs. pip3, and more. Even after a decade of working with Python I still don&rsquo;t fully understand all the intricacies of how it handles, or doesn&rsquo;t handle, dependencies.</p>
 <p>Comparatively, Cargo is God&rsquo;s gift to the world. It is easy to understand and make use of.</p>
@@ -537,7 +570,18 @@
 </span></span><span style="display:flex;"><span>echo <span style="color:#e6db74">&#34;Test your code.&#34;</span>
 </span></span><span style="display:flex;"><span>cargo test
 </span></span></code></pre></div><p>Cargo just works. Unlike other systems like it, I don&rsquo;t need to be a brain surgeon, with a minor in extrasensory perception, to fully grasp how to specify dependencies and execute my code.</p>
-<h2 id="plug-and-play---traits">Plug and Play - Traits!</h2>
+
+
+
+
+
+
+<h2 id="plug-and-play---traits">
+Plug and Play - Traits!
+    <a href="#plug-and-play---traits">
+        ¶
+    </a>
+</h2>
 <p>Basically, traits are:</p>
 <ul>
 <li>Interfaces</li>
@@ -573,7 +617,18 @@
 </span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><p>Notice that this is done outside of the context of the struct&rsquo;s definition. So, we can even implement the functionality tied to a trait as shown above for structs defined outside of our own code.</p>
 <p>These are simple examples. Built-in traits like the <code>Eq</code> and <code>Ord</code> traits provide the interfaces and default implementations for equality checking and ordering, respectively. Add them to any struct and it just works as you would expect.</p>
-<h2 id="rusteroni-pepperoni">Rusteroni Pepperoni</h2>
+
+
+
+
+
+
+<h2 id="rusteroni-pepperoni">
+Rusteroni Pepperoni
+    <a href="#rusteroni-pepperoni">
+        ¶
+    </a>
+</h2>
 <p>And that&rsquo;s all folks.</p>
 <p>I&rsquo;ve been enjoying playing around with Rust; I&rsquo;m building a small command line application that randomly generates teams over multiple rounds for playing games online with friends called <a href="https://github.com/strategineer/tmer">tmer</a>. If you want to take a look at that or help out, feel free!</p>
 <p>Other than the truly awful word play, Rustaceans, used by the Rust community to refer to programmers who use Rust, I can&rsquo;t find anything, yet, to dislike about the language and its ecosystem. I&rsquo;m excited to continue exploring it!</p>

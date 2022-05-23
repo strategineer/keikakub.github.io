@@ -470,11 +470,33 @@
 <p>It was fun!</p>
 <p>It took me about 2h to get 90% of the way there and another 2h to polish everything up and make it squeaky clean.</p>
 <p>I&rsquo;ll quickly go over how it works for my own future reference. I&rsquo;ll share it with y&rsquo;all as a tiny contribution to the common good (my man Marcus would be so proud).</p>
-<h2 id="get-a-digital-version-of-the-meditations">Get a digital version of the Meditations</h2>
+
+
+
+
+
+
+<h2 id="get-a-digital-version-of-the-meditations">
+Get a digital version of the Meditations
+    <a href="#get-a-digital-version-of-the-meditations">
+        ¶
+    </a>
+</h2>
 <p>First, I needed to acquire a digital version of the text (I try to read physical books these days because writing notes in them is critical for me to retain the information I&rsquo;m reading).</p>
 <p>I used my expert Googler skills to find a PDF file of Gregory Hays&rsquo;s translation of the text which I read.</p>
 <p>Then, I used the aptly named <code>pdftotext</code> command line utility to take the PDF file and extract the text from it.</p>
-<h2 id="clean-up-the-digital-version-of-the-meditations">Clean up the digital version of the Meditations</h2>
+
+
+
+
+
+
+<h2 id="clean-up-the-digital-version-of-the-meditations">
+Clean up the digital version of the Meditations
+    <a href="#clean-up-the-digital-version-of-the-meditations">
+        ¶
+    </a>
+</h2>
 <p>Now, I needed to find and separate each meditation in the text while also removing all of the extra line breaks which have been retained through the <code>pdftotext</code> process.</p>
 <p>Technically, I could have done this by hand (which would have taken days of work and would leave room for error) but why would I do that when I can make the computer work for me.</p>
 <p>I wrote a <a href="https://github.com/strategineer/personal-website/blob/master/get_meditations.py">python script to do the hard work for me</a>.</p>
@@ -496,7 +518,18 @@
 </span></span></code></pre></div><p><em>This less simple regex should be read as &ldquo;find a letter, dash, comma, left parentheses, right parentheses or space followed by a newline followed a letter or space&rdquo;. Notice that we&rsquo;ve put everything to the left of the newline in parentheses as well as everything to the right of the newline. These are called &ldquo;groups&rdquo; and are useful to separate the different parts of a regex. In this case, we use groups to detect the offending newlines (which we want to remove) separate from there surrounding characters (which we don&rsquo;t want to remove).</em></p>
 <p>We&rsquo;ve separated each book into each of its meditations in order, and so now the script can print this data out in a JSON format which we can easily read and use elsewhere.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>python3 get_meditations.py &gt; data/meditations.json
-</span></span></code></pre></div><h2 id="make-use-of-the-meditations-in-our-code">Make use of the Meditations in our code</h2>
+</span></span></code></pre></div>
+
+
+
+
+
+<h2 id="make-use-of-the-meditations-in-our-code">
+Make use of the Meditations in our code
+    <a href="#make-use-of-the-meditations-in-our-code">
+        ¶
+    </a>
+</h2>
 <p>The website you&rsquo;re on currently is built using <a href="https://middlemanapp.com/">Middleman 4</a>. Middleman helps you make static web pages by making it easier to separate your content from its layout and look.</p>
 <p>This allows me to define how my blog posts look in one place (updating the look if needed over time) while making it easy for me to write new blog posts without having to think about how they&rsquo;re going to look while I&rsquo;m writing them.</p>
 <p>So now, we have a JSON file containing all of the insightful and, sometimes, cringe meditations.</p>
@@ -509,7 +542,18 @@
 </span></span></code></pre></div><p>All the web pages on my website are &ldquo;static&rdquo; but that doesn&rsquo;t mean that I can&rsquo;t do anything &ldquo;dynamic&rdquo; in them. I can, as long as I do it using javascript (which runs locally in your browser).</p>
 <p>Using the Embedded RuBy (ERB) templating engine, we can read all the meditations from the JSON file we generated earlier then paste them directly into the client-side javascript code (that&rsquo;s going to be responsible for making the meditations tool work).</p>
 <p>Separating our data from our code is useful (it usually is), because we can change our data without needing to change our code. I did this every time I tweaked the complex &ldquo;line break removing&rdquo; regex while I was trying to get it to work properly and cover all of the weird edge cases.</p>
-<h2 id="write-the-code-thatll-make-use-of-the-meditations">Write the code that&rsquo;ll make use of the Meditations</h2>
+
+
+
+
+
+
+<h2 id="write-the-code-thatll-make-use-of-the-meditations">
+Write the code that&rsquo;ll make use of the Meditations
+    <a href="#write-the-code-thatll-make-use-of-the-meditations">
+        ¶
+    </a>
+</h2>
 <p>The <a href="https://github.com/strategineer/personal-website/blob/master/source/javascripts/meditation.js.erb">javascript code is relatively simple</a>.</p>
 <p>I built it up in layers.</p>
 <p>I started by implementing the core functionality of showing a random meditation every time the page was loaded.</p>
@@ -517,7 +561,18 @@
 <p>Finally, I added a feature allowing you to click/tap on a word in a meditation to randomly show another meditation containing that same word. This allows you to browse through meditations that cover similar topics which makes it easier for you to discover the nuances and, sometimes, contradictions in them.</p>
 <p>All throughout this process, I played around with the look and feel of the tool using my decent knowlege of CSS and <a href="https://getbootstrap.com/">Bootstrap</a> (which I&rsquo;ve been cultivating my entire career).</p>
 <p>That&rsquo;s pretty much it.</p>
-<h2 id="the-end">The End.</h2>
+
+
+
+
+
+
+<h2 id="the-end">
+The End.
+    <a href="#the-end">
+        ¶
+    </a>
+</h2>
 <p><a href="/meditations/">I think it turned out pretty good</a> and I enjoyed making it.</p>
 <p>Disgusting spaghetti code weighs you down like a ton of bricks, but clean code lifts you up.</p>
 <p>If I hadn&rsquo;t taken the time late last year to clean up my code to make it easier for me to <a href="https://strategineer.com/pilk/">write about pilk</a>, making this toy would have been much harder.</p>
