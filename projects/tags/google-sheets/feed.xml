@@ -1,21 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>google sheets on Strategineer</title>
-    <link>https://strategineer.com/projects/tags/google-sheets/</link>
-    <description>Recent content in google sheets on Strategineer</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://strategineer.com/projects/tags/google-sheets/feed.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Artifact Stat Tracker</title>
-      <link>https://strategineer.com/projects/2018-12-01/</link>
-      <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://strategineer.com/projects/2018-12-01/</guid>
-      <description>Artifact Stat Tracker was developed using python and Google Sheets.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>google sheets on Strategineer</title><link>https://strategineer.com/projects/tags/google-sheets/</link><description>Recent content in google sheets on Strategineer</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="https://strategineer.com/projects/tags/google-sheets/feed.xml" rel="self" type="application/rss+xml"/><item><title>Artifact Stat Tracker</title><link>https://strategineer.com/projects/2018-12-01/</link><pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate><guid>https://strategineer.com/projects/2018-12-01/</guid><description>Artifact Stat Tracker was developed using python and Google Sheets.
 As I played the game, I entered data into the Google Sheets document using custom built UIs, the python script would then read the data within the Google Sheets document, manipulate it and inject it, with more contextual information, back into the Google Sheets document.
-The Google Sheets document would then use the given data produce tables and charts with interesting insights to help improve my play on a competitive level such as:</description>
-    </item>
-    
-  </channel>
-</rss>
+The Google Sheets document would then use the given data produce tables and charts with interesting insights to help improve my play on a competitive level such as:</description></item></channel></rss>
