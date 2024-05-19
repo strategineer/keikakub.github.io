@@ -2,7 +2,7 @@
  &lt;img
  loading="lazy"
  class="img-fluid rounded mx-auto d-block"
- width="300" src="https://strategineer.com/img/react/dunno.gif">&lt;/p>
+ width="300" src="https://strategineer.com/img/react/dunno.gif"/>&lt;/p>
 &lt;p>I&amp;rsquo;m not sure who to blame for how boring most of this book is:&lt;/p>
 &lt;ul>
 &lt;li>
