@@ -1,4 +1,27 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Savage Rifts on Strat</title><link>https://strategineer.com/tabletop/rifts/</link><description>Recent content in Savage Rifts on Strat</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://strategineer.com/tabletop/rifts/feed.xml" rel="self" type="application/rss+xml"/><item><title>GMing Aid</title><link>https://strategineer.com/tabletop/rifts/gming/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://strategineer.com/tabletop/rifts/gming/</guid><description>&lt;/section>
+&lt;section id="foundry-tips">
+&lt;h1>
+Foundry Tips
+ &lt;a href="#foundry-tips">
+ ¶
+ &lt;/a>
+&lt;/h1>
+
+&lt;ul>
+&lt;li>Use Google Earth Pro images for battle maps!
+&lt;ul>
+&lt;li>Save Google Earth images at the highest possible resolution 8192x4518 then change the grid size to a value between 20-30 so that 100m on the image is equal to 50in on the VTT (I&amp;rsquo;m not sure why the right value changes here&amp;hellip;.)&lt;/li>
+&lt;li>do keyword search for abandoned factory, building, etc. to get dilapidated/ruined buildings appropriate for the rifts setting&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+
+
+
+
+
+
+&lt;/section>
 &lt;section id="gming-things-to-remember">
 &lt;h1>
 Gming things to remember
