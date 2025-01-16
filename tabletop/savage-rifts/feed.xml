@@ -1,17 +1,49 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Savage Rifts on Strat</title><link>https://strategineer.com/tabletop/savage-rifts/</link><description>Recent content in Savage Rifts on Strat</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://strategineer.com/tabletop/savage-rifts/feed.xml" rel="self" type="application/rss+xml"/><item><title>Savage Rifts GMing Aid</title><link>https://strategineer.com/tabletop/savage-rifts/gming/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://strategineer.com/tabletop/savage-rifts/gming/</guid><description>&lt;nav id="TableOfContents">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Savage Rifts on Strat</title><link>https://strategineer.com/tabletop/savage-rifts/</link><description>Recent content in Savage Rifts on Strat</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://strategineer.com/tabletop/savage-rifts/feed.xml" rel="self" type="application/rss+xml"/><item><title>Double Trouble</title><link>https://strategineer.com/tabletop/savage-rifts/missions/double-trouble/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://strategineer.com/tabletop/savage-rifts/missions/double-trouble/</guid><description>&lt;ul>
+&lt;li>
+&lt;p>Play begins in media-res &amp;mdash; a first mission gone wrong, a trial by fire.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>PCs begin in a high tech laboratory hidden inside an abandoned looking pre-Cataclysm factory on a routine exploratory mission&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>PCs notice both a Coalition special ops unit and a troop of Federation of Magic mages coming in their direction as they scramble to deal with the situation and get out safely&lt;/p>
+&lt;ul>
+&lt;li>Each PC starts in a position appropriate for them as the self-destruction procedures start crumbling the foundations of the facility they&amp;rsquo;re in:
+&lt;ul>
+&lt;li>A smart PC is in front of a console contemplating what to do with the doppleganger tech they&amp;rsquo;ve just stumbled upon.&lt;/li>
+&lt;li>A leader PC is overseeing the surrounding area &amp;mdash; watching the Coalition special ops unit and the troop of Federation of Magic mages quickly approaching the PCs location.&lt;/li>
+&lt;li>A brawny PC is fighting the mute doppleganger of another PC.&lt;/li>
+&lt;li>The last PC is trying to convince the brawny PC that they&amp;rsquo;re the real one and not a doppleganger. But everything that they can do, the doppleganger can too &amp;mdash; making this a spicey meatball indeed.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>We&amp;rsquo;ve got one living but quickly dying doppleganger of a PC (the result of a dangerous cloning technology that the PCs found on a routine exploratory mission they were sent on) of the PCs with the rest dead. We&amp;rsquo;ve got killer robots going on a rampage. We&amp;rsquo;ve got demons chasing after non-demons (telepathic? they can express their non-evil-ness). All sides are fighting all other sides and the PCs are stuck in the middle of it all.&lt;/p></description></item><item><title>Savage Rifts GMing Aid</title><link>https://strategineer.com/tabletop/savage-rifts/gming/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://strategineer.com/tabletop/savage-rifts/gming/</guid><description>&lt;nav id="TableOfContents">
  &lt;ul>
  &lt;li>&lt;a href="#foundry-tips">Foundry Tips&lt;/a>&lt;/li>
  &lt;li>&lt;a href="#gming-things-to-remember">Gming things to remember&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#map">Map&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#maps">Maps&lt;/a>
+ &lt;ul>
+ &lt;li>&lt;a href="#overworld-map">Overworld Map&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#town-to-supplement-mappings">Town to supplement mappings&lt;/a>&lt;/li>
  &lt;li>&lt;a href="#castle-refuge-map">Castle Refuge Map&lt;/a>&lt;/li>
+ &lt;/ul>
+ &lt;/li>
  &lt;li>&lt;a href="#bangs">Bangs&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#heading">&lt;/a>&lt;/li>
  &lt;li>&lt;a href="#castle-refuge-intro">Castle Refuge Intro&lt;/a>&lt;/li>
- &lt;li>&lt;a href="#arc---ideas">Arc - Ideas&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#ideas">Ideas&lt;/a>
+ &lt;ul>
+ &lt;li>&lt;a href="#arcs">Arcs&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#missions">Missions&lt;/a>&lt;/li>
+ &lt;/ul>
+ &lt;/li>
+ &lt;li>&lt;a href="#tables">Tables&lt;/a>&lt;/li>
  &lt;/ul>
 &lt;/nav>
 
-&lt;p>&lt;a href="https://strategineer.com/tabletop/one-pagers/tomorrow_never_dies">Tomorrow Never Dies One Pager&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://strategineer.com/tabletop/campaigns/tomorrow-never-dies">Tomorrow Never Dies Campaign Notes&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://strategineer.com/tabletop/savage-rifts/missions/double-trouble">Double Trouble Intro Mission&lt;/a>&lt;/p>
 
 
 
@@ -83,13 +115,28 @@ Gming things to remember
 
 
 &lt;/section>
-&lt;section id="map">
+&lt;section id="maps">
 &lt;h1>
-Map
- &lt;a href="#map">
+Maps
+ &lt;a href="#maps">
  ¶
  &lt;/a>
 &lt;/h1>
+
+
+
+
+
+
+
+&lt;/section>
+&lt;section id="overworld-map">
+&lt;h2>
+Overworld Map
+ &lt;a href="#overworld-map">
+ ¶
+ &lt;/a>
+&lt;/h2>
 
 &lt;p>&lt;img
  loading="lazy"
