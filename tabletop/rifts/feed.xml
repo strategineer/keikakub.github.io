@@ -63,12 +63,15 @@ Gming things to remember
 
 
 &lt;/section>
-&lt;section id="one-pager-draft">
+&lt;section id="map">
 &lt;h1>
-One Pager Draft
- &lt;a href="#one-pager-draft">
+Map
+ &lt;a href="#map">
  ¶
  &lt;/a>
 &lt;/h1>
 
-&lt;p>&lt;strong>The campaign’s premise and flavor&lt;/strong>&lt;/p></description></item></channel></rss>
+&lt;p>&lt;img
+ loading="lazy"
+ class="img-fluid rounded mx-auto d-block"
+ width="600" src="https://strategineer.com/img/tabletop/rifts/castle_refuge_map.jpg"/>&lt;/p></description></item></channel></rss>
