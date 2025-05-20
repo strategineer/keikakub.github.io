@@ -1,4 +1,285 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tabletop on Strat</title><link>https://strategineer.com/blog/tags/tabletop/</link><description>Recent content in Tabletop on Strat</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 28 Jan 2025 00:29:43 -0500</lastBuildDate><atom:link href="https://strategineer.com/blog/tags/tabletop/feed.xml" rel="self" type="application/rss+xml"/><item><title>Delving into Surreal Depths: Lessons from Running Maze of the Blue Medusa with Shadowdark on Foundry VTT</title><link>https://strategineer.com/blog/2025-01-23/</link><pubDate>Fri, 24 Jan 2025 00:00:00 +0000</pubDate><guid>https://strategineer.com/blog/2025-01-23/</guid><description>&lt;p>Running a tabletop RPG campaign is always a learning experience. In this post, I&amp;rsquo;ll share insights from my recent campaign, the &lt;strong>Labyrinth of the Blue Gorgon&lt;/strong>, and the lessons I learned as a GM.&lt;/p></description></item><item><title>Tabletop RPG GMing Lessons Learned (1)</title><link>https://strategineer.com/blog/2024-11-18/</link><pubDate>Mon, 18 Nov 2024 00:00:00 +0000</pubDate><guid>https://strategineer.com/blog/2024-11-18/</guid><description>&lt;p>A few months ago, I began running an old school rennaissance (mega)dungeon crawling tabletop roleplaying campaign using the Shadowdark RPG rules. It&amp;rsquo;s been the most successful of my attempts at Gamemastering by far.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tabletop on Strat</title><link>https://strategineer.com/blog/tags/tabletop/</link><description>Recent content in Tabletop on Strat</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 19 May 2025 21:35:18 -0400</lastBuildDate><atom:link href="https://strategineer.com/blog/tags/tabletop/feed.xml" rel="self" type="application/rss+xml"/><item><title>A Potluck of TTRPG Mechanics</title><link>https://strategineer.com/blog/2025-05-18/</link><pubDate>Mon, 19 May 2025 00:00:00 +0000</pubDate><guid>https://strategineer.com/blog/2025-05-18/</guid><description>&lt;p>Most of the tabletop RPG systems (and some modules) that I&amp;rsquo;m familiar with are gathering together today to party like it&amp;rsquo;s 2025 and they&amp;rsquo;ve all brought something to the table (my brain).&lt;/p>
+&lt;p>In no particular order, here&amp;rsquo;s a show and tell of the most interesting mechanics from TTRPG systems that I&amp;rsquo;ve played and/or ran in the past few years.&lt;/p>
+
+
+
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;div class="col-12 post-summary">
+ &lt;div class="row summary-row justify-content-center">
+ 
+ 
+ &lt;div class="summary-thumbnail-and-rating col-7 col-sm-5 col-md-4">
+ 
+
+ &lt;img
+ loading="eager"
+ src="https://strategineer.com/books/maze_rats/thumbnail_hu_6e06a8766e40e5b0.png"
+ height="464"
+ width="300"
+ class="img-fluid rounded mx-auto d-block"
+ alt="Thumbnail"
+ />
+ 
+
+
+
+ 
+ &lt;div class="star_rating text-center">
+ 
+ ⭐⭐⭐⭐⭐
+
+ &lt;/div>
+ 
+ &lt;/div>
+ 
+ 
+ &lt;div class="col-md-8 align-self-center">
+ 
+ &lt;div class="summary-title h2">
+ &lt;a href='https://strategineer.com/books/maze_rats/'>
+ Maze Rats
+
+
+
+
+
+
+ &lt;/a>
+ &lt;/div>
+ &lt;div class="row authors">
+ 
+ 
+ 
+ &lt;div class="author col">
+ 
+ &lt;a href="https://strategineer.com/authors/ben-milton/"> Ben Milton&lt;/a>
+ &lt;/div>&lt;/div>
+ &lt;div class="row authors">
+ 
+ &lt;/div>
+ &lt;div class="row post-meta">
+ &lt;div class="col-mx-auto align-self-center">
+ &lt;/div>
+ &lt;/div>
+ 
+ 
+ &lt;div class="col read-more">
+ &lt;a aria-labelledby="more" class="float-right" href='https://strategineer.com/books/maze_rats/'>
+ 
+ &lt;/a>
+ &lt;/div>
+ 
+ &lt;/div>
+ &lt;/div>
+ &lt;/div>
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+
+
+&lt;/section>
+&lt;section id="spark-tables">
+&lt;h1>
+Spark Tables
+ &lt;a href="#spark-tables">
+ ¶
+ &lt;/a>
+&lt;/h1>
+
+&lt;p>In Maze Rats, after a long rest, PCs with one or more spell slots roll on a series of three different tables to generate each spell&amp;rsquo;s name, with the mechanics of the spell being determined by the GM based on the name.&lt;/p></description></item><item><title>Delving into Surreal Depths: Lessons from Running Maze of the Blue Medusa with Shadowdark on Foundry VTT</title><link>https://strategineer.com/blog/2025-01-23/</link><pubDate>Fri, 24 Jan 2025 00:00:00 +0000</pubDate><guid>https://strategineer.com/blog/2025-01-23/</guid><description>&lt;p>Running a tabletop RPG campaign is always a learning experience. In this post, I&amp;rsquo;ll share insights from my recent campaign, the &lt;strong>Labyrinth of the Blue Gorgon&lt;/strong>, and the lessons I learned as a GM.&lt;/p></description></item><item><title>Tabletop RPG GMing Lessons Learned (1)</title><link>https://strategineer.com/blog/2024-11-18/</link><pubDate>Mon, 18 Nov 2024 00:00:00 +0000</pubDate><guid>https://strategineer.com/blog/2024-11-18/</guid><description>&lt;p>A few months ago, I began running an old school rennaissance (mega)dungeon crawling tabletop roleplaying campaign using the Shadowdark RPG rules. It&amp;rsquo;s been the most successful of my attempts at Gamemastering by far.&lt;/p>
 &lt;p>I&amp;rsquo;ve learned a lot about GMing since the first time I tried it sometime in the mid-00s. I&amp;rsquo;ve been in love with the platonic ideal of tabletop roleplaying for a long time. But my early roleplaying experiences were far removed from what I imagined they could be.&lt;/p></description></item><item><title>Tabletop Roleplaying: Getting your players to care</title><link>https://strategineer.com/blog/2022-08-22/</link><pubDate>Mon, 22 Aug 2022 09:15:35 -0400</pubDate><guid>https://strategineer.com/blog/2022-08-22/</guid><description>&lt;blockquote>
 &lt;p>If you&amp;rsquo;re new to roleplaying or just curious, &lt;a href="https://strategineer.com/blog/2022-08-14/">take a look at my tabletop roleplaying 101 post&lt;/a> before reading this one.&lt;/p>
 &lt;/blockquote>
